@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html>
+  <head>
+      <title>GWYNU &#9897; {{ title }}</title>
+    <style>
+    body {
+        font-family: Verdana, sans-serif;
+        height:100%;
+        width:100%;
+    }
+    img{
+        max-width: 80%;
+        margin: 0 auto;
+        display:block;
+    }
+    .content{
+        font-size: 24px;
+        font-family: Garamond, sans-serif;
+        width:65%;
+        margin: 0 auto;
+    }
+    .keyword {
+        font-variant: small-caps;
+        font-weight: bold;
+    }
+    table{
+        margin: 0 auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+        {{ contents | safe}}
+    </div>
+  </body>
+</html>

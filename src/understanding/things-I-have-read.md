@@ -1,0 +1,30 @@
+---
+title: Things I Have Read
+author: Gwyn Uttmark
+
+---
+# Reading
+
+## 2020
+### Winter
+
+#### Things I read that were good
+
+[POWER MAKES US SICK ISSUE #1 by PMS](https://pms.hotglue.me/?resources.head.152942500991)
+
+[Queer Time: The Alternative to “Adulting” by Sara Jaffe](https://daily.jstor.org/queer-time-the-alternative-to-adulting/)
+
+[A Tranarchist Manifesto: Transgender, Transhuman, Anarchism by Solarpunk Catgirl](https://theanarchistlibrary.org/library/solarpunk-catgirl-a-tranarchist-manifesto)
+
+#### Things I was recommended to read
+
+[The Wretched of the Earth](https://en.wikipedia.org/wiki/The_Wretched_of_the_Earth):
+Recommended by Christina 
+
+[Pedagogy of the Oppressed](https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed) Recommended by Christina
+
+[Bloom](https://www.amazon.com/Bloom-Kevin-Panetta/dp/1250196914)
+Recommended by Christina
+
+[Les Fleurs du Mal (Flowers of Evil)](https://en.wikipedia.org/wiki/Les_Fleurs_du_mal)
+Recommended by Oliver

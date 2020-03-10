@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <style>
+    body {
+        font-family: Verdana, sans-serif;
+        height:100%;
+        width:100%;
+    }
+    .content{
+        font-size: 24px;
+        font-family: Garamond, sans-serif;
+        width:95%;
+        margin: 0 auto;
+    }
+    .keyword {
+        font-variant: small-caps;
+        font-weight: bold;
+    }
+    table{
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 10px 0;
+    }
+    td{
+        padding: 5px 0;
+    }
+    td:nth-child(6):not(:empty):after, td:nth-child(7):not(:empty):after, td:nth-child(8):not(:empty):after, td:nth-child(9):not(:empty):after{
+            content:"/10";
+    }
+    td:nth-child(6), td:nth-child(7), td:nth-child(8), td:nth-child(9){
+            text-align:right;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+        {{ contents | safe}}
+    </div>
+  </body>
+</html>
