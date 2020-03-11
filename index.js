@@ -7,10 +7,12 @@ var Metalsmith = require('metalsmith'),
     excelmd    = require('metalsmith-excel-markdown');
     debug      = require('metalsmith-debug');
     copy       = require('metalsmith-copy');
+    inspect    = require('metalsmith-inspect');
+    replace    = require('metalsmith-regex-replace');
 
 
 Metalsmith(__dirname)
-    .clean(false)
+    .clean(true)
     .destination('./build')
     .use(copy({
         pattern: '*/*.njk.md',
@@ -23,7 +25,10 @@ Metalsmith(__dirname)
     .use(excelmd())
     .use(inplace({
         "engineOptions": {
-            plugins: ["markdown-it-footnote"],
+            html: true,
+            linkify: true,
+            typographer: true,
+            plugins: ["markdown-it-footnote", "markdown-it-toc-done-right"],
         }
     }))
     .use(layouts())

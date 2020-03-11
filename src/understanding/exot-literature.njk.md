@@ -4,7 +4,11 @@ author: Gwyn Uttmark & Michael Arcidiacono
 layout: body.njk
 ---
 
-# Exonuclease T Literature Review 
+{% macro doi(doi) %}[{{doi | replace("\\", "/")}}](https://doi.org/{{doi | replace("\\", "/")}}) [&#x1D54A;](https://sci-hub.tw/{{doi | replace("\\", "/")}}){% endmacro %}
+
+{% macro pmid(pmid) %}[PMCID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pmc/articles/{{pmid}}/){% endmacro %}
+
+# Exonuclease T Literature Review
 
 **[introduction//motivation//goals]**
 
@@ -23,7 +27,7 @@ graph TD
 
 ## Papers
 
-Format:
+Review Format:
 
 ```markdown
 ### Title (Publication Date)
@@ -31,17 +35,19 @@ Author(s):
 
 [summary // commentary // data // etc.]
 
-{doi | doi} (eg. {10.1021/ed054p258 | doi}
+{doi("10.1093\\nar\\gkz133")} (with two curly brackets)
+
+{pmid("PMC6468291")}
 ```
-asdf
-### Dual expression of CCA-adding enzyme and RNase T in Escherichia coli generates a distinct cca growth phenotype with diverse applications
-Karolin Wellner, Marie-Theres Pöhler, Heike Betat, Mario Mörl
-Nucleic Acids Res. 2019 Apr 23; 47(7): 3631–3639.  Published online 2019 Mar 4. doi: 10.1093/nar/gkz133
-PMCID: PMC6468291
 
-{ 10.1093/nar/gkz133 | doi }
+### Dual expression of CCA-adding enzyme and RNase T in Escherichia coli generates a distinct cca growth phenotype with diverse applications (2019)
+**Authors:** Karolin Wellner, Marie-Theres Pöhler, Heike Betat, Mario Mörl
 
+**Reviewer**: Gwyn UTtma
 
+{{doi("10.1093\\nar\\gkz133")}} 
+
+{{pmid("PMC6468291")}}
 
 ### Novel EXO-T vaccine using polyclonal CD4+ T cells armed with HER2-specific exosomes for HER2-positive breast cancer
 Rong Li, Rajni Chibbar, Jim Xiang
