@@ -4,7 +4,7 @@ author: Gwyn Uttmark & Michael Arcidiacono
 layout: body.njk
 ---
 
-{% macro doi(doi) %}[{{doi | replace("\\", "/")}}](https://doi.org/{{doi | replace("\\", "/")}}) [&#x1D54A;](https://sci-hub.tw/{{doi | replace("\\", "/")}}){% endmacro %}
+{% macro doi(doi) %}[{{doi | replace("--", "/") | replace("-", ".")}}](https://doi.org/{{doi | replace("--", "/") | replace("-", ".")}}) [&#x1D54A;](https://sci-hub.tw/{{doi | replace("--", "/") | replace("-", ".")}}){% endmacro %}
 
 {% macro pmid(pmid) %}[PMCID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pmc/articles/{{pmid}}/){% endmacro %}
 
@@ -13,6 +13,15 @@ layout: body.njk
 **[introduction//motivation//goals]**
 
 [[toc]]
+
+## Overview
+
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogSW5pdGlhbCBEaXNjb3ZlcnldIC0tPiBCWz9dIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogSW5pdGlhbCBEaXNjb3ZlcnldIC0tPiBCWz9dIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+```uml
+graph BT
+	A[Deutscher 1984: Initial Discovery] --> B[?]
+```
+
 
 ## Methodology
 
@@ -27,6 +36,11 @@ graph TD
 
 ## Papers
 
+```uml
+graph TD
+	A[\PUBMED Search for ExoT/] -->|28 Papers| B[\Manually Review/]
+```
+
 Review Format:
 
 ```markdown
@@ -35,7 +49,7 @@ Author(s):
 
 [summary // commentary // data // etc.]
 
-{doi("10.1093\\nar\\gkz133")} (with two curly brackets)
+{doi("10-1093--nar--gkz133")} (with two curly brackets)
 
 {pmid("PMC6468291")}
 ```
@@ -43,7 +57,7 @@ Author(s):
 ### Dual expression of CCA-adding enzyme and RNase T in Escherichia coli generates a distinct cca growth phenotype with diverse applications (2019)
 **Authors:** Karolin Wellner, Marie-Theres Pöhler, Heike Betat, Mario Mörl  **Reviewer**: Gwyn
 
-{{doi("10.1093\\nar\\gkz133")}} 
+{{doi("10-1093--nar--gkz133")}} 
 
 {{pmid("PMC6468291")}}
 
@@ -153,12 +167,27 @@ M P Deutscher, C W Marlor, R Zaniewski
 Proc Natl Acad Sci U S A. 1985 Oct; 82(19): 6427–6430.  doi: 10.1073/pnas.82.19.6427
 PMCID: PMC390729
 
-###   Ribonuclease T: new exoribonuclease possibly involved in end-turnover of tRNA.
+### Ribonuclease T: new exoribonuclease possibly involved in end-turnover of tRNA. (1984)
 M P Deutscher, C W Marlor, R Zaniewski
-Proc Natl Acad Sci U S A. 1984 Jul; 81(14): 4290–4293.  doi: 10.1073/pnas.81.14.4290
-PMCID: PMC345573
 
-Discovery of Exo. T
+It was found that, with a base substrate of tRNA-CCA, Exonuclease T:
+
+- had a pH optimum in the range of pH 8-9
+- required Mg2+, Mn2+, or Co2+ with Mg2+ in the range of 3-10 mM being best. 
+- is strongly inhibited by salts at ionic strengths in excess of
+50 mM
+- is very sensative to heat inactivation, losing half of its activity in 7 min at 45C
+- digests in a random fashion
+- initiated attack at the 3' terminus, requiring a free 3' hydroxyl group
+- exhibited substrate sensitivity with:
+    - CTP cleavage 10% of that of ATP
+    - UTP cleavage was much slower than that of ATP
+    - Both tRNA-CC and tRNA-CCACC demonstrating reduced acitivity relative to tRNA-CCA
+    - it was found that Poly(A) was inactive as a substrate
+    
+{{doi("10-1073--pnas-81-14-4290")}} 
+{{pmid("PMC345573")}}
+
 
 ## Not about Exonuclease T
 
