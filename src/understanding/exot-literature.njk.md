@@ -41,18 +41,11 @@ Author(s):
 ```
 
 ### Dual expression of CCA-adding enzyme and RNase T in Escherichia coli generates a distinct cca growth phenotype with diverse applications (2019)
-**Authors:** Karolin Wellner, Marie-Theres Pöhler, Heike Betat, Mario Mörl
-
-**Reviewer**: Gwyn UTtma
+**Authors:** Karolin Wellner, Marie-Theres Pöhler, Heike Betat, Mario Mörl  **Reviewer**: Gwyn
 
 {{doi("10.1093\\nar\\gkz133")}} 
 
 {{pmid("PMC6468291")}}
-
-### Novel EXO-T vaccine using polyclonal CD4+ T cells armed with HER2-specific exosomes for HER2-positive breast cancer
-Rong Li, Rajni Chibbar, Jim Xiang
-Onco Targets Ther. 2018; 11: 7089–7093.  Published online 2018 Oct 17. doi: 10.2147/OTT.S184898
-PMCID: PMC6200095
 
 ### Examining tRNA 3′-ends in Escherichia coli: teamwork between CCA-adding enzyme, RNase T, and RNase R
 Karolin Wellner, Andreas Czech, Zoya Ignatova, Heike Betat, Mario Mörl
@@ -63,11 +56,6 @@ PMCID: PMC5824355
 Bijoy K. Mohanty, Jessica R. Petree, Sidney R. Kushner
 Nucleic Acids Res. 2016 Jul 27; 44(13): 6350–6362.  Published online 2016 Jun 10. doi: 10.1093/nar/gkw517
 PMCID: PMC5291269
-
-### In This Issue
-
-Protein Sci. 2015 Dec; 24(12): v.  Published online 2015 Nov 25. doi: 10.1002/pro.2847
-PMCID: PMC4815225
 
 ### The cutting edges in DNA repair, licensing, and fidelity: DNA and RNA repair nucleases sculpt DNA to measure twice, cut once
 Susan E. Tsutakawa, Julien Lafrance-Vanasse, John A. Tainer
@@ -170,20 +158,45 @@ M P Deutscher, C W Marlor, R Zaniewski
 Proc Natl Acad Sci U S A. 1984 Jul; 81(14): 4290–4293.  doi: 10.1073/pnas.81.14.4290
 PMCID: PMC345573
 
+Discovery of Exo. T
+
+## Not about Exonuclease T
+
+### Novel EXO-T vaccine using polyclonal CD4+ T cells armed with HER2-specific exosomes for HER2-positive breast cancer
+Rong Li, Rajni Chibbar, Jim Xiang
+Onco Targets Ther. 2018; 11: 7089–7093.  Published online 2018 Oct 17. doi: 10.2147/OTT.S184898
+PMCID: PMC6200095
+
+**Not about Exonuclease T**
+
+### In This Issue
+
+Protein Sci. 2015 Dec; 24(12): v.  Published online 2015 Nov 25. doi: 10.1002/pro.2847
+PMCID: PMC4815225
+
+**Not about Exonuclease T**
+
 ###   Nucleotide sequence of formylmethionine tRNA from an extreme thermophile, Thermus thermophilus HB 8
 Kimitsuna Watanabe, Yoshiyuki Kuchino, Ziro Yamaizumi, Mayumi Kato, Tairo Oshima, Susumu Nishimura
 Nucleic Acids Res. 1978 Jul 1; 5(Suppl 2): s473–s478.  doi: 10.1093/nar/1.suppl_2.s473
 PMCID: PMC6581399
+
+**Not about Exonuclease T**
 
 ###   Leaving-group effects on the ribonuclease T 1 -catalyzed transphosphorylation of specific substrates
 Mitsuhiro Itaya, Yasuo Inoue
 Nucleic Acids Res. 1978 Jul 1; 5(Suppl 2): s397–s402.  doi: 10.1093/nar/1.suppl_2.s397
 PMCID: PMC6581318
 
+**Not about Exonuclease T**
+
 ###  Nucleotide sequence complexities, molecular weights, and poly(A) content of the vesicular stomatitis virus mRNA species.
 J K Rose, D Knipe
 J Virol. 1975 Apr; 15(4): 994–1003.  
 PMCID: PMC354544
+
+**Not about Exonuclease T**
+
 
 [^pubmed-query]: [(((((((((((((((((("exo T"[Abstract]) OR "exoribonuclease T"[Abstract]) "exonuclease T"[Abstract]) OR "ribonuclease t"[Abstract]) OR "rnase t"[Abstract]) OR "exo T"[Title]) OR "exoribonuclease T"[Title]) OR "ribonuclease t"[Title]) OR "exonuclease T"[Title]) OR "rnase t"[Title]) OR "exo T"[Section Title]) OR "exoribonuclease T"[Section Title]) OR "ribonuclease t"[Section Title]) OR "exonuclease T"[Section Title])) OR "rnase t"[Section Title]) NOT vaccine) NOT "ribonuclease T1") NOT "rnase T1") NOT "TREX1")](https://www.ncbi.nlm.nih.gov/pmc/?term=((((((((((((((((((%22exo+T%22%5BAbstract%5D)+OR+%22exoribonuclease+T%22%5BAbstract%5D)+%22exonuclease+T%22%5BAbstract%5D)+OR+%22ribonuclease+t%22%5BAbstract%5D)+OR+%22rnase+t%22%5BAbstract%5D)+OR+%22exo+T%22%5BTitle%5D)+OR+%22exoribonuclease+T%22%5BTitle%5D)+OR+%22ribonuclease+t%22%5BTitle%5D)+OR+%22exonuclease+T%22%5BTitle%5D)+OR+%22rnase+t%22%5BTitle%5D)+OR+%22exo+T%22%5BSection+Title%5D)+OR+%22exoribonuclease+T%22%5BSection+Title%5D)+OR+%22ribonuclease+t%22%5BSection+Title%5D)+OR+%22exonuclease+T%22%5BSection+Title%5D))+OR+%22rnase+t%22%5BSection+Title%5D)+NOT+%22ribonuclease+T1%22)+NOT+%22rnase+T1%22)+NOT+%22TREX1%22))
 
