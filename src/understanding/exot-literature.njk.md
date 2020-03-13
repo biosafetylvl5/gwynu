@@ -6,7 +6,9 @@ layout: body.njk
 
 {% macro doi(doi) %}[{{doi | replace("--", "/") | replace("-", ".")}}](https://doi.org/{{doi | replace("--", "/") | replace("-", ".")}}) [&#x1D54A;](https://sci-hub.tw/{{doi | replace("--", "/") | replace("-", ".")}}){% endmacro %}
 
-{% macro pmid(pmid) %}[PMCID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pmc/articles/{{pmid}}/){% endmacro %}
+{% macro pmcid(pmid) %}[PMCID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pmc/articles/{{pmid}}/){% endmacro %}
+
+{% macro pmid(pmid) %}[PMCID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pubmed/{{pmid}}){% endmacro %}
 
 # Exonuclease T Literature Review
 
@@ -162,31 +164,69 @@ L Zhu, M P Deutscher
 EMBO J. 1987 Aug; 6(8): 2473–2477.  
 PMCID: PMC553656
 
-###   RNase T is responsible for the end-turnover of tRNA in Escherichia coli.
-M P Deutscher, C W Marlor, R Zaniewski
-Proc Natl Acad Sci U S A. 1985 Oct; 82(19): 6427–6430.  doi: 10.1073/pnas.82.19.6427
-PMCID: PMC390729
+###   RNase T is responsible for the end-turnover of tRNA in Escherichia coli. (1985)
+**Authors:** M P Deutscher, C W Marlor, R Zaniewski **Summarized by:** Gwyn **Source:** Pubmed Search
+
+{{doi("10-1073--pnas-82-19-6427")}} 
+{{pmcid("PMC390729")}}
+
+### Purification and characterization of Escherichia coli RNase T. (1985)
+**Authors:** M P Deutscher, C W Marlor **Summarized by:** Gwyn **Source:** Citation
+
+This paper purified Exonuclease T and did more characterization *in vitro*.
+
+It was newly found that Exonuclease T:
+
+- is an $alpha_2$ dimer with a monomer weight of 25kDa
+- has a $K_m$ of 14$\mu$M for total tRNA which was notably low for an enzyme that binds DNA during catalysis
+- exclusively hydrolyses the 3' end and does not act on the 5' end of RNA
+- is extremely sensitive to:
+	+ oxidation:
+		* "we repeatedly observed loss of enzyme activity which could be reversed almost completely by incubation with the reducing agent. This problem could be eliminated by maintaining RNase T in 10-fold higher levels of dithiothreitol"
+	+ sulfhydryl group reagents:
+		* " agreement with its sensitivity to oxidation (see above), RNase T is also rapidly inactivated by a variety of reagents which react with sulfhydryl groups. In two cases, that of p-hydroxymercuribenzoate andmercuric chloride,the inactivation could be reversed by incubation with high concentrations of dithiothreitol. These data indicate that RNase T contains one or more sulfhydryl groups that are important for the catalytic activity and/or the structure of this enzyme."
+- is mildly sensitive to ionic strengths:
+	+ "Fifty per cent inhibition was observed at 100 mM KCl, and essentially complete inhibition was found at 250 mM KCl."
+- maintains 80-90% of activity for at least 6 month when stored at -20C
+- is sensitive to dilution, but it's hypothesized that bovine serum albumin stabilizes this type of inactivation
+- acts on tRNA-CC at 1% of the rate of tRNA-CCA terminal hydrolysis
+
+Further, previous attributes of Exonuclease T were characterized more fully:
+
+- in addition to a pH of 8-9 being optimal, Exonuclease T exhibits 50% of optimal activity at pHs of 7.2 and 9.6
+- the reported optimal cation concentration was futher elaborated on:
+    + the optimal Mg2+ concentration changed from 3-10mM to 2-5mM
+    + the optimal Mn2+ concentration was reported as 1mM
+- the activity associated with Co2+ at 2-10mM was  found result in 20% of the activity associated with optimal Mg2+ concentration
+- it was found that Cu2+, Zn2+, Ba2+, Ca2+, CdZ+, and Hg2+ displayed no activity at either 1 or 5 mM
+- the temperature sensitivity was further quantified
+	+ "RNase T is extremely sensitive to temperature inactivation, losing as much as 80% of its activity in a 5-min preincubation in buffer A at 37 "C, and 90% in 20 min at this temperature. The presence of 1 M KC1 could protect theenzyme against this inactivation, with only 15% of RNase T activity being lost in 5min under these conditions and 25% in 20 min. tRNA also afforded some protection with a loss of 35% of the activity in 5 min, although by 20 min RNaseT was 85% inactivated."
+
+{{pmid("3888994")}} (no associated DOI)
 
 ### Ribonuclease T: new exoribonuclease possibly involved in end-turnover of tRNA. (1984)
-M P Deutscher, C W Marlor, R Zaniewski
+**Authors:** M P Deutscher, C W Marlor, R Zaniewski **Summarized by:** Gwyn **Source:** Pubmed Search
+
+This paper discovered the existence of  Exonuclease T in *E. coli* and named it "RNAse T" at the time because of it's (then hypothesized) role in tRNA turnover.
 
 It was found that, with a base substrate of tRNA-CCA, Exonuclease T:
 
+- is an exonuclease that acts on tRNA
 - had a pH optimum in the range of pH 8-9
-- required Mg2+, Mn2+, or Co2+ with Mg2+ in the range of 3-10 mM being best. 
+- required Mg2+, Mn2+, or Co2+ with Mg2+ in the range of 3-10mM being best. 
 - is strongly inhibited by salts at ionic strengths in excess of
 50 mM
-- is very sensative to heat inactivation, losing half of its activity in 7 min at 45C
+- is very sensitive to heat inactivation, losing half of its activity in 7 min at 45C
 - digests in a random fashion
 - initiated attack at the 3' terminus, requiring a free 3' hydroxyl group
 - exhibited substrate sensitivity with:
-    - CTP cleavage 10% of that of ATP
-    - UTP cleavage was much slower than that of ATP
-    - Both tRNA-CC and tRNA-CCACC demonstrating reduced acitivity relative to tRNA-CCA
-    - it was found that Poly(A) was inactive as a substrate
+	+ CTP cleavage 10% of that of ATP
+	+ UTP cleavage was much slower than that of ATP
+	+ Both tRNA-CC and tRNA-CCACC demonstrating reduced acitivity relative to tRNA-CCA
+- it was found that Poly(A) was inactive as a substrate
     
 {{doi("10-1073--pnas-81-14-4290")}} 
-{{pmid("PMC345573")}}
+{{pmcid("PMC345573")}}
 
 
 ## Not about Exonuclease T
