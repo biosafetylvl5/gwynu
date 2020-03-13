@@ -8,7 +8,7 @@ layout: body.njk
 
 {% macro pmcid(pmid) %}[PMCID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pmc/articles/{{pmid}}/){% endmacro %}
 
-{% macro pmid(pmid) %}[PMCID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pubmed/{{pmid}}){% endmacro %}
+{% macro pmid(pmid) %}[PMID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pubmed/{{pmid}}){% endmacro %}
 
 # Exonuclease T Literature Review
 
@@ -18,10 +18,10 @@ layout: body.njk
 
 ## Overview
 
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogSW5pdGlhbCBEaXNjb3ZlcnldIC0tPiBCWz9dIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogSW5pdGlhbCBEaXNjb3ZlcnldIC0tPiBCWz9dIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPlB1cmlmaWNhdGlvbiBhbmQgZnVydGhlciBjaGFyYWN0ZXJpemF0aW9uXVxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPlB1cmlmaWNhdGlvbiBhbmQgZnVydGhlciBjaGFyYWN0ZXJpemF0aW9uXVxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 ```uml
 graph BT
-	A[Deutscher 1984: Initial Discovery] --> B[?]
+	A[Deutscher 1984: <br/>Initial Discovery] --> B[Deutscher 1985a: <br/> Purification and further characterization]
 ```
 
 
@@ -29,19 +29,16 @@ graph BT
 
 A PubMed search for various names for Exonuclease T (rnase t, ribonuclease t, exo t, exoribonuclease T and exonuclease T)  in abstracts, titles and section titles of archived papers via a [pubmed query](https://www.ncbi.nlm.nih.gov/pmc/?term=((((((((((((((((((%22exo+T%22%5BAbstract%5D)+OR+%22exoribonuclease+T%22%5BAbstract%5D)+%22exonuclease+T%22%5BAbstract%5D)+OR+%22ribonuclease+t%22%5BAbstract%5D)+OR+%22rnase+t%22%5BAbstract%5D)+OR+%22exo+T%22%5BTitle%5D)+OR+%22exoribonuclease+T%22%5BTitle%5D)+OR+%22ribonuclease+t%22%5BTitle%5D)+OR+%22exonuclease+T%22%5BTitle%5D)+OR+%22rnase+t%22%5BTitle%5D)+OR+%22exo+T%22%5BSection+Title%5D)+OR+%22exoribonuclease+T%22%5BSection+Title%5D)+OR+%22ribonuclease+t%22%5BSection+Title%5D)+OR+%22exonuclease+T%22%5BSection+Title%5D))+OR+%22rnase+t%22%5BSection+Title%5D)+NOT+%22ribonuclease+T1%22)+NOT+%22rnase+T1%22)+NOT+%22TREX1%22)[^pubmed-query] excluding confounding terms (ribonuclease T1, rnase t1 and TREX1) returned 28 papers on March 10th, 2020. After manual inspection, this pool was reduced to [INSERT # OF USEFUL PAPERS HERE]. Our summaries of these papers can be found here, along with our conclusions on the current state of the literature.
 
-![Process Flowchart](./exot-lit/process-flowchart.png)
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtcXFB1Yk1lZCBxdWVyeSBmb3IgRXhvbnVjbGVhc2UgVC9dIC0tPnwyOCBQYXBlcnN8IEJbXFxTY3JlZW4gZm9yIFJlbGV2YW5jeS9dO1xuXHRCIC0tPiB8XCIyMyBQYXBlcnMgKG5ldCAtNSlcInwgQ1tcXENpdGF0aW9uIFNlYXJjaC9dIFxuXHRDIC0tPiB8XCIyNCBQYXBlcnMgKG5ldCArMSlcInwgRFtTZWxlY3Rpb24gZm9yIFJldmlld10iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtcXFB1Yk1lZCBxdWVyeSBmb3IgRXhvbnVjbGVhc2UgVC9dIC0tPnwyOCBQYXBlcnN8IEJbXFxTY3JlZW4gZm9yIFJlbGV2YW5jeS9dO1xuXHRCIC0tPiB8XCIyMyBQYXBlcnMgKG5ldCAtNSlcInwgQ1tcXENpdGF0aW9uIFNlYXJjaC9dIFxuXHRDIC0tPiB8XCIyNCBQYXBlcnMgKG5ldCArMSlcInwgRFtTZWxlY3Rpb24gZm9yIFJldmlld10iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
 ```uml
 graph TD
-	A[\PUBMED Search for ExoT/] -->|28 Papers| B[\Manually Review/]
+	A[\PubMed query for Exonuclease T/] -->|28 Papers| B[\Screen for Relevancy/];
+	B --> |"23 Papers (net -5)"| C[\Citation Search/] 
+	C --> |"24 Papers (net +1)"| D[Selection for Review]
 ```
 
 
 ## Papers
-
-```uml
-graph TD
-	A[\PUBMED Search for ExoT/] -->|28 Papers| B[\Manually Review/]
-```
 
 Review Format:
 
