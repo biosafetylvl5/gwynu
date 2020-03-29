@@ -18,10 +18,11 @@ layout: body.njk
 
 ## Overview
 
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPlB1cmlmaWNhdGlvbiBhbmQgZnVydGhlciBjaGFyYWN0ZXJpemF0aW9uXVxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPlB1cmlmaWNhdGlvbiBhbmQgZnVydGhlciBjaGFyYWN0ZXJpemF0aW9uXVxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPiBQdXJpZmljYXRpb24gYW5kIGZ1cnRoZXIgY2hhcmFjdGVyaXphdGlvbl1cblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPiBQdXJpZmljYXRpb24gYW5kIGZ1cnRoZXIgY2hhcmFjdGVyaXphdGlvbl1cblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 ```uml
 graph BT
 	A[Deutscher 1984: <br/>Initial Discovery] --> B[Deutscher 1985a: <br/> Purification and further characterization]
+	A[Deutscher 1984: <br/>Initial Discovery] --> C[Deutscher 1985b: <br/> Identification of Plausible Biological Significance]
 ```
 
 
@@ -163,6 +164,14 @@ PMCID: PMC553656
 
 ###   RNase T is responsible for the end-turnover of tRNA in Escherichia coli. (1985)
 **Authors:** M P Deutscher, C W Marlor, R Zaniewski **Summarized by:** Gwyn **Source:** Pubmed Search
+
+This paper presented evidence to support a hypothesis that Exonuclease T plays a role in RNA turnover by removing terminal adenosine residues. This proccess is counter to the (then) currently understood mechanism of tRNA transferase and results in a (then) yet to be understood cycle of addition and removal: "At first glance, this seems to be a futile cycle." Double mutants with a deficiancy of both tRNA nucleotidyltransferase and exonuclease T had their growth speed *mostly* restored.
+ 
+ ||tRNA nucleotidyltransferase+|tRNA nucleotidyltransferase-|
+ |-|-|-|
+ |exot+|28-30m|>120m|
+ |exot- (30% activity)|28-30m|40m|
+ Mutant doubling time
 
 {{doi("10-1073--pnas-82-19-6427")}} 
 {{pmcid("PMC390729")}}
