@@ -157,11 +157,6 @@ L M Case, X N Chen, M P Deutscher
 J Bacteriol. 1989 Oct; 171(10): 5736–5737.  doi: 10.1128/jb.171.10.5736-5737.1989
 PMCID: PMC210422
 
-###   tRNA nucleotidyltransferase is not essential for Escherichia coli viability.
-L Zhu, M P Deutscher
-EMBO J. 1987 Aug; 6(8): 2473–2477.  
-PMCID: PMC553656
-
 ###   RNase T is responsible for the end-turnover of tRNA in Escherichia coli. (1985)
 **Authors:** M P Deutscher, C W Marlor, R Zaniewski **Summarized by:** Gwyn **Source:** Pubmed Search
 
@@ -171,6 +166,7 @@ This paper presented evidence to support a hypothesis that Exonuclease T plays a
  |-|-|-|
  |exot+|28-30m|>120m|
  |exot- (30% activity)|28-30m|40m|
+ 
  Mutant doubling time
 
 {{doi("10-1073--pnas-82-19-6427")}} 
@@ -236,6 +232,13 @@ It was found that, with a base substrate of tRNA-CCA, Exonuclease T:
 
 
 ## Not about Exonuclease T
+
+###   tRNA nucleotidyltransferase is not essential for Escherichia coli viability.
+L Zhu, M P Deutscher
+EMBO J. 1987 Aug; 6(8): 2473–2477.  
+PMCID: PMC553656
+
+Only tangentally mentions Exonuclease T.
 
 ### Novel EXO-T vaccine using polyclonal CD4+ T cells armed with HER2-specific exosomes for HER2-positive breast cancer
 Rong Li, Rajni Chibbar, Jim Xiang
