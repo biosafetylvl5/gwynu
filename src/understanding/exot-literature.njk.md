@@ -4,7 +4,7 @@ author: Gwyn Uttmark & Michael Arcidiacono
 layout: body.njk
 ---
 
-{% macro doi(doi) %}[{{doi | replace("--", "/") | replace("-", ".")}}](https://doi.org/{{doi | replace("--", "/") | replace("-", ".")}}) [&#x1D54A;](https://sci-hub.tw/{{doi | replace("--", "/") | replace("-", ".")}}){% endmacro %}
+{% macro doi(doi) %}[{{doi | replace("--", "/") | replace("-", ".") | replace("=", "-")}}](https://doi.org/{{doi | replace("--", "/") | replace("-", ".")}}) [&#x1D54A;](https://sci-hub.tw/{{doi | replace("--", "/") | replace("-", ".")}}){% endmacro %}
 
 {% macro pmcid(pmid) %}[PMCID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pmc/articles/{{pmid}}/){% endmacro %}
 
@@ -18,11 +18,13 @@ layout: body.njk
 
 ## Overview
 
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPiBQdXJpZmljYXRpb24gYW5kIGZ1cnRoZXIgY2hhcmFjdGVyaXphdGlvbl1cblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPiBQdXJpZmljYXRpb24gYW5kIGZ1cnRoZXIgY2hhcmFjdGVyaXphdGlvbl1cblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPiBQdXJpZmljYXRpb24gYW5kIGZ1cnRoZXIgY2hhcmFjdGVyaXphdGlvbl1cblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdXG4gIENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdIC0tPiBEW0RldXRzaGVyIDE5ODk6PGJyLz4gTG9jYXRpb24gaW4gRS4gQ29saSBHZW5vbWVdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPiBQdXJpZmljYXRpb24gYW5kIGZ1cnRoZXIgY2hhcmFjdGVyaXphdGlvbl1cblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdXG4gIENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdIC0tPiBEW0RldXRzaGVyIDE5ODk6PGJyLz4gTG9jYXRpb24gaW4gRS4gQ29saSBHZW5vbWVdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+
 ```uml
 graph BT
 	A[Deutscher 1984: <br/>Initial Discovery] --> B[Deutscher 1985a: <br/> Purification and further characterization]
 	A[Deutscher 1984: <br/>Initial Discovery] --> C[Deutscher 1985b: <br/> Identification of Plausible Biological Significance]
+    C[Deutscher 1985b: <br/> Identification of Plausible Biological Significance] --> D[Deutsher 1989:<br/> Location in E. Coli Genome]
 ```
 
 
@@ -152,12 +154,15 @@ K P Padmanabha, M P Deutscher
 J Bacteriol. 1991 Feb; 173(4): 1376–1381.  doi: 10.1128/jb.173.4.1376-1381.1991
 PMCID: PMC207273
 
-###   Localization of the Escherichia coli rnt gene encoding RNase T by using a combination of physical and genetic mapping.
-L M Case, X N Chen, M P Deutscher
-J Bacteriol. 1989 Oct; 171(10): 5736–5737.  doi: 10.1128/jb.171.10.5736-5737.1989
-PMCID: PMC210422
+###   Localization of the Escherichia coli rnt gene encoding RNase T by using a combination of physical and genetic mapping. (1989)
+**Authors:** L M Case, X N Chen, M P Deutscher **Summarized by:** Gwyn **Source:** Pubmed Search
 
-###   RNase T is responsible for the end-turnover of tRNA in Escherichia coli. (1985)
+A locus (*rnt*) was identified that contains the gene encoding for Exonuclease T in the aim of creating strains truely deficient in Exonuclease T expression.
+
+{{doi("10-1128--jb-171-10-5736=5737-1989")}}
+{{pmcid("PMC210422")}}
+
+###   RNase T is responsible for the end-turnover of tRNA in Escherichia coli. (1985b)
 **Authors:** M P Deutscher, C W Marlor, R Zaniewski **Summarized by:** Gwyn **Source:** Pubmed Search
 
 This paper presented evidence to support a hypothesis that Exonuclease T plays a role in RNA turnover by removing terminal adenosine residues. This proccess is counter to the (then) currently understood mechanism of tRNA transferase and results in a (then) yet to be understood cycle of addition and removal: "At first glance, this seems to be a futile cycle." Double mutants with a deficiancy of both tRNA nucleotidyltransferase and exonuclease T had their growth speed *mostly* restored.
