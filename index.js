@@ -10,6 +10,11 @@ var Metalsmith = require('metalsmith'),
     inspect    = require('metalsmith-inspect');
     replace    = require('metalsmith-regex-replace');
 
+require('jstransformer-markdown-it')
+require('markdown-it-footnote')
+require('markdown-it-toc-done-right')
+require('nunjucks')
+require('jstransformer-nunjucks')
 
 Metalsmith(__dirname)
     .clean(true)
@@ -35,6 +40,7 @@ Metalsmith(__dirname)
     .use(serve({
         verbose: true,
     }))
+
     .use(
         watch({
             paths: {

@@ -36,15 +36,17 @@ But where does one get blood to cook with in the first place?
 
 > Of all [slaughter house] waste products, the waste in the form of blood has the highest polluting value. Blood itself has a high BOD: 150,000 - 200,000 mg/l, the extreme value being 405,000 mg/l. (Domestic wastewater has a BOD of 300 mg/l). In the killing, bleeding and skinning phases, **blood is produced which, when completely sewered, leads to a total waste load of 10 kg BOD per ton of LWK. A waste load of up to 3.0 kg BOD per ton of LWK may occur in wastewater flowing out of the killing-area and the hide-removal-area.** ([source](www.fao.org/3/x6114e/x6114e04.htm#b12-2.3.2.1.%20Wastewater%20by%20red%20meat%20slaughtering))
 
-Many slaughter houses have so much excess blood that, even after selling what they can for fertilizer/pig feed/other uses, they still dump tonnes down the drain. Butchers do much of the same^[source?], but seem more willing to sell blood to customers if they ask^[source?]. In my case, I simply had to ask and I got blood for free in a win-win situation where I got blood and they got the blood off their hands. (see [Sourcing Blood](#sourcing-blood) for details).
+Many slaughter houses have so much excess blood that, even after selling what they can for fertilizer/pig feed/other uses, they still dump tonnes down the drain. Butchers do much of the same^[source?], but seem more willing to sell blood to customers if they ask^[source?]. In my case, I simply had to ask and I got blood for free in a win-win situation: I got blood and they got the blood off their hands. (see [Sourcing Blood](#sourcing-blood) for details).
 
 In this light, adding blood into your cooking repertoire is a classic ecofeminist move^[If, say, we started to consume *so* much blood that animals were being killed just to produce it *then* that would be a problem. I don't think we're going to get there any time soon], - it empowers women to improve their own health through accessible and ecofriendly action. And on top of that, if you're able to get your blood for free, you're not supporting the killing of the animal, only making sure that everything produced gets used.
 
-Blood consumption where an animal wasn't killed toes the ethical boundaries developed by Ethical Vegetarianism/Veganism. As long as you're not contributing to the killing animals and simply diverting blood a environmentally taxing disposal pathway, you're in the green.
+Blood consumption where an animal wasn't killed toes the ethical boundaries developed by Ethical Vegetarianism/Veganism. As long as you're not contributing to the killing animals and simply diverting blood from a environmentally taxing disposal pathway, you're in the green.
 
 Blood consumption may also help address some commonly cited problems with vegetarianism/veganism, namely inaccessibility (eg. the high price of plant based diets in some parts of the world). Veganism in the United States^[This is not the case in France (at least according to the numbers) nor in places where vegetarianism is considered the norm.] is often considered a thing of privilege, especially along lines of socioeconomic status, race/ethnicity and education. Further compounding issues of privilege, anemia rates are *heavily* correlated with socioeconomic status, at least in children (even when you control for red meat consumption, BMI, Age etc.):
 
-![Rate of Child Anemia vs Socioeconomic Status in Tennessee, Rural China, Korea and various Low and Middle Income Countries ([how I made this figure](./data/Anemia Rate Figure Generation.html))](./blood/data/anemiaRates.png)
+![](./blood/data/anemiaRates.png)
+
+Rate of Child Anemia vs Socioeconomic Status in Tennessee, Rural China, Korea and various Low and Middle Income Countries ([how I made this figure](./blood/data/Anemia-Rate-Figure-Generation.html))
 
 Similar trends (as one might predict) can be seen across educational and racial gradients (not shown here).
 

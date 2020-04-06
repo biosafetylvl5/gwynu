@@ -1,10 +1,10 @@
 ---
 title: Exonuclease T Literature Review
-author: Gwyn Uttmark & Michael Arcidiacono
+author: Gwyn Uttmark and Michael Arcidiacono
 layout: body.njk
 ---
 
-{% macro doi(doi) %}[{{doi | replace("--", "/") | replace("-", ".") | replace("=", "-")}}](https://doi.org/{{doi | replace("--", "/") | replace("-", ".")}}) [&#x1D54A;](https://sci-hub.tw/{{doi | replace("--", "/") | replace("-", ".")}}){% endmacro %}
+{% macro doi(doi) %}[{{doi | replace("--", "/") | replace("-", ".") | replace("$", "-")}}](https://doi.org/{{doi | replace("--", "/") | replace("-", ".")}}) [&#x1D54A;](https://sci-hub.tw/{{doi | replace("--", "/") | replace("-", ".")}}){% endmacro %}
 
 {% macro pmcid(pmid) %}[PMCID: {{pmid}}](https://www.ncbi.nlm.nih.gov/pmc/articles/{{pmid}}/){% endmacro %}
 
@@ -159,7 +159,7 @@ PMCID: PMC207273
 
 A locus (*rnt*) was identified that contains the gene encoding for Exonuclease T in the aim of creating strains truely deficient in Exonuclease T expression.
 
-{{doi("10-1128--jb-171-10-5736=5737-1989")}}
+{{doi("10-1128--jb-171-10-5736$5737-1989")}}
 {{pmcid("PMC210422")}}
 
 ###   RNase T is responsible for the end-turnover of tRNA in Escherichia coli. (1985b)
