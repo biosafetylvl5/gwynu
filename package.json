@@ -1,0 +1,44 @@
+{
+  "name": "gwynu-backend",
+  "version": "0.0.1",
+  "description": "Backend for gwynu.dev built with metalsmith",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "jstransformer-markdown-it": "^2.1.0",
+    "jstransformer-nunjucks": "^1.0.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.7",
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-toc-done-right": "^4.1.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-copy": "^0.4.1",
+    "metalsmith-debug": "^1.2.0",
+    "metalsmith-excel-markdown": "file:../githubWork/metalsmith-excel-markdown",
+    "metalsmith-html-minifier": "^4.0.1",
+    "metalsmith-if": "^0.1.1",
+    "metalsmith-in-place": "^4.4.1",
+    "metalsmith-inspect": "^1.0.0",
+    "metalsmith-layouts": "^2.3.1",
+    "metalsmith-livereload": "^0.1.0",
+    "metalsmith-regex-replace": "^1.2.0",
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-transform": "^1.3.0",
+    "metalsmith-watch": "^1.0.3",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biosafetylvl5/gwynu.git"
+  },
+  "author": "Gwyn Uttmark",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/biosafetylvl5/gwynu/issues"
+  },
+  "homepage": "https://github.com/biosafetylvl5/gwynu#readme"
+}

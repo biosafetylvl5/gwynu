@@ -10,6 +10,8 @@ pls read with that in mind; be kind.
 
 ## Introduction
 
+TODO: rewrite introduction to talk about how we all got here, about how blood isn't new but,,,,, then again it's new to me.
+
 I cook with blood. Why? Cause it's cool. And sometimes it tastes good; it's high in iron and fights anemia. Here, I've included the recipe hits (and failures!), how to get your own blood and some thoughts on the ethics of it all. Enjoy!
 
 ## Ethics of Blood Consumption
@@ -47,6 +49,7 @@ Blood consumption may also help address some commonly cited problems with vegeta
 ![](./blood/data/anemiaRates.png)
 
 Rate of Child Anemia vs Socioeconomic Status in Tennessee, Rural China, Korea and various Low and Middle Income Countries ([how I made this figure](./blood/data/Anemia-Rate-Figure-Generation.html))
+
 
 Similar trends (as one might predict) can be seen across educational and racial gradients (not shown here).
 

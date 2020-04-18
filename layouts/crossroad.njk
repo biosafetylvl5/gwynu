@@ -36,22 +36,16 @@
                     font-family: Garamond, sans-serif;
                     list-style: disc outside none;
                     margin-left: 0;
-                    padding-left: 0em;
 		}
 		ul:after{ /* inject two line breaks after ul */
 			content:"\A\A";
 			white-space: pre;
 		}
-                ul ul{
-                    padding-left:10px;
-                }
                 ul ul:before{
-                    content:" {";
-                    font-weight: bold;
+                    content:"{";
                 }
                 ul ul:after{
-                    content:"}   ";
-                    font-weight: bold;
+                    content:"}";
                 }
                 li{
                     list-style:none;
@@ -74,6 +68,9 @@
 			font-weight: bold;
 		}
 
+                ul,li{
+                    padding-left: 0px;
+                }
 		@media only screen and (max-width: 500px){
                     .content{
                         min-width:0px;
@@ -83,9 +80,6 @@
                     }
                     .content, h1, h2{
                         font-size: 26px;
-                    }
-                    ul,li{
-                        padding-left: 0px;
                     }
 		}
 		</style>
