@@ -1,8 +1,80 @@
 ﻿<!doctype html>
 <html>
   <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>GWYNU &#9897; {{ title }}</title>
     <style>
+/*
+modified from:
+School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+        pre {
+             overflow-x: auto;
+             white-space: pre-wrap;
+             word-wrap: break-word;
+        }
+	code{
+		width: 95%;
+		margin: 0 auto;
+		display: block;
+		word-wrap: break-word;
+	}
+	.hljs-keyword,
+	.hljs-selector-tag,
+	.hljs-literal {
+		  color:#005599;
+		    font-weight:bold;
+	}
+
+	.hljs,
+	.hljs-subst {
+		  color: #3e5915;
+	}
+
+	.hljs-string,
+	.hljs-title,
+	.hljs-section,
+	.hljs-type,
+	.hljs-symbol,
+	.hljs-bullet,
+	.hljs-attribute,
+	.hljs-built_in,
+	.hljs-builtin-name,
+	.hljs-addition,
+	.hljs-variable,
+	.hljs-template-tag,
+	.hljs-template-variable,
+	.hljs-link {
+		  color: #2c009f;
+	}
+
+	.hljs-comment,
+	.hljs-quote,
+	.hljs-deletion,
+	.hljs-meta {
+		  color: #e60415;
+	}
+
+	.hljs-keyword,
+	.hljs-selector-tag,
+	.hljs-literal,
+	.hljs-doctag,
+	.hljs-title,
+	.hljs-section,
+	.hljs-type,
+	.hljs-name,
+	.hljs-selector-id,
+	.hljs-strong {
+		  font-weight: bold;
+	}
+
+	.hljs-emphasis {
+		  font-style: italic;
+	}
+
+
     body {
 	font-family: Georgia, serif;
         height:100%;
@@ -24,6 +96,18 @@
     }
     table{
         margin: 0 auto;
+    }
+    .outlined-block{
+	    border: 1px dashed gray;
+    }
+    .medium-images{
+	    margin: 0 auto;
+	    text-align: center;
+    }
+    .medium-images img{
+	    width: 300px;
+	    max-width: 80%;
+	    display: inline;
     }
     </style>
   </head>

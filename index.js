@@ -28,7 +28,8 @@ var   Metalsmith = require('metalsmith'),
       layouts    = require('metalsmith-layouts'),
       excelmd    = require('metalsmith-excel-markdown'),
       copy       = require('metalsmith-copy'),
-      transform  = require('metalsmith-transform')
+      transform  = require('metalsmith-transform'),
+      emoji      = require('metalsmith-emoji')
 var   watch      = mode==dev ? require('metalsmith-watch') : () => undefined,
       serve      = mode==dev ? require('metalsmith-serve') : () => undefined,
       livereload = mode==dev ? require('metalsmith-livereload') : () => undefined,
@@ -43,6 +44,7 @@ require('markdown-it-footnote')
 require('markdown-it-toc-done-right')
 require('nunjucks')
 require('jstransformer-nunjucks')*/
+var hljs = require('highlight.js')
 
 Metalsmith(__dirname)
     .clean(cleanFlag)
@@ -63,9 +65,18 @@ Metalsmith(__dirname)
             linkify: true,
             typographer: true,
             plugins: ["markdown-it-footnote", "markdown-it-toc-done-right"],
+	    highlight:function (str, lang) {
+		        if (lang && hljs.getLanguage(lang)) {
+				      try {
+				              return hljs.highlight(lang, str).value;
+				            } catch (__) {}
+				    }
+		        return ''; // use external default escaping
+		      }
         }
     }))
     .use(layouts())
+    .use(emoji())
     .use(mif(mode==prod,
 	    minifyHtml()
     ))
