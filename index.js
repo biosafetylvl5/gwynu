@@ -30,6 +30,7 @@ var   Metalsmith = require('metalsmith'),
       copy       = require('metalsmith-copy'),
       transform  = require('metalsmith-transform'),
       emoji      = require('metalsmith-emoji')
+      ignore      = require('metalsmith-ignore')
 var   watch      = mode==dev ? require('metalsmith-watch') : () => undefined,
       serve      = mode==dev ? require('metalsmith-serve') : () => undefined,
       livereload = mode==dev ? require('metalsmith-livereload') : () => undefined,
@@ -49,6 +50,7 @@ var hljs = require('highlight.js')
 Metalsmith(__dirname)
     .clean(cleanFlag)
     .destination('./build')
+    .use(ignore(["*.backup"]))
     .use(excelmd())
     .use(copy({
         pattern: '*/*.njk.md',
@@ -64,7 +66,7 @@ Metalsmith(__dirname)
             html: true,
             linkify: true,
             typographer: true,
-            plugins: ["markdown-it-footnote", "markdown-it-toc-done-right"],
+            plugins: ["markdown-it-footnote", "markdown-it-toc-done-right", "markdown-it-include", "markdown-it-anchor"],
 	    highlight:function (str, lang) {
 		        if (lang && hljs.getLanguage(lang)) {
 				      try {
