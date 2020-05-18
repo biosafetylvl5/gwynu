@@ -12,9 +12,10 @@ Please engage with the following content:
  - [Film](./consuming/film.html)
 
 ## Creating
- - Archives
+ - [Archives](./creating/archive.html)
      - [Online HRT Discussion](./creating/archives/hrt-resources.html)
-     - [Queer Memes](./creating/archives/queer-memes)
+     - [Queer Memes](./creating/archives/queer-memes.html)
+ - [Food](./creating/food/recipes.html)
  - Performance
      - [Brushing My Teeth](./creating/brushing-my-teeth.html)
      
@@ -24,5 +25,5 @@ Please engage with the following content:
  - [Exonuclease T](./understanding/exot-literature.html)
 
 ## Meta
- - [Keywords](./meta/keywords.html)
+ - [Meta](./meta/meta.html)
  - [Source Code](https://github.com/biosafetylvl5/gwynu)

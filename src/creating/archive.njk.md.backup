@@ -1,0 +1,81 @@
+---
+author: Gwyn Uttmark
+title: Archiving
+layout: body.njk
+---
+
+# Archiving
+
+[toc]
+
+## Software Backend
+
+### redditPostArchiver
+
+[redditPostArchiver](https://github.com/pl77/redditPostArchiver) is written in python and supports downloading reddit subreddits to a local database file. Originally written by GitHub user [pl77](https://github.com/pl77), it worked but needed some updating to work on python 3.8. It also needed some other work (bug fixing, error handling, probably some logging and a quiet mode). I'm working on that in my forked repository [here](https://github.com/biosafetylvl5/redditPostArchiver). The last original commit by pl77 was in 2018, so I am not hopeful that they will continue to maintain it.
+
+### wpull
+
+> Wpull is a Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler. [wpull](https://github.com/ArchiveTeam/wpull)
+
+I had quite the time installing [wpull](https://github.com/ArchiveTeam/wpull). The following finnaly worked:
+
+```bash
+sudo pacman -S openssl openssl-1.0 python-pyopenssl python2-pyopenssl pyen
+
+# start up pyenv, add to startup for the future
+pyenv init >> ~/.zshrc                                                                                                                                                                                                                    
+eval "$(pyenv init -)"
+
+# install new python version
+sudo su
+CONFIGURE_OPTS="--without-ensurepip" CFLAGS=-I/usr/include/openssl-1.0 \ LDFLAGS=-L/usr/lib64/openssl-1.0 \
+# the stated version compatible with pull (3.4.3) doesn't work 
+# abc.collections.Generator was introduced in python 3.5
+# Let's install 3.5.9
+pyenv install 3.5.9 
+exit # exit su :eyes:
+
+# check things are working
+pyenv shell 3.5.9
+python --version #> Python 3.5.9
+
+# download wpull's dependencies
+wget https://raw.githubusercontent.com/ArchiveTeam/wpull/develop/requirements.txt    
+```
+
+which (at the time) output:
+
+```text
+chardet>=2.0.1,<=2.3
+dnspython3==1.12
+html5lib>=0.999,<1.0
+lxml>=3.1.0,<=3.5
+namedlist>=1.3,<=1.7
+psutil>=2.0,<=4.2
+sqlalchemy>=0.9,<=1.0.13
+tornado>=3.2.2,<5.0
+typing>=3.5,<=3.5.1
+yapsy==1.11.223
+```
+
+```bash
+pip3 install -r requirements.txt
+pip3 install html5lib==0.9999999 
+pip3 install wpull
+
+# reset shell to default python
+pyenv shell system
+```
+
+and then wpull can be run with 
+
+```bash
+PYENV_VERSION=3.5.9 pyenv exec wpull
+```
+
+I set an alias to make things easy and make my script compatible with other systems:
+
+```bash
+echo 'alias wpull="PYENV_VERSION=3.5.9 pyenv exec wpull"' >> .bashrc  
+```

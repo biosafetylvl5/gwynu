@@ -1,18 +1,115 @@
 ---
 title: BLOOD
 layout: body.njk
+author: gwyn uttmark
+
 ---
-# A Vampires Guide to Anemia
+
+# The Blood Bible: A Vampires Guide to Anemia
 
 Right now: THIS IS A DRAFT! 
 
 pls read with that in mind; be kind.
 
+<!--
+running notes:
+
+Failing that, Browning says that some vampires will make a concoction with tea and herbs, which apparently also helps preserve the blood for longer.
+
+throwing_olives
+8 points
+·
+1 year ago
+/u/FloppyKitties asked:
+
+How does diet affect the flavor, from your experience? Do you have a preference for certain people's blood over others? Sorry, I'm so fascinated.
+
+Just generally healthy and well hydrated is great. Fruit makes the blood sweet. Poor diet might make the blood overly salty, and if they've eaten recently, it might be a bit fattier. I've only ever tasted one guy who has really weird and bad tasting blood, but he smokes a lot and his diet isn't overly unhealthy, just very strange. Like, he'd eat a whole head of broccoli dunked in sour cream. TMI warning: His cum tasted absolutely awful too, extremely bitter. I think he's just a weird outlier.
+
+Honestly, the method of storage matters more to the flavour than who it's from and what they eat. Even bad blood is still pretty good. Aside from that one guy.
+
+https://www.reddit.com/r/casualiama/comments/be518l/i_drink_blood_and_rmorbidquestions_wanted_me_to/
+
+
+
+-->
+
+[toc]
+
+> The identity ‘vampire’ means little to nothing to us. However, when we are blood drinkers, the label is impossible to shake – [CJ!, blood-drinker](https://www.bbc.com/future/article/20151021-the-people-who-drink-human-blood)
+
 ## Introduction
 
-TODO: rewrite introduction to talk about how we all got here, about how blood isn't new but,,,,, then again it's new to me.
+In what started out as an attempt to replicate the [Sanguinaccio Dolce](https://www.youtube.com/watch?v=MgJY0jPspMw) from the TV Show [Hannibal](https://en.wikipedia.org/wiki/Hannibal_(TV_series)), I've learned a lot about cooking with blood and I've done my best to document that. New to me (and to most americans I've talked to) blood has been used in cooking forever, I also have made a small collection of historical / traditional recipies that use blood. In a moment of existential crisis, I thought about the ethics/justification for consuming blood which I also include here. Finaly, I write about sourcing, storage and a botched carbon monoxide treatment.
 
-I cook with blood. Why? Cause it's cool. And sometimes it tastes good; it's high in iron and fights anemia. Here, I've included the recipe hits (and failures!), how to get your own blood and some thoughts on the ethics of it all. Enjoy!
+
+## But does it Taste Good?
+
+In short, yes. For many of the recipies people couldn't tell they were eating blood. Even when I told them their was a "weird" ingridient, no one has sucessfully guessed blood yet.
+
+That said, too much blood is *not* a good thing. Especially in baked goods. There was definitely a learning curve to figuring out how much blood each dish could "handle."
+
+> I feel like this bread would taste good if I made bread with way too much blood and then I made this. It would definitely be better than the bread with way too much blood! [Mei-lan]
+
+### The Gross Factor
+
+> "these taste experiments in the field made us reflect on how crucial it is to not forget about all the “normal people” out there. Whether it’s about them having different tastes or a less-strong attraction to the new and unusual compared to the people in our immediate surroundings is a big question worth thinking about. What is usual here at the Lab is often weird and disgusting for many folks out there. Doing what we do is exciting and fun, at times both dippy and inspiring – but if we fail to reach out and convince others unlike us to at least give some of these foods a try, what is the point in the long run?" - [A side of bee larva with your afternoon coffee?](https://web.archive.org/web/20200419022305/http://nordicfoodlab.org/blog/2014/2/a-side-of-bee-larva-with-your-afternoon-coffee) by Edith Salminen at Nordic Food Labs
+
+Similar to the first few times I handled raw meat, my initial encountors working with blood were slightly nauseating. That feeling quickly faded, but elephant in the room can't be ignored. The Gross Factor(tm) is definitely something that was on the mind of many of my recipie and taste testers.
+
+> "I was really expecting to be grossed out, but then it was... fine. I thought it'd be thick but it wasn't. It was just like cooking with wine" - Alex, a recipe tester
+
+
+
+I've been banned from talking about blood at home.
+
+![missing blood?](./blood/pics/google-say-no-blood.PNG)
+
+> "Cooking with blood is probably the least kosher activity in existence" - Ash
+
+
+
+Blood. It's in meat, many people eat it all the time. And yet, for many the thought of eating something where blood upstages meat triggers a visceral discussed response. I tackle this problem continually in the recipes above, many of the ingredients and techniques are employed in an attempt to downplay or soft and the taste of blood. Why is this so? Why do we not like blood?
+
+
+## Original Recipes
+
+!!!include(./src/creating/food/recipes/blood-crepes.md)!!!
+
+!!!include(./src/creating/food/recipes/blood-banana-bread.md)!!!
+
+!!!include(./src/creating/food/recipes/sanguinaccio-dolce.md)!!!
+
+In the works:
+
+- Blood Pancakes
+- Blood Gelato
+- Blood Pasta
+- Blood Caramel
+
+## Recipes (Failures)
+
+#### Blood Molasses Cookies
+
+![](./blood/pics/IMG_20200123_230953.jpg)
+
+#### Lemon Blood Curd (2/16/20)
+
+![](./blood/pics/IMG_20200216_215424.jpg)
+![](./blood/pics/IMG_20200216_214627.jpg)
+
+#### Blood Merange
+
+![](./blood/pics/IMG_20200304_225135.jpg)
+
+## Historical Recipes
+
+### Melas Zomos
+
+Origin: Ancient Sparta, 
+Blood form: 
+
+Source(s):
 
 ## Ethics of Blood Consumption
 
@@ -59,24 +156,14 @@ Until a vegetarian/vegan diet is _attainable_ and doesn't put you at _risk_ of a
 
 I don't expect everyone will call multiple farms and ask for blood (see my notes on sourcing below) - that would be like suggesting yoga to a depressed person^[If you can get your blood from a farmer, that's *almost certainly* the right move. Sourcing locally means better quality and less ecological impact.]. However, if you've got a local butcher: ask them if they can save you some blood! Make a dish! Fight back by fighting anemia, channel your inner vampire. Killing animals is probably unethical. Eating blood doesn't have to be.
 
-## The Gross Factor
-
-I've been banned from talking about blood at home.
-
-> "Cooking with blood is probably the least kosher activity in existence" - My friend Ash
-
-> "I was really expecting to be grossed out, but then it was... fine. I thought it'd be thick but it wasn't. It was just like cooking with wine" - Alex, a recipe tester
-
-> "these taste experiments in the field made us reflect on how crucial it is to not forget about all the “normal people” out there. Whether it’s about them having different tastes or a less-strong attraction to the new and unusual compared to the people in our immediate surroundings is a big question worth thinking about. What is usual here at the Lab is often weird and disgusting for many folks out there. Doing what we do is exciting and fun, at times both dippy and inspiring – but if we fail to reach out and convince others unlike us to at least give some of these foods a try, what is the point in the long run?" - [A side of bee larva with your afternoon coffee?](http://nordicfoodlab.org/blog/2014/2/a-side-of-bee-larva-with-your-afternoon-coffee) by Edith Salminen at Nordic Food Labs
-
-Blood. It's in meat, many people eat it all the time. And yet, for many the thought of eating something where blood upstages meat triggers a visceral discussed response. I tackle this problem continually in the recipes above, many of the ingredients and techniques are employed in an attempt to downplay or soft and the taste of blood. Why is this so? Why do we not like blood?
-
 
 ### Jamie Vulva
 
+![](./blood/pics/jamie-vulva.jpg)
+
 Jamie Vulva made cookies with her menstrual blood. They were "too floury" for her taste, thus she never made them again. However, the picture she posted on her tumblr, for lack of a better descriptor, blew up on the Internet featured most commonly in a manner making fun of "fanatic feminists".
 
-![Menstrual blood cookies](menstrual-blood-cookies-original.jpg)
+![Menstrual blood cookies](./blood/pics/menstrual-blood-cookies-original.jpg)
 
 In all fairness, Jamie Vulvas tumblr is pretty provocative. Suffice it to say the title of her blog is "Little girl, big pig" and she self describes as a "walking trigger warning". However the discrepancy in the reaction the internet to her menstrual blood jar (a jar in which she puts her vaginal discharge) verses that to her cooking with mentrual blood seems is interesting. Why is it that cooking blood is that much worse than, say, painting with it? Is it the act of consumption? Does the problem lie in that is menstrual blood, and that cooking with "normal" blood is perfectly permissible? Even though the original "I made menstrual blood cookies!" post was made in 2011, I have yet to find another act or artifact that elucidates a similar instantaneous and visceral rejection from the online public.
 
@@ -85,181 +172,63 @@ Jamie Vulva now runs a vegan restaurant in Olympia, Washington and I've reached 
 ## Legality of Blood Consumption
 https://www.law.cornell.edu/cfr/text/9/310.20
 
-## But does it Taste Good?
-
-> I feel like this bread would taste good if I made bread with way too much blood and then I made this. It would definitely be better than the bread with way too much blood! [Mei-lan]
-
-:eyes: should write this :eyes:
-
-## Original Recipes
-### Blood Crepes
-
-![During cooking, the hue changes from a bright red to a chocolaty brown. Crepe is ready to flip at the end of the clip.](./blood/pics/crepe-timing-cooking.gif) 
-
-Summary: A wonderful chocolaty colored savory crepe full of warm flavours. Blood takes a backstage and builds a rich foundation. Reviews from two random tasters^[As a disclaimer, they *were* hungry college students]: "Wow, this is really good" and "Damn, that's good!".
-
-Iron per Serving: 13.4mg (10.8mg Heme, 2.6mg Non-Heme, 59% DV) 
-
-Per-Ingredient Iron Breakdown:
-
-|Ingredient|Non-Heme Quantity/Item|Heme Quantity/Item|Items|Total Non-Heme|Total Heme|
-|-------------------|----------------|-------------|-------------|-----------|-------|
-|Egg Yolk         | 0.5mg/Yolk |0mg        |2 Yolks     |1mg      |0mg |
-|Enriched Flour|7.2mg/Cup  |0mg        |1 1/3 cup|9.6mg |0mg |
-|Pigs Blood      |0                 |0.5mg/mL|86mL      |0mg      |43mg|
-(3 crepes per serving, recipe makes ~12 crepes)
-
-![Blood: It's quite beautiful once you're past the squeamish phase](./blood/pics/blood-in-crepe-batter.jpg)
-
-#### Ingredients:
-- 3 Tbs Unsalted Butter 
-- 2 Large Egg Yolks
-- 1 1/6 Cup Milk (Whole is best)
-- 1/3 cup Dark Brown Sugar
-- 1 Tbs Vanilla
-- 1 cup Flour
-- 86g Pigs Blood, frozen is fine (Salted)
-- 1/2 Tsp. Cinnamon
-- 1 Tsp. Nutmeg
-- 1/2 Tsp. Ground Cloves
-
-#### Recipe Preparation
-
-1. Melt butter in crepe skillet over medium heat. Routinely stir to get browned bits off the bottom of the pan. When butter is light amber colored, add Cinnamon, Nutmeg and Ground Cloves. Stir to combine and remove from heat
-	1. [why] Brown butter (aka *buerre noisette*) is made by heating butter to 120C. Since the water has already boiled off (we're above 100C), the milk solids in butter brown (al a maillard reaction)^[info from [bon appetit](https://www.bonappetit.com/entertaining-style/article/brown-butter)]. What's left after is an amber liquid with suspended dark solids that has a nutty aroma and taste. We add our Cinnamon, Nutmeg and Cloves here as some of the aromatics we want in our food are soluble in fats but not so much in water. By toasting them in the butter here, we get kill two birds with one stone - more nutty flavour development (from the browning) and better extraction of the existing flavour (by dissolving in fat before emulsifying).
-2. Add two egg yolks to a medium sized bowl. Add milk, brown sugar, vanilla to bowl. Whisk to combine. 
-	1. [why] Adding the eggs first makes it easier to remove bits of shell that might sneak their way in there. But *pshh* that *never* happens.... better safe than sorry though!
-3. Add flour gradually and mix just until clumps are smaller than marbles. No need to add salt - the blood  already has enough in it.
-4. Add butter and blood to bowl and mix *just* until flour is wet - small clumps are okay!
-5. Cover batter and rest in fridge for 30m. (if you're strapped for time, 15 minutes is good enough)
-	1. [why] Letting your batter rest in the fridge allows the flour to hydrate and the gluten to develop. For most crepes, you'd let it rest longer *but* it's alright (maybe preferable?) if this one is a bit tooth-y so we can cut it short.
-6. Heat the same skillet you browned the butter in over medium-high heat. Ladle about 1/4-1/3 cup batter into skillet and swirl (with your wrist!) to thinly and evenly coat the bottom of the pan. Cook until completely and evenly brown on one side and then flip (see gif above!). Cook for another 1-2m then transfer to a plate. Optionally, cover with foil to keep warm while cook the rest.
-
-Serve crepes with nutella/chocolaty filling and lemon curd^[See Blood Lemon Curd if you're feeling adventurous. Alternatively, I used [this recipie](https://www.allrecipes.com/recipe/53683/perfect-lemon-curd/) for a conventional Lemon Curd.]. Alternatively, nutella and bananas work well too - experiment to find out what you like!
-
-**Do Ahead:** Batter can be made 1 day ahead, but leave out the blood. Keep chilled until ready to cook. Stir in blood and let sit 5 minutes before cooking.
-
-##### Recipe Notes:
-
-- Unlike the cookies (or other reports about pancakes) these crepes were very resilient to burning - I accidentally left one for 15 minutes and it was crispier than the others but not burnt! 
-- The Bon Appetit recipie uses a blender - I've opted to simply mix in a bowl for a denser crepe to compliment the richness brought by the blood. Also, who wants to clean a blender? Additionally, not everyone owns a blender, but most people have a bowl.
-
-References: Base crepe recipe from [bon appétit](https://www.bonappetit.com/recipe/basic-crepes). Starting blood to egg substitution ratios from Nordic Food Lab[^nordic-food-lab].
-
-#### Blood Banana Bread
-
-> [my friends warning a stranger] "It's blood bread! It has blood in it!!!!" 
-> 
-> [thinking they are joking] "Oh you guys! thanks for the bread. Bye!"
-
-![](./blood/pics/first-blood-bread.jpg)
-
-Iron per Serving: 8.7-9.1mg (5.4mg Heme, 3.3-3.7mg Non-Heme, 48-51%DV)
-
-Per-Ingredient Iron Breakdown:
-
-|Ingredient|Non-Heme Quantity/Item|Heme Quantity/Item|Items|Total Non-Heme|Total Heme|
-|-------------------|----------------|-------------|-------------|-----------|-------|
-|Enriched Flour|7.2mg/Cup  |0mg        |1 1/3 cup|9.6mg             |0mg |
-|Pigs Blood      |0                 |0             |86mL       |0mg                |43mg|
-|Pecans           |2.3mg/cup   |0mg        |1/2-1 cup|1.15-2.3mg      |0mg|
-|Walnuts          |2.5mg/cup  |0mg        |1/2-1 cup|1.25-2.5mg      |0mg|
-|Dark Chocolate|11.9mg/100g|0mg    |110g       |13.1mg            |0mg |
-|Bananas         | 0.3mg/banana|0mg   |4-5g        |1.2-1.5mg       |0mg |
-
-(1 slice per serving, recipe makes ~8 slices)
-
-![](./blood/pics/making-first-blood-bread.jpg)
-
-#### Ingredients:
-- 1 1/2 Cups Enriched Flour
-- 1.25 Tsp Baking Soda
-- 1.5 Cups Packed Brown Sugar
-- 1/3 Cup Full Fat Greek Yogurt
-- 1/2 Stick (4 Tbs) Unsalted Butter
-- 130g Blood
-- 4-5 Ripe Bananas
-- 1/2 Tsp. Nutmeg
-- 1/4 Tsp. Ground Cloves
-- 110g 88% Dark Chocolate
-- 1/2 - 1 cup Walnuts (optional)
-- 1/2 - 1 cup Pecans (optional)
-
-#### Recipe Preparation
-1. If blood is frozen, set out to thaw. Preheat oven to 350F, lightly grease and line a 4 1/2 x 8 1/2 loaf pan with parchment paper with overhang for removing the bread later.
-1. Melt butter in skillet over medium heat. Routinely stir to get browned bits off the bottom of the pan. When butter is light amber colored, add Nutmeg and Ground Cloves. Stir to combine and remove from heat.
-	1. [why] Brown butter (aka *buerre noisette*) is made by heating butter to 120C. Since the water has already boiled off (we're above 100C), the milk solids in butter brown (al a maillard reaction)^[info from [bon appetit](https://www.bonappetit.com/entertaining-style/article/brown-butter)]. What's left after is an amber liquid with suspended dark solids that has a nutty aroma and taste. We add our Nutmeg and Cloves here as some of the aromatics we want in our food are soluble in fats but not so much in water. By toasting them in the butter here, we get kill two birds with one stone - more nutty flavour development (from the browning) and better extraction of the existing flavour (by dissolving in fat before emulsifying).
-1. In a large/medium bowl (or a stand mixer), beat Brown Sugar, Greek Yogurt, Blood and Browned Butter until [include visual marker here], about 4 minutes. 
-1. If using a stand mixer, reduce speed to low and add flour and stir until just combined (like pancake batter).
-1. Roughly Chop Dark Chocolate, Walnuts and Pecans. Smash bananas if not using a stand mixer.
-1. Add bananas and baking powder to bowl, mix until combined. Fold in Chocolate, Walnuts and Pecans.  
-1. Scrape batter into prepared pan and bake until a tester comes out clean, roughly 60 minutes. Remove from pan and let cool 1 hour if you can resist taste-testing.
-
-**Bonus:** Sprinkle raw sugar on the top before baking for extra *crunch*
-
-**Do Ahead:** Batter can be made 1 day ahead and kept in the fridge, but **leave out the baking powder**. When you're ready to bake, add it and mix gently to incorporate.
-
-#### Sanguinaccio Dolce (Blood Pudding)
-![The first batch of the first blood dish: Sanguinaccio Dulce, Take 1](./blood/pics/first-iteration-sanguine.jpg) 
-
-Summary: A rich chocolate with a depthy but unique base, pudding at room temperature, half way to Gelato when refrigerated. Optional cinnamon alleviates metallic notes of blood.
-
-Iron per Serving: 14.5mg (12.5mg Heme, 2mg Non-Heme, 81% DV[^DV])
-
-|Ingredient|Non-Heme Quantity/Item|Heme Quantity/Item|Items|Total Non-Heme|Total Heme|
-|---------------------|----------------|-------------|-------------|-----------|-------|
-|Dark Chocolate| 11.9mg/100g|0mg        |170     |20.23mg      |0mg |
-|Pigs Blood       |0                       |0.5mg/mL|250mL      |0mg      |125mg|
-
-
-#### Ingredients:
-- 250mL Milk
-- 38g White Sugar
-- 100g Brown Sugar
-- 1-2 Tsp. Cinnamon (Optional)
-- 170g 88% Dark Chocolate
-- 250g Blood (Or maybe 127g? Notes unclear, need to re-test.)
-
-#### Recipe Preparation
-
-![Chocolate and milk in double boiler](./blood/pics/db-choco.jpg)
-
-1. Add milk, white and brown sugar, cinnamon and chocolate to double boiler (or [a bowl over a pot with simmering water](https://www.bonappetit.com/video/watch/how-to-melt-chocolate-in-a-double-boiler)).
-2. Mix lightly as to not let the chocolate burn until the chocolate is mostly melted
-3. Add blood and whisk slowly until mixture is thick and gooey with a consistency similar to a cooled pudding or hot custard.
-4. Take off heat and serve warm (traditional) or cold (my preference) with ladyfingers or other dipping biscuit 
-
-Makes 10-12 servings, lasts 1-2 weeks in the fridge.
-
-##### Recipe Notes:
-
-- Still working on this recipe. From tastings, it pairs well with hazelnut, caramel and coffee. Might work well as an eclair filling? Might go well with a rose-vanilla ice cream/gelato? Will try with all brown sugar next time.
-
-References: Starting recipe from [Emiko Davies](http://www.emikodavies.com/blog/blood-chocolate-sanguinaccio/)
-
-In the works:
-
-- Blood Molasses Cookies
-- Blood Pancakes
-- Blood Gelato
-- Blood Pasta
-- Blood Caramel
-
-## Recipes (Failures)
-
-#### Lemon Blood Curd
-
-## Historical Recipes
-
-### Melas Zomos
-
-Origin: Ancient Sparta, 
-Blood form: 
-
-Source(s):
-
-
 ## Assorted Notes
+
+### Handling
+
+### Cook Time
+It's often hard to know when things are done, as the blood turns a deep brown when heated. This means that perfectly-done cookies and overdone cookies look *very* similar:
+
+![Underdone and Overdone Cookies](They look almost the same, but taste very different.)
+
+On the right the cookies are underdone, but on the left they're overdone, edging on burnt. The easy way to fix this is trust your timer - when it beeps, take them out!
+
+### Freezing and Defrosting
+
+### Removing Clots
+
+Some sources^[sources?] recommend blending your blood after it's defrosted to, at least I assume, prevent any clots from making their way into the final product. I find that straining the blood is much more convenient, and allows me to strain directly into a weighing dish as not to waste blood in the blender. It also has the upside of not needing to clean a blender.
+
+![Recipie testers straining blood](./blood/pics/20200229-staining-blood.jpg)
+
+### Portioning
+
+Instead of freezing large batches, I recommend freezing in ice cube trays - measuring out so each blood cube (aka a *blube*) is 43g (one egg white equivalent). Three cubes (129g) are two egg equivalents which makes for easy portioning.
+
+![blubes](./blood/pics/20200229-blubes.jpg)
+
+### Microwaving
+
+I, being someone who often cooks on a whim instead of a plan, often want to speed up the defrosting process. All my attempts to microwave defrost blood have resulted in at least some charring. (And believe me when I say you *don't* want to know what burnt blood a la microwave smells like.) Ultimately, I've found a warm bowl of water to most effective.
+
+![Blood defrosting in a bowl of warm water](./blood/pics/20200223-blood-defrosting.jpg)
+
+### Anticoagulents: Salt and Vinegar
+
+### Sourcing
+
+My process of obtaining the original 7 liters of pigs blood was, at the very least, not streamlined. I called 15+ increasingly distant places that sold specialty meat or did their own butchering. I eventually found a very kind farmer that was willing to help - in the end he asked a client he was butchering for if it was okay if he saved the blood for me. (I've left his name out for privacy/legal reasons.) However, other people seem to have had better luck than me in finding someone willing to sell them blood, so your mileage may vary.
+
+![Blood in a pail of ice, next to a larger pail of ice that was used for transport. (why does this image look like this)](./blood/pics/original-blood-dithered.png)
+
+![Blood in a pail of ice positioned in the trunk of a car](./blood/pics/blood-transport.jpg)
+
+### Carbon Monoxide: Maintaining that Boyish Pink
+
+Inspired by [this thread](TODO) prepared carbon monoxide^[via the dehydration of formic acid with concentrated sulfuric acid, a similar setup can be seen [in this youtube video](https://www.youtube.com/watch?v=E1ujbhBDpKs)] and bubbled the gas through some blood. 
+
+![Carbon monoxide treatment setup](./blood/pics/IMG_20200308_231308.jpg)
+
+From left to right I have: the reaction producing carbon monoxide, a cold trap and finnaly the blood. In the bottom right hand corner, there is a small scintilation vial with blood in it that I purged with {N2|chem} and then flowed carbon monoxide through. The glassware available to me at this point was minimal due to SARS-CoV-2 induce lab closures and so I was using the cold trap instead of a more suitable substitute. The cold trap was nessesary as the carbon monoxide produced was hot enough to cook the blood on contact. When stopping this reaction I was quite tired (it was well past midnight) and I removed the reaction flask from the heat without venting the system to atmosphere. This caused a vacuum and ended up pulling water from the cold trap (which was there to dissolve any excess sulphuric/formic acid vapour given off by the reaction) up and into the reaction flask. The water quickly boiled and blew the stopper off of the flask thus releasing enough carbon monoxide into the fume hood that I was worried for my safety. 
+
+![Messenger texts about me possibly being poisoned](./blood/pics/2020-03-09_messenger.png)
+
+My symptoms for the next 24 hours lead me to belive that I was only in the [200-400ppm zone](https://en.wikipedia.org/wiki/Carbon_monoxide_poisoning#Acute_poisoning). I am thankful that I was not working alone, and my lab partner helped me clean up and put things away. I walked home and had difficulties deciding whether or not to take my nightly medications (which should have been a no brainer: don't, they lower blood pressure). The next morning I woke up hazy and gave a very hazy presentation about pink capitalism in the gender neutral clothing industry and continued on with life without further complications.
+
+Take away: don't work very late at night, and if you do make sure you have the right setup with extra stages to prevent backflow accidents.
+
+Sadly, due to SARS-CoV-2, this lab space was shut down the next day and I was unable to retrieve my samples. All that for naught as the carbon monoxide treated samples were not distinguishable by eye.
+
 
 ### Iron
 
@@ -294,42 +263,7 @@ Some foods promote the absorption of iron, some prevent it. Here's a list!
 
 ### Blood
 
-#### Handling
 
-#### Cook Time
-It's often hard to know when things are done, as the blood turns a deep brown when heated. This means that perfectly-done cookies and overdone cookies look *very* similar:
-
-![Underdone and Overdone Cookies](They look almost the same, but taste very different.)
-
-On the right the cookies are underdone, but on the left they're overdone, edging on burnt. The easy way to fix this is trust your timer - when it beeps, take them out!
-
-#### Freezing and Defrosting
-
-##### Removing Clots
-
-Some sources^[sources?] recommend blending your blood after it's defrosted to, at least I assume, prevent any clots from making their way into the final product. I find that straining the blood is much more convenient, and allows me to strain directly into a weighing dish as not to waste blood in the blender. It also has the upside of not needing to clean a blender.
-
-##### Portioning
-
-Instead of freezing large batches, I recommend freezing in ice cube trays - measuring out so each blood cube is ~43g (one egg white equivalent). That means that three cubes are two egg equivalents which makes for easy portioning.
-
-##### Microwaving
-
-I, being someone who often cooks on a whim instead of a plan, often wanted to speed up the defrosting process. Ultimately, I've found a warm bowl of water is most effective; all my attempts to microwave defrost blood have resulted in at least some charring. (And believe me when I say you *don't* want to know what burnt blood a la microwave smells like.)
-
-#### Anticoagulents: Salt and Vinegar
-
-#### Sourcing
-
-My process of obtaining the original 7 liters of pigs blood was, at the very least, not streamlined. I called 15+ increasingly distant places that sold specialty meat or did their own butchering. I eventually found a very kind farmer that was willing to help - in the end he asked a client he was butchering for if it was okay if he saved the blood for me. (I've left his name out for privacy/legal reasons.) However, other people seem to have had better luck than me in finding someone willing to sell them blood, so your mileage may vary.
-
-#### Carbon Monoxide: Maintaining that Boyish Pink
-
-[production of carbon monoxide](https://www.youtube.com/watch?v=E1ujbhBDpKs)
-
-![Blood in a pail of ice, next to a larger pail of ice that was used for transport. (why does this image look like this)](./blood/pics/original-blood-dithered.png)
-
-![Blood in a pail of ice positioned in the trunk of a car](./blood/pics/blood-transport.jpg)
 
 [^nordic-food-lab]: [Blood and egg](http://nordicfoodlab.org/blog/2013/9/blood-and-egg?rq=blood%20pancake) by the [Nordic Food Lab](http://nordicfoodlab.org/whoweare)
 

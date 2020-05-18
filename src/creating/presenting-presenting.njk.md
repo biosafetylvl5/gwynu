@@ -17,7 +17,83 @@ Table of archived content:
 
 [toc]
 
-### Initial Contact: Email 1 (Sent 13:23PDT 4/23/2020)
+
+## Contact,,, take 2
+
+<div style="text-align: center">
+
+ngl, i've been putting off writing this for,,,,,,,,,,,,,,,,, a while
+
+***but after***
+
+- 😬😬😬 caffinated baked good 😬😬😬
+- 🏃‍♀️🏃‍♀️🏃‍♀️ 5 miles in the rain 🏃‍♀️🏃‍♀️🏃‍♀️
+- 🚿🚿🚿 and [janelle monae](https://www.youtube.com/watch?v=POZNheF-KdY) in the shower 🚿🚿🚿
+
+I AM **PUMPED** for this week's **PRESENTING: PRESENTING.**
+
+Last week, we yeeted color from images for better AI model training and this week we're
+
+we're
+
+wait let me read this again 
+
+,,,,,???, getting poison ivy itch from a labcoat?
+
+what's that? oh. yeah. okay. yeah that makes sense.
+
+*Apparently* we're learning how to touch poison *oak* ***without*** the stingy bit
+
+THIS MONDAY
+AMY DUNPHY
+PRESENTS
+HARNESSING YOUR INNER GOAT:
+HOW TO NOT GET POISON OAK
+
+[zoom link](https://stanford.zoom.us/j/98836830961)
+
+[7PM PDT ;; 8PM MDT ;; 9PM CDT ;; 10PM EDT](http://www.thetimezoneconverter.com/?t=6pm&tz=PDT%20(Pacific%20Daylight%20Time))
+BE THERE OR MISS OUT
+
+🙂but also come only when you can - you don't need to make them all🙂
+
+
+k, thanks for reading that all! lookin' forward to seeing y'all🤗
+
+
+enjoy these memes!
+
+![memer1](./presenting/email2/mem1.jpg)
+
+![memer2](./presenting/email2/mem8.jpg)
+
+![memer1](./presenting/email2/mem3.jpg)
+
+![memer1](./presenting/email2/mem4.jpg)
+
+![memer1](./presenting/email2/mem5.png)
+
+![memer1](./presenting/email2/mem6.jpg)
+
+![memer1](./presenting/email2/mem7.jpg)
+
+🚿👩‍🎤🚿
+
+(me, in the shower pretending like my family can't hear me)
+</div>
+
+
+
+## Take 1: Better Domain Adaptation Through Sparsity
+
+Presented by Michael Arcidiacono and Jack Lynch.
+
+![zoom-domain-adaption](./presenting/presentation1/zoom-domain-adaption.png)
+
+[Presentation](https://docs.google.com/presentation/d/1mX1WkLJYuWzvpefPDBKwuwtIxxNs_SJOuzcwN9dgwhE/edit?usp=sharing)
+
+
+## Initial Contact: Email 1 (Sent 13:23PDT 4/23/2020)
 
 <div class="outlined-block">
 <!-- EMAIL 1 -->
