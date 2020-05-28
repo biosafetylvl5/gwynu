@@ -8,20 +8,16 @@ This is a Website.
 Please engage with the following content:
 
 ## Consuming
- - [Blood](./consuming/a-vampires-guide-to-anemia.html)
  - [Film](./consuming/film.html)
 
 ## Creating
- - [Archives](./creating/archive.html)
-     - [Online HRT Discussion](./creating/archives/hrt-resources.html)
-     - [Queer Memes](./creating/archives/queer-memes.html)
+ - [Archives](./creating/archives.html)
  - [Food](./creating/food/recipes.html)
  - Performance
      - [Brushing My Teeth](./creating/brushing-my-teeth.html)
      
 ## Understanding
- - Art Through Pairing
-     - [Activist Tears](./pairing/tears.html)
+ - [Estradiol](./understanding/estradiol.html)
  - [Exonuclease T](./understanding/exot-literature.html)
 
 ## Meta

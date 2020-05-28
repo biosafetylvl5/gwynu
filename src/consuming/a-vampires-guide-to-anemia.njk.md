@@ -2,7 +2,7 @@
 title: BLOOD
 layout: body.njk
 author: gwyn uttmark
-
+publish: draft
 ---
 
 # The Blood Bible: A Vampires Guide to Anemia

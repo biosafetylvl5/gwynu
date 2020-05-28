@@ -3,6 +3,7 @@ title: Activists Cry with One Eye
 bibliography: tears.bibtex
 author: Gwyn Uttmark
 layout: body.njk
+publish: draft
 ---
 
 THIS IS A DRAFT!!! pls come back later <3

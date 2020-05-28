@@ -2,10 +2,11 @@
 author: Gwyn Uttmark
 title: Brushing My Teeth
 layout: gallery.njk
+publish: public
 ---
 # Brushing My Teeth
 
-![lights](./brushing-my-teeth/DSC_7545.jpg)
+![](./brushing-my-teeth/DSC_7545.jpg)
 
 ## Would you like a barrier?
 
@@ -22,8 +23,10 @@ layout: gallery.njk
 ![](./brushing-my-teeth/DSC_7602.jpg)
 ![bloody ending](./brushing-my-teeth/IMG_1982.jpg)
 
-## Pictures from a performance by Gwyn Uttmark as a part of Maxe Crandalls Transgender Performance and Performativity class. Meilan Steimle, Michael Arcidiacono and one other performer^[who's requested that they remain nameless] were assisting actors. Mei-lan Steimle also served as photographer.
+## Pictures from a performance by Gwyn Uttmark as a part of Maxe Crandalls Transgender Performance and Performativity class. Meilan Steimle, Michael Arcidiacono and one other were assisting actors. Mei-lan Steimle also served as photographer.
 
 ![Mei-lan Steimle](./brushing-my-teeth/IMG_20191203_160832.jpg)
+
 ![Michael Arcidiacono](./brushing-my-teeth/IMG_2003.jpg)
-![Gwyn Uttmark (me)](./brushing-my-teeth/DSC_7566.jpg)
+
+![me](./brushing-my-teeth/DSC_7566.jpg)

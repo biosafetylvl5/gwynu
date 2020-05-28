@@ -2,6 +2,7 @@
 title: Exonuclease T Literature Review
 author: Gwyn Uttmark and Michael Arcidiacono
 layout: body.njk
+publish: draft
 ---
 
 {% macro doi(doi) %}[{{doi | replace("--", "/") | replace("-", ".") | replace("$", "-")}}](https://doi.org/{{doi | replace("--", "/") | replace("-", ".")}}) [&#x1D54A;](https://sci-hub.tw/{{doi | replace("--", "/") | replace("-", ".")}}){% endmacro %}

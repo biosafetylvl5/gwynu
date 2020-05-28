@@ -1,7 +1,7 @@
 ---
 title: Things I Have Read
 author: Gwyn Uttmark
-
+publish: private
 ---
 # Reading
 

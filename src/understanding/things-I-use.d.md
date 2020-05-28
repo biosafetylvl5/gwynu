@@ -1,5 +1,6 @@
 --- 
 title: things I use
+publish: private
 ---
 
 #Things I Use

@@ -29,8 +29,10 @@ var   Metalsmith = require('metalsmith'),
       excelmd    = require('metalsmith-excel-markdown'),
       copy       = require('metalsmith-copy'),
       transform  = require('metalsmith-transform'),
-      emoji      = require('metalsmith-emoji')
-      ignore      = require('metalsmith-ignore')
+      emoji      = require('metalsmith-emoji'),
+      ignore      = require('metalsmith-ignore'),
+      publish    = require('metalsmith-publish')
+
 var   watch      = mode==dev ? require('metalsmith-watch') : () => undefined,
       serve      = mode==dev ? require('metalsmith-serve') : () => undefined,
       livereload = mode==dev ? require('metalsmith-livereload') : () => undefined,
@@ -40,18 +42,22 @@ var   watch      = mode==dev ? require('metalsmith-watch') : () => undefined,
 //    inspect    = require('metalsmith-inspect');
 //    replace    = require('metalsmith-regex-replace')
 
-/*require('jstransformer-markdown-it')
-require('markdown-it-footnote')
-require('markdown-it-toc-done-right')
-require('nunjucks')
-require('jstransformer-nunjucks')*/
+
 var hljs = require('highlight.js')
+
+var implicitFigures = require('markdown-it-implicit-figures');
 
 Metalsmith(__dirname)
     .clean(cleanFlag)
     .destination('./build')
     .use(ignore(["*.backup"]))
     .use(excelmd())
+    .use(publish({
+	    draft: mode==dev,
+	    private: mode==dev,
+	    unlisted: mode==dev,
+	    public: true
+    }))
     .use(copy({
         pattern: '*/*.njk.md',
         transform: function (filename) {
@@ -66,7 +72,7 @@ Metalsmith(__dirname)
             html: true,
             linkify: true,
             typographer: true,
-            plugins: ["markdown-it-footnote", "markdown-it-toc-done-right", "markdown-it-include", "markdown-it-anchor"],
+            plugins: ["markdown-it-footnote", ["markdown-it-toc-done-right", {"level": 2}], "markdown-it-include", "markdown-it-anchor", "markdown-it-sup", [implicitFigures, {figcaption: true}]],
 	    highlight:function (str, lang) {
 		        if (lang && hljs.getLanguage(lang)) {
 				      try {
