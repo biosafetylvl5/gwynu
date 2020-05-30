@@ -1,3 +1,3 @@
 # GWYNU
 
-Static site. [gwynu.dev](gwynu.dev)
+Static site. [gwynu.dev](https://gwynu.dev)
