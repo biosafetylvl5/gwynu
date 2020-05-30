@@ -18,7 +18,7 @@ mainLog("Mode set to "+chalk.bgGreen(mode))
 //get options
 
 //set clean (default: true)
-cleanFlag = !args.includes("--no-clean")
+cleanFlag = args.includes("--clean")
 mainLog("Clean set to "+chalk.bold(cleanFlag))
 
 //import packages
