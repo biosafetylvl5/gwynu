@@ -1,4 +1,11 @@
-﻿<!doctype html><html><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>GWYNU &#9897; Archiving</title><style>.table-of-contents ol { counter-reset: list-item; }
+﻿<!doctype html>
+<html>
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>GWYNU &#9897; Archiving</title>
+    <style>
+    .table-of-contents ol { counter-reset: list-item; }
     .table-of-contents li { display: block; counter-increment: list-item; }
     .table-of-contents li:before { content: counters(list-item,'.') ' '; }
 /*
@@ -104,7 +111,20 @@ School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 	    width: 300px;
 	    max-width: 80%;
 	    display: inline;
-    }</style></head><body><div class=content><h1 id=archiving>Archiving</h1><p>In Winter of 2019, I was reading Everywhere Archives, Transgendering, Trans Asians, and the Internet which used a youtube video by “Zach” as one of it’s focal points. Ironically enough, the piece with “Archives” in it’s name referenced a youtube video that was no longer up. I was curious, so I went to see if I could find it. Alas, I could find it nowhere. Not <a href=http://archive.org>archive.org</a>, not r/datahoarder, not even sketchy youtube dumps. Online content is rapidly undergoing <a href=https://www.gwern.net/Archiving-URLs#link-rot>link rot</a> and queer media is especially at risk.</p><figure><img src=./archives/the-missing-youtube-video-citation.png alt=""><figcaption>The original citation in <em>EVERYWHERE ARCHIVES: Transgendering, Trans Asians, and the Internet</em></figcaption></figure><nav class=table-of-contents><ol><li><a href=#archived-content>Archived Content</a><ol><li><a href=#queer-websites>Queer Websites</a></li><li><a href=#reddit>Reddit</a></li><li><a href=#youtube>Youtube</a></li></ol></li><li><a href=#software-backend>Software Backend</a><ol><li><a href=#redditpostarchiver>redditPostArchiver</a></li><li><a href=#wget>wget</a></li><li><a href=#wpull>wpull</a><ol><li><a href=#recursive-website-archiving>Recursive Website Archiving</a></li><li><a href=#installation>Installation</a></li></ol></li><li><a href=#youtube-dl-%26-youtube-comment-scraper>youtube-dl &amp; youtube-comment-scraper</a></li></ol></li></ol></nav><h2 id=archived-content>Archived Content</h2><h3 id=queer-websites>Queer Websites</h3><p>I archived <a href="https://www.susans.org/wiki/index.php?title=Main_Page&amp;oldid=17026">Susan’s Places’ wiki</a> on May 14th, 2020. The archive can be found [here on <a href=http://archive.org>archive.org</a>](TODO: ADD THIS).</p><h3 id=reddit>Reddit</h3><p>I’m archiving the following subreddits monthly with <a href=#redditpostarchiver>my fork of redditPostArchiver</a>:</p><pre><code class=language-text>asktransgender
+    }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+        <h1 id="archiving">Archiving</h1>
+<p>In Winter of 2019, I was reading Everywhere Archives, Transgendering, Trans Asians, and the Internet which used a youtube video by “Zach” as one of it’s focal points. Ironically enough, the piece with “Archives” in it’s name referenced a youtube video that was no longer up. I was curious, so I went to see if I could find it. Alas, I could find it nowhere. Not <a href="http://archive.org">archive.org</a>, not r/datahoarder, not even sketchy youtube dumps. Online content is rapidly undergoing <a href="https://www.gwern.net/Archiving-URLs#link-rot">link rot</a> and queer media is especially at risk.</p>
+<figure><img src="./archives/the-missing-youtube-video-citation.png" alt=""><figcaption>The original citation in <em>EVERYWHERE ARCHIVES: Transgendering, Trans Asians, and the Internet</em></figcaption></figure>
+<nav class="table-of-contents"><ol><li><a href="#archived-content">Archived Content</a><ol><li><a href="#queer-websites">Queer Websites</a></li><li><a href="#reddit">Reddit</a></li><li><a href="#youtube">Youtube</a></li></ol></li><li><a href="#software-backend">Software Backend</a><ol><li><a href="#redditpostarchiver">redditPostArchiver</a></li><li><a href="#wget">wget</a></li><li><a href="#wpull">wpull</a><ol><li><a href="#recursive-website-archiving">Recursive Website Archiving</a></li><li><a href="#installation">Installation</a></li></ol></li><li><a href="#youtube-dl-%26-youtube-comment-scraper">youtube-dl &amp; youtube-comment-scraper</a></li></ol></li></ol></nav><h2 id="archived-content">Archived Content</h2>
+<h3 id="queer-websites">Queer Websites</h3>
+<p>I archived <a href="https://www.susans.org/wiki/index.php?title=Main_Page&amp;oldid=17026">Susan’s Places’ wiki</a> on May 14th, 2020. The archive can be found [here on <a href="http://archive.org">archive.org</a>](TODO: ADD THIS).</p>
+<h3 id="reddit">Reddit</h3>
+<p>I’m archiving the following subreddits monthly with <a href="#redditpostarchiver">my fork of redditPostArchiver</a>:</p>
+<pre><code class="language-text">asktransgender
 lgbt
 TraaButOnlyBees
 traaaaaaannnnnnnnnns
@@ -134,49 +154,71 @@ transvoice
 transytalk
 wlw_irl
 
-</code></pre><p>I’m currently working on a way to share these, but the files are a bit large to server via this webserver (asktransgender (text only) is ~2.4Gb which is only cut in ~half (to 862Mb) with compression). For now, please contact me if you’d like a copy.</p><h3 id=youtube>Youtube</h3><h2 id=software-backend>Software Backend</h2><h3 id=redditpostarchiver>redditPostArchiver</h3><p><a href=https://github.com/pl77/redditPostArchiver>redditPostArchiver</a> is written in python and supports downloading reddit subreddits to a local database file. Originally written by GitHub user <a href=https://github.com/pl77>pl77</a>, it worked but needed some updating to work on python 3.8. It also needed some other work (bug fixing, error handling, probably some logging and a quiet mode). I’m working on that in my forked repository <a href=https://github.com/biosafetylvl5/redditPostArchiver>here</a>. The last original commit by pl77 was in 2018, so I am not hopeful that they will continue to maintain it.</p><h3 id=wget>wget</h3><p>Misconfiguring your crawler is a setup for disaster! As a particurally salient example, I need only point at the first website I tried to mirror which resulted in a <em><strong>22GB Log File</strong></em>:</p><pre><code class=language-bash>.../websites/susans.org &gt;&gt;&gt; du -sh ./*                                    
+</code></pre>
+<p>I’m currently working on a way to share these, but the files are a bit large to server via this webserver (asktransgender (text only) is ~2.4Gb which is only cut in ~half (to 862Mb) with compression). For now, please contact me if you’d like a copy.</p>
+<h3 id="youtube">Youtube</h3>
+<h2 id="software-backend">Software Backend</h2>
+<h3 id="redditpostarchiver">redditPostArchiver</h3>
+<p><a href="https://github.com/pl77/redditPostArchiver">redditPostArchiver</a> is written in python and supports downloading reddit subreddits to a local database file. Originally written by GitHub user <a href="https://github.com/pl77">pl77</a>, it worked but needed some updating to work on python 3.8. It also needed some other work (bug fixing, error handling, probably some logging and a quiet mode). I’m working on that in my forked repository <a href="https://github.com/biosafetylvl5/redditPostArchiver">here</a>. The last original commit by pl77 was in 2018, so I am not hopeful that they will continue to maintain it.</p>
+<h3 id="wget">wget</h3>
+<p>Misconfiguring your crawler is a setup for disaster! As a particurally salient example, I need only point at the first website I tried to mirror which resulted in a <em><strong>22GB Log File</strong></em>:</p>
+<pre><code class="language-bash">.../websites/susans.org &gt;&gt;&gt; du -sh ./*                                    
 4.0K	./backup.sh
 45M	./warcfile.cdx
 3.8G	./warcfile.warc.gz
 172M	./wget.log
 22G	./wget.rejection.log
 19G	./www.susans.org
-</code></pre><h3 id=wpull>wpull</h3><blockquote><p>Wpull is a Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler. <a href=https://github.com/ArchiveTeam/wpull>wpull</a></p></blockquote><p>wpull is cool! But I quickly realized it was a bit too unstable for archival use.</p><h4 id=recursive-website-archiving>Recursive Website Archiving</h4><p>I briefly used the following command to recursively archive mediawikis:</p><pre><code class=language-bash>wpull https://www.susans.org/wiki/Main_Page \
+</code></pre>
+<h3 id="wpull">wpull</h3>
+<blockquote>
+<p>Wpull is a Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler. <a href="https://github.com/ArchiveTeam/wpull">wpull</a></p>
+</blockquote>
+<p>wpull is cool! But I quickly realized it was a bit too unstable for archival use.</p>
+<h4 id="recursive-website-archiving">Recursive Website Archiving</h4>
+<p>I briefly used the following command to recursively archive mediawikis:</p>
+<pre><code class="language-bash">wpull https://www.susans.org/wiki/Main_Page \
     --warc-move susans-wiki \
     --warc-file susans-wiki --no-check-certificate \
-    --no-robots --user-agent <span class=hljs-string>"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"</span> \
-    --<span class=hljs-built_in>wait</span> 0.5 --random-wait --waitretry 600 \
+    --no-robots --user-agent <span class="hljs-string">"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"</span> \
+    --<span class="hljs-built_in">wait</span> 0.5 --random-wait --waitretry 600 \
     --page-requisites --page-requisites-level 1 --recursive --level inf \
     --escaped-fragment --strip-session-id --sitemaps \
-    --reject-regex <span class=hljs-string>"Template:|Skin:|Skins:|User:|Special:|User_talk:|index\.php|\/extensions\/|\/skins\/"</span> \
-    --accept-regex <span class=hljs-string>"\/wiki\/"</span> \
+    --reject-regex <span class="hljs-string">"Template:|Skin:|Skins:|User:|Special:|User_talk:|index\.php|\/extensions\/|\/skins\/"</span> \
+    --accept-regex <span class="hljs-string">"\/wiki\/"</span> \
     --tries 3 --retry-connrefused --retry-dns-error \
     --timeout 60 --session-timeout 21600 \
     --database susans-wiki.db \
     --output-file susans-wiki.log \
     -v --server-response
-</code></pre><p>With <a href=www.susans.org/wiki/Main_Page>Susan’s Place’s wiki</a> as the given example.</p><h4 id=installation>Installation</h4><p>I had quite the time installing <a href=https://github.com/ArchiveTeam/wpull>wpull</a>. The following finnaly worked:</p><pre><code class=language-bash>sudo pacman -S openssl openssl-1.0 python-pyopenssl python2-pyopenssl pyen
+</code></pre>
+<p>With <a href="www.susans.org/wiki/Main_Page">Susan’s Place’s wiki</a> as the given example.</p>
+<h4 id="installation">Installation</h4>
+<p>I had quite the time installing <a href="https://github.com/ArchiveTeam/wpull">wpull</a>. The following finnaly worked:</p>
+<pre><code class="language-bash">sudo pacman -S openssl openssl-1.0 python-pyopenssl python2-pyopenssl pyen
 
-<span class=hljs-comment># start up pyenv, add to startup for the future</span>
+<span class="hljs-comment"># start up pyenv, add to startup for the future</span>
 pyenv init &gt;&gt; ~/.zshrc                                                                                                                                                                                                                    
-<span class=hljs-built_in>eval</span> <span class=hljs-string>"<span class=hljs-subst>$(pyenv init -)</span>"</span>
+<span class="hljs-built_in">eval</span> <span class="hljs-string">"<span class="hljs-subst">$(pyenv init -)</span>"</span>
 
-<span class=hljs-comment># install new python version</span>
+<span class="hljs-comment"># install new python version</span>
 sudo su
-CONFIGURE_OPTS=<span class=hljs-string>"--without-ensurepip"</span> CFLAGS=-I/usr/include/openssl-1.0 \ LDFLAGS=-L/usr/lib64/openssl-1.0 \
-<span class=hljs-comment># the stated version compatible with pull (3.4.3) doesn't work </span>
-<span class=hljs-comment># abc.collections.Generator was introduced in python 3.5</span>
-<span class=hljs-comment># Let's install 3.5.9</span>
+CONFIGURE_OPTS=<span class="hljs-string">"--without-ensurepip"</span> CFLAGS=-I/usr/include/openssl-1.0 \ LDFLAGS=-L/usr/lib64/openssl-1.0 \
+<span class="hljs-comment"># the stated version compatible with pull (3.4.3) doesn't work </span>
+<span class="hljs-comment"># abc.collections.Generator was introduced in python 3.5</span>
+<span class="hljs-comment"># Let's install 3.5.9</span>
 pyenv install 3.5.9 
-<span class=hljs-built_in>exit</span> <span class=hljs-comment># exit su :eyes:</span>
+<span class="hljs-built_in">exit</span> <span class="hljs-comment"># exit su :eyes:</span>
 
-<span class=hljs-comment># check things are working</span>
+<span class="hljs-comment"># check things are working</span>
 pyenv shell 3.5.9
-python --version <span class=hljs-comment>#&gt; Python 3.5.9</span>
+python --version <span class="hljs-comment">#&gt; Python 3.5.9</span>
 
-<span class=hljs-comment># download wpull's dependencies</span>
+<span class="hljs-comment"># download wpull's dependencies</span>
 wget https://raw.githubusercontent.com/ArchiveTeam/wpull/develop/requirements.txt    
-</code></pre><p>which (at the time) output:</p><pre><code class=language-text>chardet&gt;=2.0.1,&lt;=2.3
+</code></pre>
+<p>which (at the time) output:</p>
+<pre><code class="language-text">chardet&gt;=2.0.1,&lt;=2.3
 dnspython3==1.12
 html5lib&gt;=0.999,&lt;1.0
 lxml&gt;=3.1.0,&lt;=3.5
@@ -186,28 +228,43 @@ sqlalchemy&gt;=0.9,&lt;=1.0.13
 tornado&gt;=3.2.2,&lt;5.0
 typing&gt;=3.5,&lt;=3.5.1
 yapsy==1.11.223
-</code></pre><pre><code class=language-bash>pip3 install -r requirements.txt
+</code></pre>
+<pre><code class="language-bash">pip3 install -r requirements.txt
 pip3 install html5lib==0.9999999 
 pip3 install wpull
 
-<span class=hljs-comment># reset shell to default python</span>
+<span class="hljs-comment"># reset shell to default python</span>
 pyenv shell system
-</code></pre><p>and then wpull can be run with</p><pre><code class=language-bash>PYENV_VERSION=3.5.9 pyenv <span class=hljs-built_in>exec</span> wpull
-</code></pre><p>I set an alias to make things easy and make my script compatible with other systems:</p><pre><code class=language-bash><span class=hljs-built_in>echo</span> <span class=hljs-string>'alias wpull="PYENV_VERSION=3.5.9 pyenv exec wpull"'</span> &gt;&gt; .bashrc  
-</code></pre><h3 id=youtube-dl-%26-youtube-comment-scraper>youtube-dl &amp; youtube-comment-scraper</h3><p>I archive channels with:</p><pre><code class=language-bash>channelIDs=(0mTlVosk4bQ AiU-KZ_KADY) <span class=hljs-comment># array of youtube video ids</span>
-<span class=hljs-keyword>for</span> channelID <span class=hljs-keyword>in</span> <span class=hljs-string>"<span class=hljs-variable>${channelIDs[@]}</span>"</span>
-<span class=hljs-keyword>do</span>
-	<span class=hljs-built_in>echo</span> <span class=hljs-string>"executing script in directory"</span> <span class=hljs-string>"<span class=hljs-variable>$PWD</span>"</span> <span class=hljs-string>"downloading channel"</span> <span class=hljs-string>"<span class=hljs-variable>$channelID</span>"</span>
-	youtube-dl --download-archive <span class=hljs-string>"archive.log"</span> -i --add-metadata --all-subs --embed-subs --write-all-thumbnails --write-auto-sub --all-subs --embed-thumbnail --write-annotations --write-info-json -f <span class=hljs-string>"(bestvideo[vcodec^=av01][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=1080][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=1080]/bestvideo[vcodec=vp9.2][height&gt;=1080]/bestvideo[vcodec=vp9][height&gt;=1080]/bestvideo[height&gt;=1080]/bestvideo[vcodec^=av01][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=720][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=720]/bestvideo[vcodec=vp9.2][height&gt;=720]/bestvideo[vcodec=vp9][height&gt;=720]/bestvideo[height&gt;=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best"</span> --merge-output-format mkv -o <span class=hljs-string>"<span class=hljs-variable>$PWD</span>/%(channel)s - %(channel_id)s/%(upload_date)s - %(title)s - %(id)s/%(upload_date)s - %(title)s - %(id)s.%(ext)s"</span> <span class=hljs-string>"https://www.youtube.com/channel/<span class=hljs-variable>$channelID</span>"</span>
-</code></pre><p>and individual videos with:</p><pre><code class=language-bash>videoIDs=(0mTlVosk4bQ AiU-KZ_KADY) <span class=hljs-comment># array of youtube video ids</span>
-<span class=hljs-keyword>for</span> videoID <span class=hljs-keyword>in</span> <span class=hljs-string>"<span class=hljs-variable>${videoIDs[@]}</span>"</span>
-<span class=hljs-keyword>do</span>
-	<span class=hljs-built_in>echo</span> <span class=hljs-string>"executing script in directory"</span> <span class=hljs-string>"<span class=hljs-variable>$PWD</span>"</span> <span class=hljs-string>"downloading video"</span> <span class=hljs-string>"<span class=hljs-variable>$videoID</span>"</span>
-	youtube-dl --download-archive <span class=hljs-string>"archive.log"</span> -i --add-metadata --all-subs --embed-subs --write-all-thumbnails --write-auto-sub --all-subs --embed-thumbnail --write-annotations --write-info-json -f <span class=hljs-string>"(bestvideo[vcodec^=av01][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=1080][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=1080]/bestvideo[vcodec=vp9.2][height&gt;=1080]/bestvideo[vcodec=vp9][height&gt;=1080]/bestvideo[height&gt;=1080]/bestvideo[vcodec^=av01][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=720][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=720]/bestvideo[vcodec=vp9.2][height&gt;=720]/bestvideo[vcodec=vp9][height&gt;=720]/bestvideo[height&gt;=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best"</span> --merge-output-format mkv -o <span class=hljs-string>"<span class=hljs-variable>$PWD</span>/%(upload_date)s - %(title)s - %(id)s/%(upload_date)s - %(title)s - %(id)s.%(ext)s"</span> <span class=hljs-string>"https://www.youtube.com/watch?v=<span class=hljs-variable>$videoID</span>"</span>
-	videoDIR=$( find ./ -<span class=hljs-built_in>type</span> d -name <span class=hljs-string>"*<span class=hljs-variable>$videoID</span>"</span> )
-	<span class=hljs-built_in>echo</span> Attempting to write comments to <span class=hljs-string>"<span class=hljs-variable>$videoDIR</span>/comments.json"</span>
-	youtube-comment-scraper -o <span class=hljs-string>"<span class=hljs-variable>$videoDIR</span>/comments.json"</span> -f json <span class=hljs-string>"<span class=hljs-variable>$videoID</span>"</span>
-	<span class=hljs-built_in>echo</span> Done with <span class=hljs-variable>$videoID</span>
-<span class=hljs-keyword>done</span>
+</code></pre>
+<p>and then wpull can be run with</p>
+<pre><code class="language-bash">PYENV_VERSION=3.5.9 pyenv <span class="hljs-built_in">exec</span> wpull
+</code></pre>
+<p>I set an alias to make things easy and make my script compatible with other systems:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">echo</span> <span class="hljs-string">'alias wpull="PYENV_VERSION=3.5.9 pyenv exec wpull"'</span> &gt;&gt; .bashrc  
+</code></pre>
+<h3 id="youtube-dl-%26-youtube-comment-scraper">youtube-dl &amp; youtube-comment-scraper</h3>
+<p>I archive channels with:</p>
+<pre><code class="language-bash">channelIDs=(0mTlVosk4bQ AiU-KZ_KADY) <span class="hljs-comment"># array of youtube video ids</span>
+<span class="hljs-keyword">for</span> channelID <span class="hljs-keyword">in</span> <span class="hljs-string">"<span class="hljs-variable">${channelIDs[@]}</span>"</span>
+<span class="hljs-keyword">do</span>
+	<span class="hljs-built_in">echo</span> <span class="hljs-string">"executing script in directory"</span> <span class="hljs-string">"<span class="hljs-variable">$PWD</span>"</span> <span class="hljs-string">"downloading channel"</span> <span class="hljs-string">"<span class="hljs-variable">$channelID</span>"</span>
+	youtube-dl --download-archive <span class="hljs-string">"archive.log"</span> -i --add-metadata --all-subs --embed-subs --write-all-thumbnails --write-auto-sub --all-subs --embed-thumbnail --write-annotations --write-info-json -f <span class="hljs-string">"(bestvideo[vcodec^=av01][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=1080][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=1080]/bestvideo[vcodec=vp9.2][height&gt;=1080]/bestvideo[vcodec=vp9][height&gt;=1080]/bestvideo[height&gt;=1080]/bestvideo[vcodec^=av01][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=720][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=720]/bestvideo[vcodec=vp9.2][height&gt;=720]/bestvideo[vcodec=vp9][height&gt;=720]/bestvideo[height&gt;=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best"</span> --merge-output-format mkv -o <span class="hljs-string">"<span class="hljs-variable">$PWD</span>/%(channel)s - %(channel_id)s/%(upload_date)s - %(title)s - %(id)s/%(upload_date)s - %(title)s - %(id)s.%(ext)s"</span> <span class="hljs-string">"https://www.youtube.com/channel/<span class="hljs-variable">$channelID</span>"</span>
+</code></pre>
+<p>and individual videos with:</p>
+<pre><code class="language-bash">videoIDs=(0mTlVosk4bQ AiU-KZ_KADY) <span class="hljs-comment"># array of youtube video ids</span>
+<span class="hljs-keyword">for</span> videoID <span class="hljs-keyword">in</span> <span class="hljs-string">"<span class="hljs-variable">${videoIDs[@]}</span>"</span>
+<span class="hljs-keyword">do</span>
+	<span class="hljs-built_in">echo</span> <span class="hljs-string">"executing script in directory"</span> <span class="hljs-string">"<span class="hljs-variable">$PWD</span>"</span> <span class="hljs-string">"downloading video"</span> <span class="hljs-string">"<span class="hljs-variable">$videoID</span>"</span>
+	youtube-dl --download-archive <span class="hljs-string">"archive.log"</span> -i --add-metadata --all-subs --embed-subs --write-all-thumbnails --write-auto-sub --all-subs --embed-thumbnail --write-annotations --write-info-json -f <span class="hljs-string">"(bestvideo[vcodec^=av01][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=1080][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=1080]/bestvideo[vcodec=vp9.2][height&gt;=1080]/bestvideo[vcodec=vp9][height&gt;=1080]/bestvideo[height&gt;=1080]/bestvideo[vcodec^=av01][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=720][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=720]/bestvideo[vcodec=vp9.2][height&gt;=720]/bestvideo[vcodec=vp9][height&gt;=720]/bestvideo[height&gt;=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best"</span> --merge-output-format mkv -o <span class="hljs-string">"<span class="hljs-variable">$PWD</span>/%(upload_date)s - %(title)s - %(id)s/%(upload_date)s - %(title)s - %(id)s.%(ext)s"</span> <span class="hljs-string">"https://www.youtube.com/watch?v=<span class="hljs-variable">$videoID</span>"</span>
+	videoDIR=$( find ./ -<span class="hljs-built_in">type</span> d -name <span class="hljs-string">"*<span class="hljs-variable">$videoID</span>"</span> )
+	<span class="hljs-built_in">echo</span> Attempting to write comments to <span class="hljs-string">"<span class="hljs-variable">$videoDIR</span>/comments.json"</span>
+	youtube-comment-scraper -o <span class="hljs-string">"<span class="hljs-variable">$videoDIR</span>/comments.json"</span> -f json <span class="hljs-string">"<span class="hljs-variable">$videoID</span>"</span>
+	<span class="hljs-built_in">echo</span> Done with <span class="hljs-variable">$videoID</span>
+<span class="hljs-keyword">done</span>
 
-</code></pre><p>See <a href=https://www.reddit.com/r/DataHoarder/comments/c6fh4x/after_hoarding_over_50k_youtube_videos_here_is/ >this reddit post</a> for inspiration.</p></div></body></html>
+</code></pre>
+<p>See <a href="https://www.reddit.com/r/DataHoarder/comments/c6fh4x/after_hoarding_over_50k_youtube_videos_here_is/">this reddit post</a> for inspiration.</p>
+
+    </div>
+  <script src='http://localhost:35729/livereload.js'></script></body>
+</html>

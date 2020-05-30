@@ -1,0 +1,369 @@
+﻿<!doctype html>
+<html>
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>GWYNU &#9897; Exonuclease T Literature Review</title>
+    <style>
+    .table-of-contents ol { counter-reset: list-item; }
+    .table-of-contents li { display: block; counter-increment: list-item; }
+    .table-of-contents li:before { content: counters(list-item,'.') ' '; }
+/*
+modified from:
+School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+        pre {
+             overflow-x: auto;
+             white-space: pre-wrap;
+             word-wrap: break-word;
+        }
+	code{
+		width: 95%;
+		margin: 0 auto;
+		display: block;
+		word-wrap: break-word;
+	}
+	.hljs-keyword,
+	.hljs-selector-tag,
+	.hljs-literal {
+		  color:#005599;
+		    font-weight:bold;
+	}
+
+	.hljs,
+	.hljs-subst {
+		  color: #3e5915;
+	}
+
+	.hljs-string,
+	.hljs-title,
+	.hljs-section,
+	.hljs-type,
+	.hljs-symbol,
+	.hljs-bullet,
+	.hljs-attribute,
+	.hljs-built_in,
+	.hljs-builtin-name,
+	.hljs-addition,
+	.hljs-variable,
+	.hljs-template-tag,
+	.hljs-template-variable,
+	.hljs-link {
+		  color: #2c009f;
+	}
+
+	.hljs-comment,
+	.hljs-quote,
+	.hljs-deletion,
+	.hljs-meta {
+		  color: #e60415;
+	}
+
+	.hljs-keyword,
+	.hljs-selector-tag,
+	.hljs-literal,
+	.hljs-doctag,
+	.hljs-title,
+	.hljs-section,
+	.hljs-type,
+	.hljs-name,
+	.hljs-selector-id,
+	.hljs-strong {
+		  font-weight: bold;
+	}
+
+	.hljs-emphasis {
+		  font-style: italic;
+	}
+
+
+    body {
+	font-family: Georgia, serif;
+        height:100%;
+        width:100%;
+    }
+    img{
+        max-width: 80%;
+        margin: 0 auto;
+        display:block;
+    }
+    .content{
+	font-size: 24px;
+        width:65%;
+        margin: 0 auto;
+    }
+    .keyword {
+        font-variant: small-caps;
+        font-weight: bold;
+    }
+    table{
+        margin: 0 auto;
+    }
+    .outlined-block{
+	    border: 1px dashed gray;
+    }
+    .medium-images{
+	    margin: 0 auto;
+	    text-align: center;
+    }
+    .medium-images img{
+	    width: 300px;
+	    max-width: 80%;
+	    display: inline;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+        <h1 id="exonuclease-t-literature-review">Exonuclease T Literature Review</h1>
+<p><strong>[introduction//motivation//goals]</strong></p>
+<nav class="table-of-contents"><ol><li><a href="#overview">Overview</a></li><li><a href="#methodology">Methodology</a></li><li><a href="#papers">Papers</a><ol><li><a href="#dual-expression-of-cca-adding-enzyme-and-rnase-t-in-escherichia-coli-generates-a-distinct-cca-growth-phenotype-with-diverse-applications-(2019)">Dual expression of CCA-adding enzyme and RNase T in Escherichia coli generates a distinct cca growth phenotype with diverse applications (2019)</a></li><li><a href="#examining-trna-3%E2%80%B2-ends-in-escherichia-coli%3A-teamwork-between-cca-adding-enzyme%2C-rnase-t%2C-and-rnase-r">Examining tRNA 3′-ends in Escherichia coli: teamwork between CCA-adding enzyme, RNase T, and RNase R</a></li><li><a href="#endonucleolytic-cleavages-by-rnase-e-generate-the-mature-3%E2%80%B2-termini-of-the-three-proline-trnas-in-escherichia-coli">Endonucleolytic cleavages by RNase E generate the mature 3′ termini of the three proline tRNAs in Escherichia coli</a></li><li><a href="#the-cutting-edges-in-dna-repair%2C-licensing%2C-and-fidelity%3A-dna-and-rna-repair-nucleases-sculpt-dna-to-measure-twice%2C-cut-once">The cutting edges in DNA repair, licensing, and fidelity: DNA and RNA repair nucleases sculpt DNA to measure twice, cut once</a></li><li><a href="#mycobacterium-tuberculosis-rv2179c-protein-establishes-a-new-exoribonuclease-family-with-broad-phylogenetic-distribution">Mycobacterium tuberculosis Rv2179c Protein Establishes a New Exoribonuclease Family with Broad Phylogenetic Distribution</a></li><li><a href="#deregulation-of-poly(a)-polymerase-i-in-escherichia-coli-inhibits-protein-synthesis-and-leads-to-cell-death">Deregulation of poly(A) polymerase I in Escherichia coli inhibits protein synthesis and leads to cell death</a></li><li><a href="#gateway-role-for-rrna-precursors-in-ribosome-assembly">Gateway Role for rRNA Precursors in Ribosome Assembly</a></li><li><a href="#role-of-precursor-sequences-in-the-ordered-maturation-of-e.-coli-23s-ribosomal-rna">Role of precursor sequences in the ordered maturation of E. coli 23S ribosomal RNA</a></li><li><a href="#processing-of-the-escherichia-coli-leux-trna-transcript%2C-encoding-trnaleu5%2C-requires-either-the-3%E2%80%B2%E2%86%925%E2%80%B2-exoribonuclease-polynucleotide-phosphorylase-or-rnase-p-to-remove-the-rho-independent-transcription-terminator">Processing of the Escherichia coli leuX tRNA transcript, encoding tRNALeu5, requires either the 3′→5′ exoribonuclease polynucleotide phosphorylase or RNase P to remove the Rho-independent transcription terminator</a></li><li><a href="#crystal-structure-of-rnase-t%2C-an-exoribonuclease-involved-in-trna-maturation-and-end-turnover">Crystal Structure of RNase T, an exoribonuclease involved in tRNA maturation and end-turnover</a></li><li><a href="#exoribonuclease-superfamilies%3A-structural-analysis-and-phylogenetic-distribution">Exoribonuclease superfamilies: structural analysis and phylogenetic distribution</a></li><li><a href="#the-dnase-activity-of-rnase-t-and-its-application-to-dna-cloning.">The DNase activity of RNase T and its application to DNA cloning.</a></li><li><a href="#identification-of-rnase-t-as-a-high-copy-suppressor-of-the-uv-sensitivity-associated-with-single-strand-dna-exonuclease-deficiency-in-escherichia-coli.">Identification of RNase T as a high-copy suppressor of the UV sensitivity associated with single-strand DNA exonuclease deficiency in Escherichia coli.</a></li><li><a href="#the-proofreading-domain-of-escherichia-coli-dna-polymerase-i-and-other-dna-and%2For-rna-exonuclease-domains.">The proofreading domain of Escherichia coli DNA polymerase I and other DNA and/or RNA exonuclease domains.</a></li><li><a href="#the-gene-for-the-longest-known-escherichia-coli-protein-is-a-member-of-helicase-superfamily-ii.">The gene for the longest known Escherichia coli protein is a member of helicase superfamily II.</a></li><li><a href="#the-trna-processing-enzyme-rnase-t-is-essential-for-maturation-of-5s-rna.">The tRNA processing enzyme RNase T is essential for maturation of 5S RNA.</a></li><li><a href="#rnase-t-shares-conserved-sequence-motifs-with-dna-proofreading-exonucleases.">RNase T shares conserved sequence motifs with DNA proofreading exonucleases.</a></li><li><a href="#the-presence-of-only-one-of-five-exoribonucleases-is-sufficient-to-support-the-growth-of-escherichia-coli.">The presence of only one of five exoribonucleases is sufficient to support the growth of Escherichia coli.</a></li><li><a href="#rnase-t-affects-escherichia-coli-growth-and-recovery-from-metabolic-stress.">RNase T affects Escherichia coli growth and recovery from metabolic stress.</a></li><li><a href="#localization-of-the-escherichia-coli-rnt-gene-encoding-rnase-t-by-using-a-combination-of-physical-and-genetic-mapping.-(1989)">Localization of the Escherichia coli rnt gene encoding RNase T by using a combination of physical and genetic mapping. (1989)</a></li><li><a href="#rnase-t-is-responsible-for-the-end-turnover-of-trna-in-escherichia-coli.-(1985b)">RNase T is responsible for the end-turnover of tRNA in Escherichia coli. (1985b)</a></li><li><a href="#purification-and-characterization-of-escherichia-coli-rnase-t.-(1985)">Purification and characterization of Escherichia coli RNase T. (1985)</a></li><li><a href="#ribonuclease-t%3A-new-exoribonuclease-possibly-involved-in-end-turnover-of-trna.-(1984)">Ribonuclease T: new exoribonuclease possibly involved in end-turnover of tRNA. (1984)</a></li></ol></li><li><a href="#not-about-exonuclease-t">Not about Exonuclease T</a><ol><li><a href="#trna-nucleotidyltransferase-is-not-essential-for-escherichia-coli-viability.">tRNA nucleotidyltransferase is not essential for Escherichia coli viability.</a></li><li><a href="#novel-exo-t-vaccine-using-polyclonal-cd4%2B-t-cells-armed-with-her2-specific-exosomes-for-her2-positive-breast-cancer">Novel EXO-T vaccine using polyclonal CD4+ T cells armed with HER2-specific exosomes for HER2-positive breast cancer</a></li><li><a href="#in-this-issue">In This Issue</a></li><li><a href="#nucleotide-sequence-of-formylmethionine-trna-from-an-extreme-thermophile%2C-thermus-thermophilus-hb-8">Nucleotide sequence of formylmethionine tRNA from an extreme thermophile, Thermus thermophilus HB 8</a></li><li><a href="#leaving-group-effects-on-the-ribonuclease-t-1--catalyzed-transphosphorylation-of-specific-substrates">Leaving-group effects on the ribonuclease T 1 -catalyzed transphosphorylation of specific substrates</a></li><li><a href="#nucleotide-sequence-complexities%2C-molecular-weights%2C-and-poly(a)-content-of-the-vesicular-stomatitis-virus-mrna-species.">Nucleotide sequence complexities, molecular weights, and poly(A) content of the vesicular stomatitis virus mRNA species.</a></li></ol></li></ol></nav><h2 id="overview">Overview</h2>
+<figure><a href="https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPiBQdXJpZmljYXRpb24gYW5kIGZ1cnRoZXIgY2hhcmFjdGVyaXphdGlvbl1cblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdXG4gIENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdIC0tPiBEW0RldXRzaGVyIDE5ODk6PGJyLz4gTG9jYXRpb24gaW4gRS4gQ29saSBHZW5vbWVdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0"><img src="https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggQlRcblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IEJbRGV1dHNjaGVyIDE5ODVhOiA8YnIvPiBQdXJpZmljYXRpb24gYW5kIGZ1cnRoZXIgY2hhcmFjdGVyaXphdGlvbl1cblx0QVtEZXV0c2NoZXIgMTk4NDogPGJyLz5Jbml0aWFsIERpc2NvdmVyeV0gLS0-IENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdXG4gIENbRGV1dHNjaGVyIDE5ODViOiA8YnIvPiBJZGVudGlmaWNhdGlvbiBvZiBQbGF1c2libGUgQmlvbG9naWNhbCBTaWduaWZpY2FuY2VdIC0tPiBEW0RldXRzaGVyIDE5ODk6PGJyLz4gTG9jYXRpb24gaW4gRS4gQ29saSBHZW5vbWVdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0" alt=""></a></figure>
+<pre><code class="language-uml">graph BT
+	A[Deutscher 1984: &lt;br/&gt;Initial Discovery] --&gt; B[Deutscher 1985a: &lt;br/&gt; Purification and further characterization]
+	A[Deutscher 1984: &lt;br/&gt;Initial Discovery] --&gt; C[Deutscher 1985b: &lt;br/&gt; Identification of Plausible Biological Significance]
+    C[Deutscher 1985b: &lt;br/&gt; Identification of Plausible Biological Significance] --&gt; D[Deutsher 1989:&lt;br/&gt; Location in E. Coli Genome]
+</code></pre>
+<h2 id="methodology">Methodology</h2>
+<p>A PubMed search for various names for Exonuclease T (rnase t, ribonuclease t, exo t, exoribonuclease T and exonuclease T)  in abstracts, titles and section titles of archived papers via a <a href="https://www.ncbi.nlm.nih.gov/pmc/?term=((((((((((((((((((%22exo+T%22%5BAbstract%5D)+OR+%22exoribonuclease+T%22%5BAbstract%5D)+%22exonuclease+T%22%5BAbstract%5D)+OR+%22ribonuclease+t%22%5BAbstract%5D)+OR+%22rnase+t%22%5BAbstract%5D)+OR+%22exo+T%22%5BTitle%5D)+OR+%22exoribonuclease+T%22%5BTitle%5D)+OR+%22ribonuclease+t%22%5BTitle%5D)+OR+%22exonuclease+T%22%5BTitle%5D)+OR+%22rnase+t%22%5BTitle%5D)+OR+%22exo+T%22%5BSection+Title%5D)+OR+%22exoribonuclease+T%22%5BSection+Title%5D)+OR+%22ribonuclease+t%22%5BSection+Title%5D)+OR+%22exonuclease+T%22%5BSection+Title%5D))+OR+%22rnase+t%22%5BSection+Title%5D)+NOT+%22ribonuclease+T1%22)+NOT+%22rnase+T1%22)+NOT+%22TREX1%22">pubmed query</a><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> excluding confounding terms (ribonuclease T1, rnase t1 and TREX1) returned 28 papers on March 10th, 2020. After manual inspection, this pool was reduced to [INSERT # OF USEFUL PAPERS HERE]. Our summaries of these papers can be found here, along with our conclusions on the current state of the literature.</p>
+<figure><a href="https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtcXFB1Yk1lZCBxdWVyeSBmb3IgRXhvbnVjbGVhc2UgVC9dIC0tPnwyOCBQYXBlcnN8IEJbXFxTY3JlZW4gZm9yIFJlbGV2YW5jeS9dO1xuXHRCIC0tPiB8XCIyMyBQYXBlcnMgKG5ldCAtNSlcInwgQ1tcXENpdGF0aW9uIFNlYXJjaC9dIFxuXHRDIC0tPiB8XCIyNCBQYXBlcnMgKG5ldCArMSlcInwgRFtTZWxlY3Rpb24gZm9yIFJldmlld10iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ"><img src="https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtcXFB1Yk1lZCBxdWVyeSBmb3IgRXhvbnVjbGVhc2UgVC9dIC0tPnwyOCBQYXBlcnN8IEJbXFxTY3JlZW4gZm9yIFJlbGV2YW5jeS9dO1xuXHRCIC0tPiB8XCIyMyBQYXBlcnMgKG5ldCAtNSlcInwgQ1tcXENpdGF0aW9uIFNlYXJjaC9dIFxuXHRDIC0tPiB8XCIyNCBQYXBlcnMgKG5ldCArMSlcInwgRFtTZWxlY3Rpb24gZm9yIFJldmlld10iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ" alt=""></a></figure>
+<pre><code class="language-uml">graph TD
+	A[\PubMed query for Exonuclease T/] --&gt;|28 Papers| B[\Screen for Relevancy/];
+	B --&gt; |&quot;23 Papers (net -5)&quot;| C[\Citation Search/] 
+	C --&gt; |&quot;24 Papers (net +1)&quot;| D[Selection for Review]
+</code></pre>
+<h2 id="papers">Papers</h2>
+<p>Review Format:</p>
+<pre><code class="language-markdown"><span class="hljs-section">### Title (Publication Date)</span>
+Author(s):
+
+[summary // commentary // data // etc.]
+
+{doi("10-1093--nar--gkz133")} (with two curly brackets)
+
+{pmid("PMC6468291")}
+</code></pre>
+<h3 id="dual-expression-of-cca-adding-enzyme-and-rnase-t-in-escherichia-coli-generates-a-distinct-cca-growth-phenotype-with-diverse-applications-(2019)">Dual expression of CCA-adding enzyme and RNase T in Escherichia coli generates a distinct cca growth phenotype with diverse applications (2019)</h3>
+<p><strong>Authors:</strong> Karolin Wellner, Marie-Theres Pöhler, Heike Betat, Mario Mörl  <strong>Reviewer</strong>: Gwyn</p>
+<p><a href="https://doi.org/10.1093/nar/gkz133">10.1093/nar/gkz133</a> <a href="https://sci-hub.tw/10.1093/nar/gkz133">𝕊</a></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pubmed/PMC6468291">PMID: PMC6468291</a></p>
+<h3 id="examining-trna-3%E2%80%B2-ends-in-escherichia-coli%3A-teamwork-between-cca-adding-enzyme%2C-rnase-t%2C-and-rnase-r">Examining tRNA 3′-ends in Escherichia coli: teamwork between CCA-adding enzyme, RNase T, and RNase R</h3>
+<p>Karolin Wellner, Andreas Czech, Zoya Ignatova, Heike Betat, Mario Mörl
+RNA. 2018 Mar; 24(3): 361–370.  doi: 10.1261/rna.064436.117
+PMCID: PMC5824355</p>
+<h3 id="endonucleolytic-cleavages-by-rnase-e-generate-the-mature-3%E2%80%B2-termini-of-the-three-proline-trnas-in-escherichia-coli">Endonucleolytic cleavages by RNase E generate the mature 3′ termini of the three proline tRNAs in Escherichia coli</h3>
+<p>Bijoy K. Mohanty, Jessica R. Petree, Sidney R. Kushner
+Nucleic Acids Res. 2016 Jul 27; 44(13): 6350–6362.  Published online 2016 Jun 10. doi: 10.1093/nar/gkw517
+PMCID: PMC5291269</p>
+<h3 id="the-cutting-edges-in-dna-repair%2C-licensing%2C-and-fidelity%3A-dna-and-rna-repair-nucleases-sculpt-dna-to-measure-twice%2C-cut-once">The cutting edges in DNA repair, licensing, and fidelity: DNA and RNA repair nucleases sculpt DNA to measure twice, cut once</h3>
+<p>Susan E. Tsutakawa, Julien Lafrance-Vanasse, John A. Tainer
+DNA Repair (Amst) Author manuscript; available in PMC 2015 Jul 1.Published in final edited form as: DNA Repair (Amst). 2014 Jul; 19: 95–107. Published online 2014 Apr 19.  doi: 10.1016/j.dnarep.2014.03.022
+PMCID: PMC4051888</p>
+<h3 id="mycobacterium-tuberculosis-rv2179c-protein-establishes-a-new-exoribonuclease-family-with-broad-phylogenetic-distribution">Mycobacterium tuberculosis Rv2179c Protein Establishes a New Exoribonuclease Family with Broad Phylogenetic Distribution</h3>
+<p>Jan Abendroth, Anja Ollodart, Emma S. V. Andrews, Peter J. Myler, Bart L. Staker, Thomas E. Edwards, Vickery L. Arcus, Christoph Grundner
+J Biol Chem. 2014 Jan 24; 289(4): 2139–2147.  Published online 2013 Dec 4. doi: 10.1074/jbc.M113.525683
+PMCID: PMC3900960</p>
+<h3 id="deregulation-of-poly(a)-polymerase-i-in-escherichia-coli-inhibits-protein-synthesis-and-leads-to-cell-death">Deregulation of poly(A) polymerase I in Escherichia coli inhibits protein synthesis and leads to cell death</h3>
+<p>Bijoy K. Mohanty, Sidney R. Kushner
+Nucleic Acids Res. 2013 Feb; 41(3): 1757–1766.  Published online 2012 Dec 14. doi: 10.1093/nar/gks1280
+PMCID: PMC3561954</p>
+<h3 id="gateway-role-for-rrna-precursors-in-ribosome-assembly">Gateway Role for rRNA Precursors in Ribosome Assembly</h3>
+<p>Nancy S. Gutgsell, Chaitanya Jain
+J Bacteriol. 2012 Dec; 194(24): 6875–6882.  doi: 10.1128/JB.01467-12
+PMCID: PMC3510557</p>
+<h3 id="role-of-precursor-sequences-in-the-ordered-maturation-of-e.-coli-23s-ribosomal-rna">Role of precursor sequences in the ordered maturation of E. coli 23S ribosomal RNA</h3>
+<p>Nancy S. Gutgsell, Chaitanya Jain
+RNA. 2012 Feb; 18(2): 345–353.  doi: 10.1261/rna.027854.111
+PMCID: PMC3264920</p>
+<h3 id="processing-of-the-escherichia-coli-leux-trna-transcript%2C-encoding-trnaleu5%2C-requires-either-the-3%E2%80%B2%E2%86%925%E2%80%B2-exoribonuclease-polynucleotide-phosphorylase-or-rnase-p-to-remove-the-rho-independent-transcription-terminator">Processing of the Escherichia coli leuX tRNA transcript, encoding tRNALeu5, requires either the 3′→5′ exoribonuclease polynucleotide phosphorylase or RNase P to remove the Rho-independent transcription terminator</h3>
+<p>Bijoy K. Mohanty, Sidney R. Kushner
+Nucleic Acids Res. 2010 Jan; 38(2): 597–607.  Published online 2009 Nov 11. doi: 10.1093/nar/gkp997
+PMCID: PMC2811032</p>
+<h3 id="crystal-structure-of-rnase-t%2C-an-exoribonuclease-involved-in-trna-maturation-and-end-turnover">Crystal Structure of RNase T, an exoribonuclease involved in tRNA maturation and end-turnover</h3>
+<p>Yuhong Zuo, Heping Zheng, Yong Wang, Maksymilian Chruszcz, Marcin Cymborowski, Tatiana Skarina, Alexei Savchenko, Arun Malhotra, Wladek Minor
+Structure. Author manuscript; available in PMC 2008 Apr 1.Published in final edited form as: Structure. 2007 Apr; 15(4): 417–428.  doi: 10.1016/j.str.2007.02.004
+PMCID: PMC1907377</p>
+<h3 id="exoribonuclease-superfamilies%3A-structural-analysis-and-phylogenetic-distribution">Exoribonuclease superfamilies: structural analysis and phylogenetic distribution</h3>
+<p>Yuhong Zuo, Murray
+P. Deutscher
+Nucleic Acids Res. 2001 Mar 1; 29(5): 1017–1026.  doi: 10.1093/nar/29.5.1017
+PMCID: PMC56904</p>
+<h3 id="the-dnase-activity-of-rnase-t-and-its-application-to-dna-cloning.">The DNase activity of RNase T and its application to DNA cloning.</h3>
+<p>Y Zuo, M P Deutscher
+Nucleic Acids Res. 1999 Oct 15; 27(20): 4077–4082.  doi: 10.1093/nar/27.20.4077
+PMCID: PMC148676</p>
+<h3 id="identification-of-rnase-t-as-a-high-copy-suppressor-of-the-uv-sensitivity-associated-with-single-strand-dna-exonuclease-deficiency-in-escherichia-coli.">Identification of RNase T as a high-copy suppressor of the UV sensitivity associated with single-strand DNA exonuclease deficiency in Escherichia coli.</h3>
+<p>M Viswanathan, A Lanjuin, S T Lovett
+Genetics. 1999 Mar; 151(3): 929–934.<br>
+PMCID: PMC1460521</p>
+<h3 id="the-proofreading-domain-of-escherichia-coli-dna-polymerase-i-and-other-dna-and%2For-rna-exonuclease-domains.">The proofreading domain of Escherichia coli DNA polymerase I and other DNA and/or RNA exonuclease domains.</h3>
+<p>M J Moser, W R Holley, A Chatterjee, I S Mian
+Nucleic Acids Res. 1997 Dec 15; 25(24): 5110–5118.  doi: 10.1093/nar/25.24.5110
+PMCID: PMC147149</p>
+<h3 id="the-gene-for-the-longest-known-escherichia-coli-protein-is-a-member-of-helicase-superfamily-ii.">The gene for the longest known Escherichia coli protein is a member of helicase superfamily II.</h3>
+<p>N B Reuven, E V Koonin, K E Rudd, M P Deutscher
+J Bacteriol. 1995 Oct; 177(19): 5393–5400.  doi: 10.1128/jb.177.19.5393-5400.1995
+PMCID: PMC177343</p>
+<h3 id="the-trna-processing-enzyme-rnase-t-is-essential-for-maturation-of-5s-rna.">The tRNA processing enzyme RNase T is essential for maturation of 5S RNA.</h3>
+<p>Z Li, M P Deutscher
+Proc Natl Acad Sci U S A. 1995 Jul 18; 92(15): 6883–6886.  doi: 10.1073/pnas.92.15.6883
+PMCID: PMC41434</p>
+<h3 id="rnase-t-shares-conserved-sequence-motifs-with-dna-proofreading-exonucleases.">RNase T shares conserved sequence motifs with DNA proofreading exonucleases.</h3>
+<p>E V Koonin, M P Deutscher
+Nucleic Acids Res. 1993 May 25; 21(10): 2521–2522.  doi: 10.1093/nar/21.10.2521
+PMCID: PMC309564</p>
+<h3 id="the-presence-of-only-one-of-five-exoribonucleases-is-sufficient-to-support-the-growth-of-escherichia-coli.">The presence of only one of five exoribonucleases is sufficient to support the growth of Escherichia coli.</h3>
+<p>K O Kelly, M P Deutscher
+J Bacteriol. 1992 Oct; 174(20): 6682–6684.  doi: 10.1128/jb.174.20.6682-6684.1992
+PMCID: PMC207653</p>
+<h3 id="rnase-t-affects-escherichia-coli-growth-and-recovery-from-metabolic-stress.">RNase T affects Escherichia coli growth and recovery from metabolic stress.</h3>
+<p>K P Padmanabha, M P Deutscher
+J Bacteriol. 1991 Feb; 173(4): 1376–1381.  doi: 10.1128/jb.173.4.1376-1381.1991
+PMCID: PMC207273</p>
+<h3 id="localization-of-the-escherichia-coli-rnt-gene-encoding-rnase-t-by-using-a-combination-of-physical-and-genetic-mapping.-(1989)">Localization of the Escherichia coli rnt gene encoding RNase T by using a combination of physical and genetic mapping. (1989)</h3>
+<p><strong>Authors:</strong> L M Case, X N Chen, M P Deutscher <strong>Summarized by:</strong> Gwyn <strong>Source:</strong> Pubmed Search</p>
+<p>A locus (<em>rnt</em>) was identified that contains the gene encoding for Exonuclease T in the aim of creating strains truely deficient in Exonuclease T expression.</p>
+<p><a href="https://doi.org/10.1128/jb.171.10.5736$5737.1989">10.1128/jb.171.10.5736-5737.1989</a> <a href="https://sci-hub.tw/10.1128/jb.171.10.5736$5737.1989">𝕊</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC210422/">PMCID: PMC210422</a></p>
+<h3 id="rnase-t-is-responsible-for-the-end-turnover-of-trna-in-escherichia-coli.-(1985b)">RNase T is responsible for the end-turnover of tRNA in Escherichia coli. (1985b)</h3>
+<p><strong>Authors:</strong> M P Deutscher, C W Marlor, R Zaniewski <strong>Summarized by:</strong> Gwyn <strong>Source:</strong> Pubmed Search</p>
+<p>This paper presented evidence to support a hypothesis that Exonuclease T plays a role in RNA turnover by removing terminal adenosine residues. This proccess is counter to the (then) currently understood mechanism of tRNA transferase and results in a (then) yet to be understood cycle of addition and removal: “At first glance, this seems to be a futile cycle.” Double mutants with a deficiancy of both tRNA nucleotidyltransferase and exonuclease T had their growth speed <em>mostly</em> restored.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>tRNA nucleotidyltransferase+</th>
+<th>tRNA nucleotidyltransferase-</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>exot+</td>
+<td>28-30m</td>
+<td>&gt;120m</td>
+</tr>
+<tr>
+<td>exot- (30% activity)</td>
+<td>28-30m</td>
+<td>40m</td>
+</tr>
+</tbody>
+</table>
+<p>Mutant doubling time</p>
+<p><a href="https://doi.org/10.1073/pnas.82.19.6427">10.1073/pnas.82.19.6427</a> <a href="https://sci-hub.tw/10.1073/pnas.82.19.6427">𝕊</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC390729/">PMCID: PMC390729</a></p>
+<h3 id="purification-and-characterization-of-escherichia-coli-rnase-t.-(1985)">Purification and characterization of Escherichia coli RNase T. (1985)</h3>
+<p><strong>Authors:</strong> M P Deutscher, C W Marlor <strong>Summarized by:</strong> Gwyn <strong>Source:</strong> Citation</p>
+<p>This paper purified Exonuclease T and did more characterization <em>in vitro</em>.</p>
+<p>It was newly found that Exonuclease T:</p>
+<ul>
+<li>is an $alpha_2$ dimer with a monomer weight of 25kDa</li>
+<li>has a $K_m$ of 14$\mu$M for total tRNA which was notably low for an enzyme that binds DNA during catalysis</li>
+<li>exclusively hydrolyses the 3’ end and does not act on the 5’ end of RNA</li>
+<li>is extremely sensitive to:
+<ul>
+<li>oxidation:
+<ul>
+<li>“we repeatedly observed loss of enzyme activity which could be reversed almost completely by incubation with the reducing agent. This problem could be eliminated by maintaining RNase T in 10-fold higher levels of dithiothreitol”</li>
+</ul>
+</li>
+<li>sulfhydryl group reagents:
+<ul>
+<li>&quot; agreement with its sensitivity to oxidation (see above), RNase T is also rapidly inactivated by a variety of reagents which react with sulfhydryl groups. In two cases, that of p-hydroxymercuribenzoate andmercuric chloride,the inactivation could be reversed by incubation with high concentrations of dithiothreitol. These data indicate that RNase T contains one or more sulfhydryl groups that are important for the catalytic activity and/or the structure of this enzyme.&quot;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>is mildly sensitive to ionic strengths:
+<ul>
+<li>“Fifty per cent inhibition was observed at 100 mM KCl, and essentially complete inhibition was found at 250 mM KCl.”</li>
+</ul>
+</li>
+<li>maintains 80-90% of activity for at least 6 month when stored at -20C</li>
+<li>is sensitive to dilution, but it’s hypothesized that bovine serum albumin stabilizes this type of inactivation</li>
+<li>acts on tRNA-CC at 1% of the rate of tRNA-CCA terminal hydrolysis</li>
+</ul>
+<p>Further, previous attributes of Exonuclease T were characterized more fully:</p>
+<ul>
+<li>in addition to a pH of 8-9 being optimal, Exonuclease T exhibits 50% of optimal activity at pHs of 7.2 and 9.6</li>
+<li>the reported optimal cation concentration was futher elaborated on:
+<ul>
+<li>the optimal Mg2+ concentration changed from 3-10mM to 2-5mM</li>
+<li>the optimal Mn2+ concentration was reported as 1mM</li>
+</ul>
+</li>
+<li>the activity associated with Co2+ at 2-10mM was  found result in 20% of the activity associated with optimal Mg2+ concentration</li>
+<li>it was found that Cu2+, Zn2+, Ba2+, Ca2+, CdZ+, and Hg2+ displayed no activity at either 1 or 5 mM</li>
+<li>the temperature sensitivity was further quantified
+<ul>
+<li>&quot;RNase T is extremely sensitive to temperature inactivation, losing as much as 80% of its activity in a 5-min preincubation in buffer A at 37 “C, and 90% in 20 min at this temperature. The presence of 1 M KC1 could protect theenzyme against this inactivation, with only 15% of RNase T activity being lost in 5min under these conditions and 25% in 20 min. tRNA also afforded some protection with a loss of 35% of the activity in 5 min, although by 20 min RNaseT was 85% inactivated.”</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://www.ncbi.nlm.nih.gov/pubmed/3888994">PMID: 3888994</a> (no associated DOI)</p>
+<h3 id="ribonuclease-t%3A-new-exoribonuclease-possibly-involved-in-end-turnover-of-trna.-(1984)">Ribonuclease T: new exoribonuclease possibly involved in end-turnover of tRNA. (1984)</h3>
+<p><strong>Authors:</strong> M P Deutscher, C W Marlor, R Zaniewski <strong>Summarized by:</strong> Gwyn <strong>Source:</strong> Pubmed Search</p>
+<p>This paper discovered the existence of  Exonuclease T in <em>E. coli</em> and named it “RNAse T” at the time because of it’s (then hypothesized) role in tRNA turnover.</p>
+<p>It was found that, with a base substrate of tRNA-CCA, Exonuclease T:</p>
+<ul>
+<li>is an exonuclease that acts on tRNA</li>
+<li>had a pH optimum in the range of pH 8-9</li>
+<li>required Mg2+, Mn2+, or Co2+ with Mg2+ in the range of 3-10mM being best.</li>
+<li>is strongly inhibited by salts at ionic strengths in excess of
+50 mM</li>
+<li>is very sensitive to heat inactivation, losing half of its activity in 7 min at 45C</li>
+<li>digests in a random fashion</li>
+<li>initiated attack at the 3’ terminus, requiring a free 3’ hydroxyl group</li>
+<li>exhibited substrate sensitivity with:
+<ul>
+<li>CTP cleavage 10% of that of ATP</li>
+<li>UTP cleavage was much slower than that of ATP</li>
+<li>Both tRNA-CC and tRNA-CCACC demonstrating reduced acitivity relative to tRNA-CCA</li>
+</ul>
+</li>
+<li>it was found that Poly(A) was inactive as a substrate</li>
+</ul>
+<p><a href="https://doi.org/10.1073/pnas.81.14.4290">10.1073/pnas.81.14.4290</a> <a href="https://sci-hub.tw/10.1073/pnas.81.14.4290">𝕊</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC345573/">PMCID: PMC345573</a></p>
+<h2 id="not-about-exonuclease-t">Not about Exonuclease T</h2>
+<h3 id="trna-nucleotidyltransferase-is-not-essential-for-escherichia-coli-viability.">tRNA nucleotidyltransferase is not essential for Escherichia coli viability.</h3>
+<p>L Zhu, M P Deutscher
+EMBO J. 1987 Aug; 6(8): 2473–2477.<br>
+PMCID: PMC553656</p>
+<p>Only tangentally mentions Exonuclease T.</p>
+<h3 id="novel-exo-t-vaccine-using-polyclonal-cd4%2B-t-cells-armed-with-her2-specific-exosomes-for-her2-positive-breast-cancer">Novel EXO-T vaccine using polyclonal CD4+ T cells armed with HER2-specific exosomes for HER2-positive breast cancer</h3>
+<p>Rong Li, Rajni Chibbar, Jim Xiang
+Onco Targets Ther. 2018; 11: 7089–7093.  Published online 2018 Oct 17. doi: 10.2147/OTT.S184898
+PMCID: PMC6200095</p>
+<p><strong>Not about Exonuclease T</strong></p>
+<h3 id="in-this-issue">In This Issue</h3>
+<p>Protein Sci. 2015 Dec; 24(12): v.  Published online 2015 Nov 25. doi: 10.1002/pro.2847
+PMCID: PMC4815225</p>
+<p><strong>Not about Exonuclease T</strong></p>
+<h3 id="nucleotide-sequence-of-formylmethionine-trna-from-an-extreme-thermophile%2C-thermus-thermophilus-hb-8">Nucleotide sequence of formylmethionine tRNA from an extreme thermophile, Thermus thermophilus HB 8</h3>
+<p>Kimitsuna Watanabe, Yoshiyuki Kuchino, Ziro Yamaizumi, Mayumi Kato, Tairo Oshima, Susumu Nishimura
+Nucleic Acids Res. 1978 Jul 1; 5(Suppl 2): s473–s478.  doi: 10.1093/nar/1.suppl_2.s473
+PMCID: PMC6581399</p>
+<p><strong>Not about Exonuclease T</strong></p>
+<h3 id="leaving-group-effects-on-the-ribonuclease-t-1--catalyzed-transphosphorylation-of-specific-substrates">Leaving-group effects on the ribonuclease T 1 -catalyzed transphosphorylation of specific substrates</h3>
+<p>Mitsuhiro Itaya, Yasuo Inoue
+Nucleic Acids Res. 1978 Jul 1; 5(Suppl 2): s397–s402.  doi: 10.1093/nar/1.suppl_2.s397
+PMCID: PMC6581318</p>
+<p><strong>Not about Exonuclease T</strong></p>
+<h3 id="nucleotide-sequence-complexities%2C-molecular-weights%2C-and-poly(a)-content-of-the-vesicular-stomatitis-virus-mrna-species.">Nucleotide sequence complexities, molecular weights, and poly(A) content of the vesicular stomatitis virus mRNA species.</h3>
+<p>J K Rose, D Knipe
+J Virol. 1975 Apr; 15(4): 994–1003.<br>
+PMCID: PMC354544</p>
+<p><strong>Not about Exonuclease T</strong></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.ncbi.nlm.nih.gov/pmc/?term=((((((((((((((((((%22exo+T%22%5BAbstract%5D)+OR+%22exoribonuclease+T%22%5BAbstract%5D)+%22exonuclease+T%22%5BAbstract%5D)+OR+%22ribonuclease+t%22%5BAbstract%5D)+OR+%22rnase+t%22%5BAbstract%5D)+OR+%22exo+T%22%5BTitle%5D)+OR+%22exoribonuclease+T%22%5BTitle%5D)+OR+%22ribonuclease+t%22%5BTitle%5D)+OR+%22exonuclease+T%22%5BTitle%5D)+OR+%22rnase+t%22%5BTitle%5D)+OR+%22exo+T%22%5BSection+Title%5D)+OR+%22exoribonuclease+T%22%5BSection+Title%5D)+OR+%22ribonuclease+t%22%5BSection+Title%5D)+OR+%22exonuclease+T%22%5BSection+Title%5D))+OR+%22rnase+t%22%5BSection+Title%5D)+NOT+%22ribonuclease+T1%22)+NOT+%22rnase+T1%22)+NOT+%22TREX1%22">((((((((((((((((((“exo T”[Abstract]) OR “exoribonuclease T”[Abstract]) “exonuclease T”[Abstract]) OR “ribonuclease t”[Abstract]) OR “rnase t”[Abstract]) OR “exo T”[Title]) OR “exoribonuclease T”[Title]) OR “ribonuclease t”[Title]) OR “exonuclease T”[Title]) OR “rnase t”[Title]) OR “exo T”[Section Title]) OR “exoribonuclease T”[Section Title]) OR “ribonuclease t”[Section Title]) OR “exonuclease T”[Section Title])) OR “rnase t”[Section Title]) NOT vaccine) NOT “ribonuclease T1”) NOT “rnase T1”) NOT “TREX1”)</a>) <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+  <script src='http://localhost:35729/livereload.js'></script></body>
+</html>
