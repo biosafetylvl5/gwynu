@@ -44,6 +44,10 @@ On 05/27/2020, I was able to confirm that Alsa1535 binds to estradiol valerate a
 
 ![[How I made this graph](./estradiol/COVID-Era-Work.html)](./estradiol/estradiolValerateTitrationLinearFit.png)
 
+The results *cannot* be in any major part attributed to the absorbtion of estradiol valerate alone:
+
+![[How I made this graph](./estradiol/COVID-Era-Work.html)](./estradiol/estradiol-valerate-abs.png)
+
 
 
 ## BIOME Exploration (Summer 2019-Winter 2020)
