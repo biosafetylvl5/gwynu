@@ -8,6 +8,7 @@ This is a Website.
 Please engage with the following content:
 
 ## Consuming
+ - [Blood](./consuming/blood.html)
  - [Film](./consuming/film.html)
 
 ## Creating

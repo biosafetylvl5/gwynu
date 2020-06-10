@@ -2,14 +2,11 @@
 title: BLOOD
 layout: body.njk
 author: gwyn uttmark
-publish: draft
+publish: public
 ---
 
-# The Blood Bible: A Vampires Guide to Anemia
-
-Right now: THIS IS A DRAFT! 
-
-pls read with that in mind; be kind.
+# Baking with Blood
+<!--The Blood Bible: A Vampires Guide to Anemia-->
 
 <!--
 running notes:
@@ -36,40 +33,24 @@ https://www.reddit.com/r/casualiama/comments/be518l/i_drink_blood_and_rmorbidque
 
 [toc]
 
-> The identity ‘vampire’ means little to nothing to us. However, when we are blood drinkers, the label is impossible to shake – [CJ!, blood-drinker](https://www.bbc.com/future/article/20151021-the-people-who-drink-human-blood)
+> The identity ‘vampire’ means little to nothing to us. However, when we are blood drinkers, the label is impossible to shake – [CJ](https://www.bbc.com/future/article/20151021-the-people-who-drink-human-blood)
 
 ## Introduction
 
-In what started out as an attempt to replicate the [Sanguinaccio Dolce](https://www.youtube.com/watch?v=MgJY0jPspMw) from the TV Show [Hannibal](https://en.wikipedia.org/wiki/Hannibal_(TV_series)), I've learned a lot about cooking with blood and I've done my best to document that. New to me (and to most americans I've talked to) blood has been used in cooking forever, I also have made a small collection of historical / traditional recipies that use blood. In a moment of existential crisis, I thought about the ethics/justification for consuming blood which I also include here. Finaly, I write about sourcing, storage and a botched carbon monoxide treatment.
+In what started out as an attempt to replicate the [Sanguinaccio Dolce](https://www.youtube.com/watch?v=MgJY0jPspMw) depicted in the TV series [Hannibal](https://en.wikipedia.org/wiki/Hannibal_(TV_series)), I've learned a lot about cooking with blood and I've done my best to document that. New to me (and to most americans I've talked to) blood has been used in cooking forever. I write about anemia and iron consumption and how consuming blood-based baked goods might be a better idea that it may initally seem. In a moment of existential crisis, I thought about the ethics/justification for consuming blood which I also include here. I have also assembled a small collection of historical / traditional recipies that use blood. Finaly, I write about sourcing, storage and a botched carbon monoxide treatment.
 
+## Sanguinaccio dolce
 
-## But does it Taste Good?
+> "Sanguinaccio dolce. A classic Neapolitan dessert, with almond milk. Easy on the stomach. 
+> Blood and chocolate. That should've been the subtitle of my book." - Hannibal, The Great Red Dragon [S03E08]
 
-In short, yes. For many of the recipies people couldn't tell they were eating blood. Even when I told them their was a "weird" ingridient, no one has sucessfully guessed blood yet.
+Sanguinnacio dolce is a simple dish, with only four key ingridients: milk, sugar, chocolate and blood. Unsurprisingly, blood is the hardest to aquire now-a-days. It needing to be cooked or frozen quickly after slaughter means that sanguinnacio dolce, a once popular Southern Italian signature dish is now restricted to those with easy access to livestock.
 
-That said, too much blood is *not* a good thing. Especially in baked goods. There was definitely a learning curve to figuring out how much blood each dish could "handle."
+After calling a number of famers, I [managed to aquire](#sourcing) roughly half of a gallon of fresh pigs blood. Starting with a recipie from [Emiko Davies](http://www.emikodavies.com/blog/blood-chocolate-sanguinaccio/), I gave sanguinnacio dolce my first shot. 
 
-> I feel like this bread would taste good if I made bread with way too much blood and then I made this. It would definitely be better than the bread with way too much blood! [Mei-lan]
+It was, I must say, not good. The final result was slightly grainy and had a very iron heavy flavour profile. Working with the blood brought up feelings similar to the first time I cooked with meat, definitly a high "eww" factor.
 
-### The Gross Factor
-
-> "these taste experiments in the field made us reflect on how crucial it is to not forget about all the “normal people” out there. Whether it’s about them having different tastes or a less-strong attraction to the new and unusual compared to the people in our immediate surroundings is a big question worth thinking about. What is usual here at the Lab is often weird and disgusting for many folks out there. Doing what we do is exciting and fun, at times both dippy and inspiring – but if we fail to reach out and convince others unlike us to at least give some of these foods a try, what is the point in the long run?" - [A side of bee larva with your afternoon coffee?](https://web.archive.org/web/20200419022305/http://nordicfoodlab.org/blog/2014/2/a-side-of-bee-larva-with-your-afternoon-coffee) by Edith Salminen at Nordic Food Labs
-
-Similar to the first few times I handled raw meat, my initial encountors working with blood were slightly nauseating. That feeling quickly faded, but elephant in the room can't be ignored. The Gross Factor(tm) is definitely something that was on the mind of many of my recipie and taste testers.
-
-> "I was really expecting to be grossed out, but then it was... fine. I thought it'd be thick but it wasn't. It was just like cooking with wine" - Alex, a recipe tester
-
-
-
-I've been banned from talking about blood at home.
-
-![missing blood?](./blood/pics/google-say-no-blood.PNG)
-
-> "Cooking with blood is probably the least kosher activity in existence" - Ash
-
-
-
-Blood. It's in meat, many people eat it all the time. And yet, for many the thought of eating something where blood upstages meat triggers a visceral discussed response. I tackle this problem continually in the recipes above, many of the ingredients and techniques are employed in an attempt to downplay or soft and the taste of blood. Why is this so? Why do we not like blood?
+Working with the blood more eliminated the quisiness and adjusting the ingridient ratios fixed the flavour profile. The texture was fixed by changing the order of ingridiant addition (milk & chocolate first until melted, *then* add the blood). All in all, I had a wonderful dessert, a lot of blood and a ever increasing interest in incorporating blood into food.
 
 
 ## Original Recipes
@@ -156,7 +137,6 @@ Until a vegetarian/vegan diet is _attainable_ and doesn't put you at _risk_ of a
 
 I don't expect everyone will call multiple farms and ask for blood (see my notes on sourcing below) - that would be like suggesting yoga to a depressed person^[If you can get your blood from a farmer, that's *almost certainly* the right move. Sourcing locally means better quality and less ecological impact.]. However, if you've got a local butcher: ask them if they can save you some blood! Make a dish! Fight back by fighting anemia, channel your inner vampire. Killing animals is probably unethical. Eating blood doesn't have to be.
 
-
 ### Jamie Vulva
 
 ![](./blood/pics/jamie-vulva.jpg)
@@ -168,9 +148,6 @@ Jamie Vulva made cookies with her menstrual blood. They were "too floury" for he
 In all fairness, Jamie Vulvas tumblr is pretty provocative. Suffice it to say the title of her blog is "Little girl, big pig" and she self describes as a "walking trigger warning". However the discrepancy in the reaction the internet to her menstrual blood jar (a jar in which she puts her vaginal discharge) verses that to her cooking with mentrual blood seems is interesting. Why is it that cooking blood is that much worse than, say, painting with it? Is it the act of consumption? Does the problem lie in that is menstrual blood, and that cooking with "normal" blood is perfectly permissible? Even though the original "I made menstrual blood cookies!" post was made in 2011, I have yet to find another act or artifact that elucidates a similar instantaneous and visceral rejection from the online public.
 
 Jamie Vulva now runs a vegan restaurant in Olympia, Washington and I've reached out to her because I'm curious both about her cooking with menstrual blood and how she handled the unwanted Internet attention. She's yet to respond.
-
-## Legality of Blood Consumption
-https://www.law.cornell.edu/cfr/text/9/310.20
 
 ## Assorted Notes
 
@@ -229,6 +206,51 @@ Take away: don't work very late at night, and if you do make sure you have the r
 
 Sadly, due to SARS-CoV-2, this lab space was shut down the next day and I was unable to retrieve my samples. All that for naught as the carbon monoxide treated samples were not distinguishable by eye.
 
+<!--
+# Draft Content
+
+(everything below this is a DRAFT)
+
+## But does it Taste Good?
+
+In short, yes. For many of the recipies people couldn't tell they were eating blood. Even when I told them their was a "weird" ingridient, no one has sucessfully guessed blood yet.
+
+That said, too much blood is *not* a good thing. Especially in baked goods. There was definitely a learning curve to figuring out how much blood each dish could "handle."
+
+> I feel like this bread would taste good if I made bread with way too much blood and then I made this. It would definitely be better than the bread with way too much blood! [Mei-lan]
+
+### The Gross Factor
+
+> "these taste experiments in the field made us reflect on how crucial it is to not forget about all the “normal people” out there. Whether it’s about them having different tastes or a less-strong attraction to the new and unusual compared to the people in our immediate surroundings is a big question worth thinking about. What is usual here at the Lab is often weird and disgusting for many folks out there. Doing what we do is exciting and fun, at times both dippy and inspiring – but if we fail to reach out and convince others unlike us to at least give some of these foods a try, what is the point in the long run?" - [A side of bee larva with your afternoon coffee?](https://web.archive.org/web/20200419022305/http://nordicfoodlab.org/blog/2014/2/a-side-of-bee-larva-with-your-afternoon-coffee) by Edith Salminen at Nordic Food Labs
+
+Similar to the first few times I handled raw meat, my initial encountors working with blood were slightly nauseating. That feeling quickly faded, but elephant in the room can't be ignored. The Gross Factor(tm) is definitely something that was on the mind of many of my recipie and taste testers.
+
+> "I was really expecting to be grossed out, but then it was... fine. I thought it'd be thick but it wasn't. It was just like cooking with wine" - Alex, a recipe tester
+
+
+
+I've been banned from talking about blood at home.
+
+![missing blood?](./blood/pics/google-say-no-blood.PNG)
+
+> "Cooking with blood is probably the least kosher activity in existence" - Ash
+
+
+
+Blood. It's in meat, many people eat it all the time. And yet, for many the thought of eating something where blood upstages meat triggers a visceral discussed response. I tackle this problem continually in the recipes above, many of the ingredients and techniques are employed in an attempt to downplay or soft and the taste of blood. Why is this so? Why do we not like blood?
+
+
+
+
+
+
+
+
+
+## Legality of Blood Consumption
+https://www.law.cornell.edu/cfr/text/9/310.20
+
+
 
 ### Iron
 
@@ -262,8 +284,7 @@ Some foods promote the absorption of iron, some prevent it. Here's a list!
 [list]
 
 ### Blood
-
-
+-->
 
 [^nordic-food-lab]: [Blood and egg](http://nordicfoodlab.org/blog/2013/9/blood-and-egg?rq=blood%20pancake) by the [Nordic Food Lab](http://nordicfoodlab.org/whoweare)
 

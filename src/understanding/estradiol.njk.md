@@ -20,15 +20,7 @@ I made the decision to focus on creating *cheap* and *user-friendly* drug tests 
 
 My plan is to synthesize gold nanoparticles, and then use dna aptamers to modulate their aggregation to produce a color change upon introduction of Estradiol/Testosterone.
 
-### Gold Nanoparticle (AuNP) Synthesis [:musical_note:](https://open.spotify.com/track/1TWNKyNQOBfNUkWWs7FooF?si=Rv9AavwQQbiKFNgX93jZcQ)
-
-My protocol is based on [this paper from Nature][Liu 2006] [and this paper from ACS][Alsager 2015] and nessesarily exludes some steps (eg. pre-treatment of glassware with aqua regia) due to the limitations of working out of my baby brothers room. It, and my revisions can be found [in this github repository](). 
-
-![Initial Gold Nanoparticle Synthesis 05/19/2020: Left is HAuCl4 refulxing, middle is directly after addition of Sodium Citrate and the right follows after 15m of refluxing ](./estradiol/AuNP-Synthesis-05192020.png)
-
-The resulting concentration comes out to be 9.8nM (calculation via the Beer-Lambert law). In calculating the concentration, I noticed an interesting absorbtion spectrum for the raw nanoparticles:
-
-![[How I made this graph](./estradiol/COVID-Era-Work.html)](./estradiol/rawAuNPwithandwithoutAptamer.png)
+### What makes a good drug test?
 
 ### Aptamer Based Colorimetric Sensing
 
@@ -47,6 +39,16 @@ On 05/27/2020, I was able to confirm that Alsa1535 binds to estradiol valerate a
 The results *cannot* be in any major part attributed to the absorbtion of estradiol valerate alone:
 
 ![[How I made this graph](./estradiol/COVID-Era-Work.html)](./estradiol/estradiol-valerate-abs.png)
+
+### Gold Nanoparticle (AuNP) Synthesis [:musical_note:](https://open.spotify.com/track/1TWNKyNQOBfNUkWWs7FooF?si=Rv9AavwQQbiKFNgX93jZcQ)
+
+My protocol is based on [this paper from Nature][Liu 2006] [and this paper from ACS][Alsager 2015] and nessesarily exludes some steps (eg. pre-treatment of glassware with aqua regia) due to the limitations of working out of my baby brothers room. It, and my revisions can be found [in this github repository](). 
+
+![Initial Gold Nanoparticle Synthesis 05/19/2020: Left is HAuCl4 refulxing, middle is directly after addition of Sodium Citrate and the right follows after 15m of refluxing ](./estradiol/AuNP-Synthesis-05192020.png)
+
+The resulting concentration comes out to be 9.8nM (calculation via the Beer-Lambert law). In calculating the concentration, I noticed an interesting absorbtion spectrum for the raw nanoparticles:
+
+![[How I made this graph](./estradiol/COVID-Era-Work.html)](./estradiol/rawAuNPwithandwithoutAptamer.png)
 
 
 
