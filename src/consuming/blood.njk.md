@@ -53,7 +53,7 @@ It was, I must say, not good. The final result was slightly grainy and had a ver
 Working with the blood more eliminated the quisiness and adjusting the ingridient ratios fixed the flavour profile. The texture was fixed by changing the order of ingridiant addition (milk & chocolate first until melted, *then* add the blood). All in all, I had a wonderful dessert, a lot of blood and a ever increasing interest in incorporating blood into food.
 
 
-## Original Recipes
+## Recipes
 
 !!!include(./src/creating/food/recipes/blood-crepes.md)!!!
 
@@ -67,23 +67,6 @@ In the works:
 - Blood Gelato
 - Blood Pasta
 - Blood Caramel
-
-## Recipes (Failures)
-
-#### Blood Molasses Cookies
-
-![](./blood/pics/IMG_20200123_230953.jpg)
-
-#### Lemon Blood Curd (2/16/20)
-
-![](./blood/pics/IMG_20200216_215424.jpg)
-![](./blood/pics/IMG_20200216_214627.jpg)
-
-#### Blood Merange
-
-![](./blood/pics/IMG_20200304_225135.jpg)
-
-## Historical Recipes
 
 ### Melas Zomos
 
@@ -205,6 +188,23 @@ My symptoms for the next 24 hours lead me to belive that I was only in the [200-
 Take away: don't work very late at night, and if you do make sure you have the right setup with extra stages to prevent backflow accidents.
 
 Sadly, due to SARS-CoV-2, this lab space was shut down the next day and I was unable to retrieve my samples. All that for naught as the carbon monoxide treated samples were not distinguishable by eye.
+
+## Recipes (Failures)
+
+#### Blood Molasses Cookies
+
+![](./blood/pics/IMG_20200123_230953.jpg)
+
+#### Lemon Blood Curd (2/16/20)
+
+![](./blood/pics/IMG_20200216_215424.jpg)
+![](./blood/pics/IMG_20200216_214627.jpg)
+
+#### Blood Merange
+
+![](./blood/pics/IMG_20200304_225135.jpg)
+
+## Historical Recipes
 
 <!--
 # Draft Content
