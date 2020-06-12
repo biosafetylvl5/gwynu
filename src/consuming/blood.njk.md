@@ -68,12 +68,14 @@ In the works:
 - Blood Pasta
 - Blood Caramel
 
+<!--
 ### Melas Zomos
 
 Origin: Ancient Sparta, 
 Blood form: 
 
 Source(s):
+-->
 
 ## Ethics of Blood Consumption
 
