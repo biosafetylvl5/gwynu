@@ -124,13 +124,13 @@ I don't expect everyone will call multiple farms and ask for blood (see my notes
 
 ![](./blood/pics/jamie-vulva.jpg)
 
-Jamie Vulva made cookies with her menstrual blood. They were "too floury" for her taste, thus she never made them again. However, the picture she posted on her tumblr, for lack of a better descriptor, blew up on the Internet featured most commonly in a manner making fun of "fanatic feminists".
+Jamie Vulva made cookies with her menstrual blood. They were "too floury" for her taste, thus she never made them again. However, the picture she posted on her tumblr, for lack of a better descriptor, blew up on the Internet. Often it can be found in a post trying to "prove" feminists crazy.
 
 ![Menstrual blood cookies](./blood/pics/menstrual-blood-cookies-original.jpg)
 
-In all fairness, Jamie Vulvas tumblr is pretty provocative. Suffice it to say the title of her blog is "Little girl, big pig" and she self describes as a "walking trigger warning". However the discrepancy in the reaction the internet to her menstrual blood jar (a jar in which she puts her vaginal discharge) verses that to her cooking with mentrual blood seems is interesting. Why is it that cooking blood is that much worse than, say, painting with it? Is it the act of consumption? Does the problem lie in that is menstrual blood, and that cooking with "normal" blood is perfectly permissible? Even though the original "I made menstrual blood cookies!" post was made in 2011, I have yet to find another act or artifact that elucidates a similar instantaneous and visceral rejection from the online public.
+<!--In all fairness, Jamie Vulvas tumblr is pretty provocative. Suffice it to say the title of her blog is "Little girl, big pig" and she self describes as a "walking trigger warning". However t-->The discrepancy in the reaction of the internet to her menstrual blood jar (a jar in which she puts her vaginal discharge) verses that to her cooking with mentrual blood is interesting. Why is it that cooking blood is that much worse than, say, painting with it? Is it the act of consumption? Does the problem lie in that is menstrual blood, and that cooking with "normal" blood is perfectly permissible? Even though the original "I made menstrual blood cookies!" post was made in 2011 and I've yet to find anything similar.
 
-Jamie Vulva now runs a vegan restaurant in Olympia, Washington and I've reached out to her because I'm curious both about her cooking with menstrual blood and how she handled the unwanted Internet attention. She's yet to respond.
+Jamie Vulva now runs a vegan restaurant in Olympia, Washington! I'm curious both about her cooking with menstrual blood and how she handled the unwanted Internet attention. <!--> and I've reached out to her because I'm curious both about her cooking with menstrual blood and how she handled the unwanted Internet attention. She's yet to respond.-->
 
 ## Assorted Notes
 
