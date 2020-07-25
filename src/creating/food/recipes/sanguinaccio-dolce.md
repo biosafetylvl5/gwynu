@@ -1,4 +1,4 @@
-## Sanguinaccio Dolce (Blood Pudding)
+Sanguinaccio Dolce (Blood Pudding)
 ![The first batch of the first blood dish: Sanguinaccio Dulce, Take 1](./blood/pics/first-iteration-sanguine.jpg) 
 
 Summary: A rich chocolate with a depthy but unique base, pudding at room temperature, half way to Gelato when refrigerated. Optional cinnamon alleviates metallic notes of blood.
@@ -10,7 +10,7 @@ Iron per Serving: 14.5mg (12.5mg Heme, 2mg Non-Heme, 81% DV[^DV])
 |Dark Chocolate| 11.9mg/100g|0mg        |170     |20.23mg      |0mg |
 |Pigs Blood       |0                       |0.5mg/mL|250mL      |0mg      |125mg|
 
-#### Ingredients
+**Ingredients**
 - 250mL Milk
 - 38g White Sugar
 - 100g Brown Sugar
@@ -18,7 +18,7 @@ Iron per Serving: 14.5mg (12.5mg Heme, 2mg Non-Heme, 81% DV[^DV])
 - 170g 88% Dark Chocolate
 - 250g Blood (Or maybe 127g? Notes unclear, need to re-test.)
 
-#### Recipe Preparation
+**Recipe Preparation**
 
 ![Chocolate and milk in double boiler](./blood/pics/db-choco.jpg)
 
@@ -29,7 +29,7 @@ Iron per Serving: 14.5mg (12.5mg Heme, 2mg Non-Heme, 81% DV[^DV])
 
 Makes 10-12 servings, lasts 1-2 weeks in the fridge.
 
-##### Recipe Notes
+**Recipe Notes**
 
 - Still working on this recipe. From tastings, it pairs well with hazelnut, caramel and coffee. Might work well as an eclair filling? Might go well with a rose-vanilla ice cream/gelato? Will try with all brown sugar next time.
 

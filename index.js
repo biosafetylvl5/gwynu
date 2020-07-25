@@ -72,7 +72,14 @@ Metalsmith(__dirname)
             html: true,
             linkify: true,
             typographer: true,
-            plugins: ["markdown-it-footnote", ["markdown-it-toc-done-right", {"level": 2}], "markdown-it-include", "markdown-it-anchor", "markdown-it-sup", [implicitFigures, {figcaption: true}]],
+            plugins: ["markdown-it-footnote", 
+		      ["markdown-it-toc-done-right", {"level": 2}], 
+		      "markdown-it-include", 
+		      "markdown-it-anchor", 
+		      "markdown-it-plantuml", 
+		      "markdown-it-sup", 
+		      [implicitFigures, {figcaption: true}]
+	    ],
 	    highlight:function (str, lang) {
 		        if (lang && hljs.getLanguage(lang)) {
 				      try {

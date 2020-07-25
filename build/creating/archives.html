@@ -1,17 +1,17 @@
 ﻿<!doctype html><html><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>GWYNU &#9897; Archiving</title><style>.table-of-contents ol { counter-reset: list-item; }
-    .table-of-contents li { display: block; counter-increment: list-item; }
-    .table-of-contents li:before { content: counters(list-item,'.') ' '; }
-/*
-modified from:
-School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+      .table-of-contents li { display: block; counter-increment: list-item; }
+      .table-of-contents li:before { content: counters(list-item,'.') ' '; }
 
-*/
-        pre {
+      /*
+      modified from:
+      School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+      */
+      pre {
              overflow-x: auto;
              white-space: pre-wrap;
              word-wrap: break-word;
         }
-	code{
+	pre code{
 		width: 95%;
 		margin: 0 auto;
 		display: block;
@@ -70,6 +70,17 @@ School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 		  font-style: italic;
 	}
 
+	code{
+		font-size: 80%;
+	}
+	pre code{
+		    overflow-x: scroll;
+		    white-space: pre;
+	}
+	.language-text, .language-bash{
+		overflow-x: auto;
+	}
+
 
     body {
 	font-family: Georgia, serif;
@@ -85,6 +96,28 @@ School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 	font-size: 24px;
         width:65%;
         margin: 0 auto;
+    }
+    @media only screen and (max-width: 500px) {
+	    .content{
+		    width:95%;
+		    font-size: 18px;
+	    }
+	    img{
+		    max-width:100%;
+	    }
+	    figure{
+		    margin-inline-end: 0px;
+	            margin-inline-start: 0px;
+    	    }
+	    ol{
+		    padding-inline-start:20px;
+	    }
+	    pre code{
+		    border-style: dashed;
+		    border-width:0.01px;
+		    border-color: #BDC3C7;
+		    padding: 5px;
+	    }
     }
     .keyword {
         font-variant: small-caps;
@@ -104,7 +137,8 @@ School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 	    width: 300px;
 	    max-width: 80%;
 	    display: inline;
-    }</style></head><body><div class=content><h1 id=archiving>Archiving</h1><p>In Winter of 2019, I was reading Everywhere Archives, Transgendering, Trans Asians, and the Internet which used a youtube video by “Zach” as one of it’s focal points. Ironically enough, the piece with “Archives” in it’s name referenced a youtube video that was no longer up. I was curious, so I went to see if I could find it. Alas, I could find it nowhere. Not <a href=http://archive.org>archive.org</a>, not r/datahoarder, not even sketchy youtube dumps. Online content is rapidly undergoing <a href=https://www.gwern.net/Archiving-URLs#link-rot>link rot</a> and queer media is especially at risk.</p><figure><img src=./archives/the-missing-youtube-video-citation.png alt=""><figcaption>The original citation in <em>EVERYWHERE ARCHIVES: Transgendering, Trans Asians, and the Internet</em></figcaption></figure><nav class=table-of-contents><ol><li><a href=#archived-content>Archived Content</a><ol><li><a href=#queer-websites>Queer Websites</a></li><li><a href=#reddit>Reddit</a></li><li><a href=#youtube>Youtube</a></li></ol></li><li><a href=#software-backend>Software Backend</a><ol><li><a href=#redditpostarchiver>redditPostArchiver</a></li><li><a href=#wget>wget</a></li><li><a href=#wpull>wpull</a><ol><li><a href=#recursive-website-archiving>Recursive Website Archiving</a></li><li><a href=#installation>Installation</a></li></ol></li><li><a href=#youtube-dl-%26-youtube-comment-scraper>youtube-dl &amp; youtube-comment-scraper</a></li></ol></li></ol></nav><h2 id=archived-content>Archived Content</h2><h3 id=queer-websites>Queer Websites</h3><p>I archived <a href="https://www.susans.org/wiki/index.php?title=Main_Page&amp;oldid=17026">Susan’s Places’ wiki</a> on May 14th, 2020. The archive can be found [here on <a href=http://archive.org>archive.org</a>](TODO: ADD THIS).</p><h3 id=reddit>Reddit</h3><p>I’m archiving the following subreddits monthly with <a href=#redditpostarchiver>my fork of redditPostArchiver</a>:</p><pre><code class=language-text>asktransgender
+    }</style></head><body><div class=content><h1 id=archiving>Archiving</h1><p>In Winter of 2019, I was reading <em>Everywhere Archives, Transgendering, Trans Asians, and the Internet</em> which used a youtube video by “Zach” as one of it’s focal points. Ironically enough, the piece with “Archives” in it’s name referenced a youtube video that was no longer up. I was curious, so I went to see if I could find it. Alas, I could find it nowhere. Not <a href=http://archive.org>archive.org</a>, not r/datahoarder, not even sketchy youtube dumps<sup class=footnote-ref><a href=#fn1 id=fnref1>[1]</a></sup>. Online content is rapidly undergoing <a href=https://www.gwern.net/Archiving-URLs#link-rot>link rot</a> and queer media is especially at risk.</p><figure><img src=./archives/the-missing-youtube-video-citation.png alt=""><figcaption>The original citation in <em>EVERYWHERE ARCHIVES: Transgendering, Trans Asians, and the Internet</em></figcaption></figure><nav class=table-of-contents><ol><li><a href=#archives>Archives</a><ol><li><a href=#queer-content>Queer Content</a><ol><li><a href=#websites>Websites</a><ol><li><a href=#reddit>Reddit</a></li></ol></li></ol></li></ol></li><li><a href=#software-backend>Software Backend</a><ol><li><a href=#general-setup>General Setup</a></li><li><a href=#scheduling>Scheduling</a></li><li><a href=#request-generation>Request Generation</a><ol><li><a href=#mitmproxy>mitmproxy</a></li><li><a href=#redditpostarchiver>redditPostArchiver</a></li><li><a href=#wget>wget</a></li><li><a href=#youtube-dl-%26-youtube-comment-scraper>youtube-dl &amp; youtube-comment-scraper</a></li></ol></li><li><a href=#source-diversification>Source Diversification</a></li></ol></li><li><a href=#legacy-content>Legacy Content</a><ol><li><a href=#wpull>wpull</a><ol><li><a href=#recursive-website-archiving>Recursive Website Archiving</a></li><li><a href=#installation>Installation</a></li></ol></li></ol></li></ol></nav><h2 id=archives>Archives</h2><h3 id=queer-content>Queer Content</h3><p>Submit content <a href=https://forms.gle/9AzbMLHCmhVrVuxb7>here</a> to be archived! Submit a home page to archive the entire website, but submit a <em>specific</em> page to archive <em>just that page</em>. If you’d like a link to the archived content you can share your contact details.</p><h4 id=websites>Websites</h4><h5 id=reddit>Reddit</h5><p>I’m archiving the following subreddits monthly with <a href=#redditpostarchiver>my fork of redditPostArchiver</a>:</p><pre><code class=language-text>transbreasttimelines
+asktransgender
 lgbt
 TraaButOnlyBees
 traaaaaaannnnnnnnnns
@@ -124,7 +158,6 @@ traaaaaaacccccccce
 tranarchism
 tranprotips
 trans_irl
-transbreasttimelines
 transclones
 TransForTheMemories
 transgender
@@ -134,14 +167,64 @@ transvoice
 transytalk
 wlw_irl
 
-</code></pre><p>I’m currently working on a way to share these, but the files are a bit large to server via this webserver (asktransgender (text only) is ~2.4Gb which is only cut in ~half (to 862Mb) with compression). For now, please contact me if you’d like a copy.</p><h3 id=youtube>Youtube</h3><h2 id=software-backend>Software Backend</h2><h3 id=redditpostarchiver>redditPostArchiver</h3><p><a href=https://github.com/pl77/redditPostArchiver>redditPostArchiver</a> is written in python and supports downloading reddit subreddits to a local database file. Originally written by GitHub user <a href=https://github.com/pl77>pl77</a>, it worked but needed some updating to work on python 3.8. It also needed some other work (bug fixing, error handling, probably some logging and a quiet mode). I’m working on that in my forked repository <a href=https://github.com/biosafetylvl5/redditPostArchiver>here</a>. The last original commit by pl77 was in 2018, so I am not hopeful that they will continue to maintain it.</p><h3 id=wget>wget</h3><p>Misconfiguring your crawler is a setup for disaster! As a particurally salient example, I need only point at the first website I tried to mirror which resulted in a <em><strong>22GB Log File</strong></em>:</p><pre><code class=language-bash>.../websites/susans.org &gt;&gt;&gt; du -sh ./*                                    
-4.0K	./backup.sh
+</code></pre><p>I’m currently working on a way to share these, but the files are a bit large to server via this webserver (asktransgender (text only) is ~2.4Gb which is only cut in ~half (to 862Mb) with compression). For now, please contact me if you’d like a copy.</p><h2 id=software-backend>Software Backend</h2><h3 id=general-setup>General Setup</h3><img src=https://www.plantuml.com/plantuml/svg/TL8zJyCm4DtzAqwPO4WbsXMX0XlY8nA81NKmjeajEJxaE424-j-n7JTrIBFbVTnx9-UshQFMTOqcn20NKDmZeneUA9FA23YxGsbCVrx0Bo70q3YB6eggTn8DF3CfUAUfBO2sq1uGWG-bVTIjjmlZu0NXHi2rzP5VWaSl6oHo78BBqgfQklAeUTMXfRNmvJ1-VzV2PR3eiNFTkoYvZia9SfrvhE1SkGfRbvRmAqBG3-LbUJNcZWi5Sf8sKHOpKsUZNFDfyQVFk8YPfCgqCBX3QOpBxMDfLB8XhyrhJvZ6iBcs9tj2cCQEnqVDD6zzMwrMkpdxMZt2Pe5VB_0NksbHEeadeyDPfSk8FmnPaDEG7y_m-X_UP3YiEY3VinM6-nl-0m00 alt="uml diagram"><p>Inspired by <a href=https://www.gwern.net/DNM-archives>gwern’s efforts archiving darknet markets</a> archives are created in a pipeline with three main parts:</p><ol><li><strong>Scheduling:</strong> Content to be archived is queued for download in regular intervals</li><li><strong>Request generation:</strong> generating and filtering requests to online content for archival</li><li><strong>Source diversification:</strong> splittting requests accros multiple proxys</li></ol><h3 id=scheduling>Scheduling</h3><p>[TODO]</p><h3 id=request-generation>Request Generation</h3><p>Requests are sorted by the schedular and sent to various archival tools. Some, like wget, require a paternalistic hand and are filtered through <a href=#mitmproxy>mitmproxy</a> to prevent unsavory behaviour like downloading unnessesary pages and logging the scraper out of the website being scraped.</p><h4 id=mitmproxy>mitmproxy</h4><p><a href=https://mitmproxy.org>mitmproxy</a> is a tool that works as a Man in the Middle and allows us to filter our requests that a tool makes. Even though wget has <a href=https://www.gnu.org/software/wget/manual/wget.html#Recursive-Accept_002fReject-Options>options for accepting/rejecting links</a> using mitmproxy allows us to assign specific http status codes to forbidden pages <em>and</em> mitmproxy can be scripted in python instead of just regex.</p><p>For example, <a href=https://gayplants.noblogs.org>gayplants.noblogs.org</a> has links that aren’t hyperlinked which means wget will skip over them. Linkifying these textual links is as easy as:</p><pre><code class=language-python><span class=hljs-keyword>from</span> mitmproxy <span class=hljs-keyword>import</span> http
+<span class=hljs-keyword>from</span> bleach.linkifier <span class=hljs-keyword>import</span> Linker
+linker = Linker()
+
+<span class=hljs-function><span class=hljs-keyword>def</span> <span class=hljs-title>response</span>(<span class=hljs-params>flow: http.HTTPFlow</span>) -&gt; <span class=hljs-keyword>None</span>:</span>
+    <span class=hljs-keyword>try</span>:
+        <span class=hljs-keyword>if</span> <span class=hljs-string>"text/html"</span> <span class=hljs-keyword>in</span> flow.response.headers[<span class=hljs-string>"Content-Type"</span>]: <span class=hljs-comment># we only want to modify html pages not, say, pdfs</span>
+            flow.response.content = 
+            	str.encode( <span class=hljs-comment># re-encode text to bytes object</span>
+            		linker.linkify( <span class=hljs-comment># use bleach's built-in linkify function</span>
+            		flow.response.content.decode() <span class=hljs-comment># decode bytes object</span>
+            		)
+            	)
+    <span class=hljs-keyword>except</span> KeyError, UnicodeDecodeError <span class=hljs-keyword>as</span> e:
+        <span class=hljs-keyword>pass</span>
+</code></pre><p>which would be run with:</p><pre><code class=language-bash>mitmdump -s extractLinks.py
+</code></pre><h4 id=redditpostarchiver>redditPostArchiver</h4><p><a href=https://github.com/pl77/redditPostArchiver>redditPostArchiver</a> is written in python and supports downloading reddit subreddits to a local database file. Originally written by GitHub user <a href=https://github.com/pl77>pl77</a>, it worked but needed some updating to work on python 3.8. It also needed some other work (bug fixing, error handling, probably some logging and a quiet mode). I’m working on that in my forked repository <a href=https://github.com/biosafetylvl5/redditPostArchiver>here</a>. The last original commit by pl77 was in 2018, and they have <a href=https://github.com/pl77/redditPostArchiver/pull/3>other projects that keep taking precedence</a>.</p><h4 id=wget>wget</h4><p>I use the following command to download a website for archival:</p><pre><code class=language-bash>wget	--page-requisites \
+	--adjust-extension \
+	--convert-links \
+	--level inf \
+	--recursive \
+	--no-remove-listing \
+	--restrict-file-names=windows \
+	--no-parent \
+	-w 0.2 \
+	--warc-file=<span class=hljs-variable>$website</span> \
+	--warc-cdx=<span class=hljs-variable>$website</span> \
+	--warc-max-size=1G \
+	-o ./logs/<span class=hljs-variable>$website</span>.wget.log \
+	-e use_proxy=yes \
+	-e http_proxy=127.0.0.1:9090 \
+	-e https_proxy=127.0.0.1:9090 \
+	--no-check-certificate \
+	<span class=hljs-variable>$website</span>
+</code></pre><p>Breaking that down into readable chunks we have:</p><ul><li><code>wget</code>: runs the <a href=https://en.wikipedia.org/wiki/Wget>wget</a> tool.</li><li><code>--page-requisites</code>: download all the files that are necessary to properly display a given HTML page. This includes such things as inlined images, sounds, and referenced stylesheets.</li><li><code>--adjust-extension</code>: append <code>.html</code>, <code>.css</code> or other appropriate file extensions if not specified by the server provided filename</li><li><code>--convert-links</code>: converts links to reference local files instead of remote files</li><li><code>--level inf --recursive</code>: turns on recursion with an infinite recursion depth to download links found in pages downloaded</li><li><code>--no-remove-listing</code>: keep <code>.listing</code> files generated when retreiving files via FTP</li><li><code>--restrict-file-names=windows</code>: make sure all file names are compatible with windows</li><li><code>--no-parent</code>: don’t move up the website heigharchy, only download subdirectories</li><li><code>-w 0.2</code>: wait 0.2 seconds between requests to be polite</li><li><code>--warc-file=$website</code>: save output to <a href=https://en.wikipedia.org/wiki/Web_ARChive>a WARC (WebARChive) file</a></li><li><code>--warc-cdx=$website</code>: save a summary of each downloaded file to a cdx file</li><li><code>--warc-max-size=1G</code>: break up warc file into 1Gb chunks</li><li><code>-o ./logs/$website.wget.log</code>: save logs to a file</li><li><code>-e use_proxy=yes -e http_proxy=127.0.0.1:9090 -e https_proxy=127.0.0.1:9090</code>: set wget to channel requests through port 9090 where <a href=#mitmproxy>mitmproxy</a> is running</li><li><code>--no-check-certificate</code>: don’t check ssl certificates, mitmproxy will raise a wget error without this</li><li><code>$website</code>: the website to download!</li></ul><p>Misconfiguring your crawler is a setup for disaster! As a particurally salient example, I need only point at the first website I tried to mirror which resulted in a <em><strong>22GB Log File</strong></em>:</p><pre><code class=language-bash>.../websites/susans.org &gt;&gt;&gt; du -sh ./*
 45M	./warcfile.cdx
 3.8G	./warcfile.warc.gz
 172M	./wget.log
 22G	./wget.rejection.log
 19G	./www.susans.org
-</code></pre><h3 id=wpull>wpull</h3><blockquote><p>Wpull is a Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler. <a href=https://github.com/ArchiveTeam/wpull>wpull</a></p></blockquote><p>wpull is cool! But I quickly realized it was a bit too unstable for archival use.</p><h4 id=recursive-website-archiving>Recursive Website Archiving</h4><p>I briefly used the following command to recursively archive mediawikis:</p><pre><code class=language-bash>wpull https://www.susans.org/wiki/Main_Page \
+</code></pre><h4 id=youtube-dl-%26-youtube-comment-scraper>youtube-dl &amp; youtube-comment-scraper</h4><p>I archive channels with:</p><pre><code class=language-bash>channelIDs=(0mTlVosk4bQ AiU-KZ_KADY) <span class=hljs-comment># array of youtube video ids</span>
+<span class=hljs-keyword>for</span> channelID <span class=hljs-keyword>in</span> <span class=hljs-string>"<span class=hljs-variable>${channelIDs[@]}</span>"</span>
+<span class=hljs-keyword>do</span>
+	<span class=hljs-built_in>echo</span> <span class=hljs-string>"executing script in directory"</span> <span class=hljs-string>"<span class=hljs-variable>$PWD</span>"</span> <span class=hljs-string>"downloading channel"</span> <span class=hljs-string>"<span class=hljs-variable>$channelID</span>"</span>
+	youtube-dl --download-archive <span class=hljs-string>"archive.log"</span> -i --add-metadata --all-subs --embed-subs --write-all-thumbnails --write-auto-sub --all-subs --embed-thumbnail --write-annotations --write-info-json -f <span class=hljs-variable>$youtubedlformat</span><span class=hljs-string>" "</span>https://www.youtube.com/channel/<span class=hljs-variable>$channelID</span>
+<span class=hljs-keyword>done</span><span class=hljs-string>"
+</span></code></pre><p>and individual videos and their associated comments with:</p><pre><code class=language-bash>videoIDs=(0mTlVosk4bQ AiU-KZ_KADY) <span class=hljs-comment># array of youtube video ids</span>
+<span class=hljs-keyword>for</span> videoID <span class=hljs-keyword>in</span> <span class=hljs-string>"<span class=hljs-variable>${videoIDs[@]}</span>"</span>
+<span class=hljs-keyword>do</span>
+	<span class=hljs-built_in>echo</span> <span class=hljs-string>"executing script in directory"</span> <span class=hljs-string>"<span class=hljs-variable>$PWD</span>"</span> <span class=hljs-string>"downloading video"</span> <span class=hljs-string>"<span class=hljs-variable>$videoID</span>"</span>
+	youtube-dl --download-archive <span class=hljs-string>"archive.log"</span> -i --add-metadata --all-subs --embed-subs --write-all-thumbnails --write-auto-sub --all-subs --embed-thumbnail --write-annotations --write-info-json -f <span class=hljs-string>"<span class=hljs-variable>$youtubedlformat</span>"</span> <span class=hljs-string>"https://www.youtube.com/watch?v=<span class=hljs-variable>$videoID</span>"</span>
+	videoDIR=$( find ./ -<span class=hljs-built_in>type</span> d -name <span class=hljs-string>"*<span class=hljs-variable>$videoID</span>"</span> )
+	<span class=hljs-built_in>echo</span> Attempting to write comments to <span class=hljs-string>"<span class=hljs-variable>$videoDIR</span>/comments.json"</span>
+	youtube-comment-scraper -o <span class=hljs-string>"<span class=hljs-variable>$videoDIR</span>/comments.json"</span> -f json <span class=hljs-string>"<span class=hljs-variable>$videoID</span>"</span>
+	<span class=hljs-built_in>echo</span> Done with <span class=hljs-variable>$videoID</span>
+<span class=hljs-keyword>done</span>
+</code></pre><p>where <a href=https://www.reddit.com/r/DataHoarder/comments/c6fh4x/after_hoarding_over_50k_youtube_videos_here_is/ >this reddit post</a> is the source for:</p><pre><code>youtubedlformat = &quot;(bestvideo[vcodec^=av01][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=1080][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=1080]/bestvideo[vcodec=vp9.2][height&gt;=1080]/bestvideo[vcodec=vp9][height&gt;=1080]/bestvideo[height&gt;=1080]/bestvideo[vcodec^=av01][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=720][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=720]/bestvideo[vcodec=vp9.2][height&gt;=720]/bestvideo[vcodec=vp9][height&gt;=720]/bestvideo[height&gt;=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best&quot; --merge-output-format mkv -o &quot;$PWD/%(upload_date)s - %(title)s - %(id)s/%(upload_date)s - %(title)s - %(id)s.%(ext)s&quot; 
+</code></pre><h3 id=source-diversification>Source Diversification</h3><p>I use <a href=https://github.com/haad/proxychains>proxychains</a> to route requests through multiple vpns to lower the chance I get banned by a server that I’m scraping. I use the <code>random</code> mode with a chain length of <code>1</code>.</p><h2 id=legacy-content>Legacy Content</h2><h3 id=wpull>wpull</h3><blockquote><p>Wpull is a Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler. <a href=https://github.com/ArchiveTeam/wpull>wpull</a></p></blockquote><p>wpull is cool! But I quickly realized it was a bit too unstable for regular use.</p><h4 id=recursive-website-archiving>Recursive Website Archiving</h4><p>I briefly used the following command to recursively archive mediawikis:</p><pre><code class=language-bash>wpull https://www.susans.org/wiki/Main_Page \
     --warc-move susans-wiki \
     --warc-file susans-wiki --no-check-certificate \
     --no-robots --user-agent <span class=hljs-string>"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"</span> \
@@ -194,20 +277,4 @@ pip3 install wpull
 pyenv shell system
 </code></pre><p>and then wpull can be run with</p><pre><code class=language-bash>PYENV_VERSION=3.5.9 pyenv <span class=hljs-built_in>exec</span> wpull
 </code></pre><p>I set an alias to make things easy and make my script compatible with other systems:</p><pre><code class=language-bash><span class=hljs-built_in>echo</span> <span class=hljs-string>'alias wpull="PYENV_VERSION=3.5.9 pyenv exec wpull"'</span> &gt;&gt; .bashrc  
-</code></pre><h3 id=youtube-dl-%26-youtube-comment-scraper>youtube-dl &amp; youtube-comment-scraper</h3><p>I archive channels with:</p><pre><code class=language-bash>channelIDs=(0mTlVosk4bQ AiU-KZ_KADY) <span class=hljs-comment># array of youtube video ids</span>
-<span class=hljs-keyword>for</span> channelID <span class=hljs-keyword>in</span> <span class=hljs-string>"<span class=hljs-variable>${channelIDs[@]}</span>"</span>
-<span class=hljs-keyword>do</span>
-	<span class=hljs-built_in>echo</span> <span class=hljs-string>"executing script in directory"</span> <span class=hljs-string>"<span class=hljs-variable>$PWD</span>"</span> <span class=hljs-string>"downloading channel"</span> <span class=hljs-string>"<span class=hljs-variable>$channelID</span>"</span>
-	youtube-dl --download-archive <span class=hljs-string>"archive.log"</span> -i --add-metadata --all-subs --embed-subs --write-all-thumbnails --write-auto-sub --all-subs --embed-thumbnail --write-annotations --write-info-json -f <span class=hljs-string>"(bestvideo[vcodec^=av01][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=1080][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=1080]/bestvideo[vcodec=vp9.2][height&gt;=1080]/bestvideo[vcodec=vp9][height&gt;=1080]/bestvideo[height&gt;=1080]/bestvideo[vcodec^=av01][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=720][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=720]/bestvideo[vcodec=vp9.2][height&gt;=720]/bestvideo[vcodec=vp9][height&gt;=720]/bestvideo[height&gt;=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best"</span> --merge-output-format mkv -o <span class=hljs-string>"<span class=hljs-variable>$PWD</span>/%(channel)s - %(channel_id)s/%(upload_date)s - %(title)s - %(id)s/%(upload_date)s - %(title)s - %(id)s.%(ext)s"</span> <span class=hljs-string>"https://www.youtube.com/channel/<span class=hljs-variable>$channelID</span>"</span>
-</code></pre><p>and individual videos with:</p><pre><code class=language-bash>videoIDs=(0mTlVosk4bQ AiU-KZ_KADY) <span class=hljs-comment># array of youtube video ids</span>
-<span class=hljs-keyword>for</span> videoID <span class=hljs-keyword>in</span> <span class=hljs-string>"<span class=hljs-variable>${videoIDs[@]}</span>"</span>
-<span class=hljs-keyword>do</span>
-	<span class=hljs-built_in>echo</span> <span class=hljs-string>"executing script in directory"</span> <span class=hljs-string>"<span class=hljs-variable>$PWD</span>"</span> <span class=hljs-string>"downloading video"</span> <span class=hljs-string>"<span class=hljs-variable>$videoID</span>"</span>
-	youtube-dl --download-archive <span class=hljs-string>"archive.log"</span> -i --add-metadata --all-subs --embed-subs --write-all-thumbnails --write-auto-sub --all-subs --embed-thumbnail --write-annotations --write-info-json -f <span class=hljs-string>"(bestvideo[vcodec^=av01][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=1080][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=1080][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=1080]/bestvideo[vcodec=vp9.2][height&gt;=1080]/bestvideo[vcodec=vp9][height&gt;=1080]/bestvideo[height&gt;=1080]/bestvideo[vcodec^=av01][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9.2][height&gt;=720][fps&gt;30]/bestvideo[vcodec=vp9][height&gt;=720][fps&gt;30]/bestvideo[vcodec^=av01][height&gt;=720]/bestvideo[vcodec=vp9.2][height&gt;=720]/bestvideo[vcodec=vp9][height&gt;=720]/bestvideo[height&gt;=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best"</span> --merge-output-format mkv -o <span class=hljs-string>"<span class=hljs-variable>$PWD</span>/%(upload_date)s - %(title)s - %(id)s/%(upload_date)s - %(title)s - %(id)s.%(ext)s"</span> <span class=hljs-string>"https://www.youtube.com/watch?v=<span class=hljs-variable>$videoID</span>"</span>
-	videoDIR=$( find ./ -<span class=hljs-built_in>type</span> d -name <span class=hljs-string>"*<span class=hljs-variable>$videoID</span>"</span> )
-	<span class=hljs-built_in>echo</span> Attempting to write comments to <span class=hljs-string>"<span class=hljs-variable>$videoDIR</span>/comments.json"</span>
-	youtube-comment-scraper -o <span class=hljs-string>"<span class=hljs-variable>$videoDIR</span>/comments.json"</span> -f json <span class=hljs-string>"<span class=hljs-variable>$videoID</span>"</span>
-	<span class=hljs-built_in>echo</span> Done with <span class=hljs-variable>$videoID</span>
-<span class=hljs-keyword>done</span>
-
-</code></pre><p>See <a href=https://www.reddit.com/r/DataHoarder/comments/c6fh4x/after_hoarding_over_50k_youtube_videos_here_is/ >this reddit post</a> for inspiration.</p></div></body></html>
+</code></pre><hr class=footnotes-sep><section class=footnotes><ol class=footnotes-list><li id=fn1 class=footnote-item><p>Please let me know if you find it!! <a href=#fnref1 class=footnote-backref>↩︎</a></p></li></ol></section></div></body></html>

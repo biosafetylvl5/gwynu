@@ -1,4 +1,4 @@
-## Blood Crepes
+Blood Crepes
 
 ![During cooking, the hue changes from a bright red to a chocolaty brown. Crepe is ready to flip at the end of the clip.](./blood/pics/crepe-timing-cooking.gif) 
 
@@ -17,7 +17,7 @@ Per-Ingredient Iron Breakdown:
 
 ![Blood: It's quite beautiful once you're past the squeamish phase](./blood/pics/blood-in-crepe-batter.jpg)
 
-#### Ingredients
+**Ingredients**
 - 3 Tbs Unsalted Butter 
 - 2 Large Egg Yolks
 - 1 1/6 Cup Milk (Whole is best)
@@ -29,7 +29,7 @@ Per-Ingredient Iron Breakdown:
 - 1 Tsp. Nutmeg
 - 1/2 Tsp. Ground Cloves
 
-#### Recipe Preparation
+**Recipe Preparation**
 
 1. Melt butter in crepe skillet over medium heat. Routinely stir to get browned bits off the bottom of the pan. When butter is light amber colored, add Cinnamon, Nutmeg and Ground Cloves. Stir to combine and remove from heat
 	1. [why] Brown butter (aka *buerre noisette*) is made by heating butter to 120C. Since the water has already boiled off (we're above 100C), the milk solids in butter brown (al a maillard reaction)^[info from [bon appetit](https://www.bonappetit.com/entertaining-style/article/brown-butter)]. What's left after is an amber liquid with suspended dark solids that has a nutty aroma and taste. We add our Cinnamon, Nutmeg and Cloves here as some of the aromatics we want in our food are soluble in fats but not so much in water. By toasting them in the butter here, we get kill two birds with one stone - more nutty flavour development (from the browning) and better extraction of the existing flavour (by dissolving in fat before emulsifying).
@@ -45,7 +45,7 @@ Serve crepes with nutella/chocolaty filling and lemon curd^[See Blood Lemon Curd
 
 **Do Ahead:** Batter can be made 1 day ahead, but leave out the blood. Keep chilled until ready to cook. Stir in blood and let sit 5 minutes before cooking.
 
-##### Recipe Notes
+**Recipe Notes**
 
 - Unlike the cookies (or other reports about pancakes) these crepes were very resilient to burning - I accidentally left one for 15 minutes and it was crispier than the others but not burnt! 
 - The Bon Appetit recipie uses a blender - I've opted to simply mix in a bowl for a denser crepe to compliment the richness brought by the blood. Also, who wants to clean a blender? Additionally, not everyone owns a blender, but most people have a bowl.

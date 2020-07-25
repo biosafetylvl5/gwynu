@@ -1,4 +1,4 @@
-## Blood Banana Bread
+Blood Banana Bread
 
 > [my friends warning a stranger] "It's blood bread! It has blood in it!!!!" 
 > 
@@ -23,7 +23,7 @@ Per-Ingredient Iron Breakdown:
 
 ![](./blood/pics/making-first-blood-bread.jpg)
 
-#### Ingredients
+**Ingredients**
 - 1 1/2 Cups Enriched Flour
 - 1.25 Tsp Baking Soda
 - 1.5 Cups Packed Brown Sugar
@@ -37,7 +37,7 @@ Per-Ingredient Iron Breakdown:
 - 1/2 - 1 cup Walnuts (optional)
 - 1/2 - 1 cup Pecans (optional)
 
-#### Recipe Preparation
+**Recipe Preparation**
 1. If blood is frozen, set out to thaw. Preheat oven to 350F, lightly grease and line a 4 1/2 x 8 1/2 loaf pan with parchment paper with overhang for removing the bread later.
 1. Melt butter in skillet over medium heat. Routinely stir to get browned bits off the bottom of the pan. When butter is light amber colored, add Nutmeg and Ground Cloves. Stir to combine and remove from heat.
 	1. [why] Brown butter (aka *buerre noisette*) is made by heating butter to 120C. Since the water has already boiled off (we're above 100C), the milk solids in butter brown (al a maillard reaction)^[info from [bon appetit](https://www.bonappetit.com/entertaining-style/article/brown-butter)]. What's left after is an amber liquid with suspended dark solids that has a nutty aroma and taste. We add our Nutmeg and Cloves here as some of the aromatics we want in our food are soluble in fats but not so much in water. By toasting them in the butter here, we get kill two birds with one stone - more nutty flavour development (from the browning) and better extraction of the existing flavour (by dissolving in fat before emulsifying).

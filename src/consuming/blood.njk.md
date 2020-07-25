@@ -51,14 +51,20 @@ It was, I must say, not good. The final result was slightly grainy and had a ver
 
 Working with the blood more eliminated the quisiness and adjusting the ingridient ratios fixed the flavour profile. The texture was fixed by changing the order of ingridiant addition (milk & chocolate first until melted, *then* add the blood). All in all, I had a wonderful dessert, a lot of blood and a ever increasing interest in incorporating blood into food.
 
+![Hannibals sanguinaccio with Ladyfinger biscuits and fresh berries [Source](https://web.archive.org/web/20200614221041/http://janicepoonart.blogspot.com/2015/07/episode-8-great-red-dragon.html)](poon-feeding-hannibal-s03e08-sanguinnacio.png)
+
+In the TV show, Hannibal uses almond milk, whole cloves, bovine blood and what appears to be dark chocolate. He serves it in an orange peel with lady fingers, blue berries, blackberries, raspberries and a whole cinnamon stick.
+
 
 ## Recipes
 
-!!!include(./src/creating/food/recipes/blood-crepes.md)!!!
+### !!!include(./src/creating/food/recipes/blood-crepes.md)!!!
 
-!!!include(./src/creating/food/recipes/blood-banana-bread.md)!!!
+### !!!include(./src/creating/food/recipes/blood-banana-bread.md)!!!
 
-!!!include(./src/creating/food/recipes/sanguinaccio-dolce.md)!!!
+### !!!include(./src/creating/food/recipes/sanguinaccio-dolce.md)!!!
+
+### !!!include(./src/creating/food/recipes/fruity-sanguinaccio-dolce.md)!!!
 
 In the works:
 
@@ -185,13 +191,13 @@ Instead of freezing large batches, I recommend freezing in ice cube trays - meas
 
 ![blubes](./blood/pics/20200229-blubes.jpg)
 
-### Microwaving
+### Defrosting
 
 I, being someone who often cooks on a whim instead of a plan, often want to speed up the defrosting process. All my attempts to microwave defrost blood have resulted in at least some charring. (And believe me when I say you *don't* want to know what burnt blood a la microwave smells like.) Ultimately, I've found a warm bowl of water to most effective.
 
 ![Blood defrosting in a bowl of warm water](./blood/pics/20200223-blood-defrosting.jpg)
 
-### Anticoagulents: Salt and Vinegar
+<!--### Anticoagulents: Salt and Vinegar-->
 
 ### Sourcing
 
@@ -234,22 +240,22 @@ Sadly, due to SARS-CoV-2, this lab space was shut down the next day and I was un
 
 ## Recipie Archive
 
-## Contemporary (2000s onwards)
+### Contemporary (2000s onwards)
 
-### Hungarian Fried Blood
+#### Hungarian Fried Blood
 
 Cut coagullated blood into cubes. Boil cubes for 15-20 minutes - when the blood cubes start to float, cut in half an check to make sure the middle is set before setting aside. Melt pig fat/butter in a non-stick pan and sweat half of a chopped onion until slightly translucent. Transfer blood cubes to pan. Sprinkle with red pepper, ground pepper and marjoram. Mix well. Generously add salt to taste. Cover and simmer for 10 minutes. Mix to coat and add other half of chopped onion. Again, generously add salt to taste. Cook until onions are soft, serve with fresh bread.
 
 [Source](https://www.youtube.com/watch?v=0jUteYDtlA8)
 
-### Swedish Black Pudding
+#### Swedish Blodpudding
 
 > "a staple in Swedish schools growing up, usually served with lingonberry and taters" [Johan Edstrom](https://www.chefsteps.com/forum/posts/cooking-with-blood-7)
  
 2 kg (enough for 12 servings, serving portion 150 g)
 1 liter of pig blood
-5 dl soft drink or light beer
-8 dl coarse rye flour
+50 mL soft drink or light beer
+80 dL coarse rye flour
 1 yellow onion, chopped
 150 g butter
 1 tbsp salt
@@ -285,9 +291,9 @@ Tip 2: The batter can also be used for pancakes: Melt fat in a frying pan or pla
 
 [Source](https://svensktkott.se/recept/hemlagad-blodpudding/)
 
-### Blood Puddings
+#### Blood Puddings (Dessert)
 
-#### Sanguinaccio Dolce by Samuel (2018)
+##### Sanguinaccio Dolce by Samuel (2018)
 
 Blood
 chocolate
@@ -300,7 +306,7 @@ cherry's
 
 Slowly dissolve the sugar in the milk. Keep stiring well. Add the small pieces of chocolate and stir until they are fully melted. Add the pig's blood. Keep stiring until the dolce reaches a pudding like consistency. Serve hot or cold (will harden like a pudding) with bread, cookies or fruits.
 
-#### Blood Pudding by Chris Young (2014)
+##### Blood Pudding by Chris Young (2014)
 
 Here is the blood pudding recipe that I developed for Heston:
 
@@ -324,7 +330,7 @@ Season the thickened mixture with sugar and salt to taste. It can be refrigerate
 
 [Source](https://www.chefsteps.com/forum/posts/cooking-with-blood-7)
 
-#### Sanguinaccio Dolce by Peter Bella
+##### Sanguinaccio Dolce by Peter Bella
 
 1- pint of whole milk
 
@@ -360,7 +366,7 @@ Remove from heat. Serve immediately or cool, letting it set up into a pudding.
 
 [Source](http://www.chicagonow.com/cooking-cop/2014/03/sanguinaccio-dolce-is-a-bloody-good-treat-2/#image/6)
 
-#### Sanguinaccio Dolce by Mister Meatball (2012)
+##### Sanguinaccio Dolce by Mister Meatball (2012)
 
 1 cup pig's blood
 1 cup milk
@@ -380,7 +386,7 @@ Serve in bowls with crisp cookies of your choice.
 
 [Source](http://mistermeatball.blogspot.com/2012/02/there-will-be-blood.html)
 
-### Paltbröd (2008)
+#### Paltbröd (2008)
 
 5 cups of pig blood
 2.5 dl water
@@ -414,13 +420,13 @@ Bread freezes well. Suggestion: serve with pork and a white sauce.
 
 
 
-## Historical (Pre-2000s)
+### Historical (Pre-2000s)
 
-### Pasta al Sangue
+#### Pasta al Sangue
 
 http://www.storienogastronomiche.it/la-pasta-al-sangue-rara-specialita-tradizionale-dellalto-adige/
 
-### Pig's Blood Cake
+#### Pig's Blood Cake
 
 https://en.wikipedia.org/wiki/Pig%27s_blood_cake
 
