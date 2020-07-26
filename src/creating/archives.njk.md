@@ -16,7 +16,11 @@ In Winter of 2019, I was reading *Everywhere Archives, Transgendering, Trans Asi
 
 ### Queer Content
 
-Submit content [here](https://forms.gle/9AzbMLHCmhVrVuxb7) to be archived! Submit a home page to archive the entire website, but submit a *specific* page to archive *just that page*. If you'd like a link to the archived content you can share your contact details.
+Queer content is highly susceptible to link rot - factors that generally conspire to hinder queer lives (employment discrimination, homelessness, education discrimination and increased medical costs) collude when it comes to paying bills. And when someone needs to make hard decisions, one might reasonably expect server costs are one of the first things to go.
+
+Archiving - preserving content so that we may revisit it later - is *extremely* important. Archives are collections of primary sources that, in this case, give us a a portal to explore queer history. That tumblr discourse might not seem important, but who knows now if you're seeing the first notion of a larger change that will unfold in the future. The best archives are built proactively, when the content is still hot - this is where **YOU** come in!
+
+Submit content [here][submitContentForm] to be archived!! Submit a home page to archive the entire website, but submit a *specific* page to archive *just that page*. If you'd like a link to the archived content you can share your contact details.
 
 #### Websites
 
@@ -28,7 +32,9 @@ I'm archiving the following subreddits monthly with [my fork of redditPostArchiv
 !!!include(./symlinks/subreddits.txt)!!!
 ```
 
-I'm currently working on a way to share these, but the files are a bit large to server via this webserver (asktransgender (text only) is ~2.4Gb which is only cut in ~half (to 862Mb) with compression). For now, please contact me if you'd like a copy.
+Submit more to be archived [here][submitContentForm] - holes from my biases are *clearly* visible in the above subreddits, please help me fill them!
+
+I'm currently working on a way to share these, but the files are a bit large to server via this webserver (asktransgender (text only) is ~2.4Gb and is *much more* with images and other media). For now, please [contact me][contact] if you'd like a copy. 
 
 ## Software Backend
 
@@ -316,5 +322,5 @@ echo 'alias wpull="PYENV_VERSION=3.5.9 pyenv exec wpull"' >> .bashrc
 ```
 
 
-
-
+[submitContentForm]: https://forms.gle/9AzbMLHCmhVrVuxb7
+[contact]: archives@gwynu.dev
