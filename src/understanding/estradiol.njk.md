@@ -11,7 +11,7 @@ publish: public
 
 ## Feminizing Hormone Therapy Methods and Breast Development
 
-> "There is no current evidence that response to hormone therapy—with the possible exception of voice deepening in FtM persons—can be reliably predicted based on age, body habitus, ethnicity, or family appearance. All other factors being equal, there is no evidence to suggest that any medically approved type or method of administering hormones is more effective than any other in producing the desired physical changes." Standards of Care for the Health of Transsexual, Transgender, and Gender Nonconforming People, WPATH 2012[^WPATH7]
+> "There is no current evidence that response to hormone therapy—with the possible exception of voice deepening in FtM persons—can be reliably predicted based on age, body habitus, ethnicity, or family appearance. All other factors being equal, there is no evidence to suggest that any medically approved type or method of administering hormones is more effective than any other in producing the desired physical changes." Standards of Care for the Health of Transsexual, Transgender, and Gender Nonconforming People, WPATH 2012[^WPATHv7]
 
 Many trans people seek hormone replacement therapy as part of their transitioning process. Transfemme people commonly use exogenous estrogen to feminize their bodies in concert with anti-androgens that suppress masculinizing features. HRT (Hormone Replacement Therapy) has been repeatedly shown to have positive physical and psychological effects and is an established conventional medical practice[^Unger2016]. That said, we still do not understand enough about HRT to know if differing treatment plans result in differing physical changes[^WPATHv7].
 
