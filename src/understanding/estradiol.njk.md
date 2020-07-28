@@ -15,7 +15,7 @@ publish: public
 
 Many trans people seek hormone replacement therapy as part of their transitioning process. Transfemme people commonly use exogenous estrogen to feminize their bodies in concert with anti-androgens that suppress masculinizing features. HRT (Hormone Replacement Therapy) has been repeatedly shown to have positive physical and psychological effects and is an established conventional medical practice[^Unger2016]. That said, we still do not understand enough about HRT to know if differing treatment plans result in differing physical changes[^WPATHv7].
 
-We aim to investigate the relationship between differing hormone regimens used by trans feminine individuals and breast development using communal living trans archives. Using the photos posted on [r/TransBreastTimelines] we will connect drug choices and resultant tanner stage. These data, when controlled for treatment time and age, will likely provide interesting results that hopefully can instruct trans people and medical practitioners in future medical decision making.
+We aim to investigate the relationship between differing hormone regimens used by trans feminine individuals and breast development using communal living trans archives. Using the photos posted on [r/TransBreastTimelines](https://www.reddit.com/r/TransBreastTimelines/) we will connect drug choices and resultant tanner stage. These data, when controlled for treatment time and age, will likely provide interesting results that hopefully can instruct trans people and medical practitioners in future medical decision making.
 
 ## Grey Market Estradiol
 
