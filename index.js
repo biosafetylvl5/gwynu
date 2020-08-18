@@ -31,7 +31,8 @@ var   Metalsmith = require('metalsmith'),
       transform  = require('metalsmith-transform'),
       emoji      = require('metalsmith-emoji'),
       ignore      = require('metalsmith-ignore'),
-      publish    = require('metalsmith-publish')
+      publish    = require('metalsmith-publish'),
+      mdfootnote = require('markdown-it-footnote')
 
 var   watch      = mode==dev ? require('metalsmith-watch') : () => undefined,
       serve      = mode==dev ? require('metalsmith-serve') : () => undefined,
@@ -46,6 +47,20 @@ var   watch      = mode==dev ? require('metalsmith-watch') : () => undefined,
 var hljs = require('highlight.js')
 
 var implicitFigures = require('markdown-it-implicit-figures');
+
+
+function render_footnote_caption(tokens, idx) {
+	  var n = Number(tokens[idx].meta.id + 1).toString();
+
+	  if (tokens[idx].meta.subId > 0) {
+		      n += ':' + tokens[idx].meta.subId;
+		    }
+	  console.log(n)
+	  return '!' + n + '!';
+}
+
+
+
 
 Metalsmith(__dirname)
     .clean(cleanFlag)
@@ -72,7 +87,7 @@ Metalsmith(__dirname)
             html: true,
             linkify: true,
             typographer: true,
-            plugins: ["markdown-it-footnote", 
+            plugins: ["markdown-it-footnote",
 		      ["markdown-it-toc-done-right", {"level": 2}], 
 		      "markdown-it-include", 
 		      "markdown-it-anchor", 
