@@ -86,6 +86,7 @@
 	font-family: Georgia, serif;
         height:100%;
         width:100%;
+	margin: 0;
     }
     img{
         max-width: 80%;
@@ -102,10 +103,9 @@
 	    .content{
 		    width:95%;
 		    font-size: 18px;
-		    overflow-x: hidden;
 	    }
 	    img{
-		    max-width:100%;
+		    max-width:95%;
 	    }
 	    figure{
 		    margin-inline-end: 0px;
@@ -120,6 +120,16 @@
 		    border-color: #BDC3C7;
 		    padding: 5px;
 	    }
+	    ul{
+		    padding-inline-start: 0;
+		    list-style-position: inside;
+	    }
+    .footnote-ref{
+	    line-height:0;
+	    position: relative;
+	    top: 0.15em;
+	    font-size: 18px;
+    }
     }
     .keyword {
         font-variant: small-caps;
@@ -139,4 +149,14 @@
 	    width: 300px;
 	    max-width: 80%;
 	    display: inline;
+    }
+    blockquote{
+	    overflow-wrap: break-word;
+
+    }
+    .footnote-ref{
+	    line-height:0;
+	    position: relative;
+	    top: 0.05em;
+	    font-size: 18px;
     }</style></head><body><div class=content><h1 id=software>Software</h1><p>GWYNU is a static website built with <a href=https://metalsmith.io>metalsmith</a>.</p><p>I take a javascript non-essentalist approach (if you don’t need it, don’t use it!), so anything that can be rendered server side is. Anything client side should be as minimal as possible. The server side however is <em>my problem</em> so it can be as ~aweful~ complicated as I ~would like~ can stand.</p><h2 id=static-rendering>Static Rendering</h2><h3 id=code-highlighting>Code Highlighting</h3><p><a href=https://remysharp.com/2019/04/09/code-highlighting-server-or-client>article</a></p></div></body></html>

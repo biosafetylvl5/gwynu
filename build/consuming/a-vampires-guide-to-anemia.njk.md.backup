@@ -93,6 +93,7 @@
 	font-family: Georgia, serif;
         height:100%;
         width:100%;
+	margin: 0;
     }
     img{
         max-width: 80%;
@@ -109,10 +110,9 @@
 	    .content{
 		    width:95%;
 		    font-size: 18px;
-		    overflow-x: hidden;
 	    }
 	    img{
-		    max-width:100%;
+		    max-width:95%;
 	    }
 	    figure{
 		    margin-inline-end: 0px;
@@ -127,6 +127,16 @@
 		    border-color: #BDC3C7;
 		    padding: 5px;
 	    }
+	    ul{
+		    padding-inline-start: 0;
+		    list-style-position: inside;
+	    }
+    .footnote-ref{
+	    line-height:0;
+	    position: relative;
+	    top: 0.15em;
+	    font-size: 18px;
+    }
     }
     .keyword {
         font-variant: small-caps;
@@ -146,6 +156,16 @@
 	    width: 300px;
 	    max-width: 80%;
 	    display: inline;
+    }
+    blockquote{
+	    overflow-wrap: break-word;
+
+    }
+    .footnote-ref{
+	    line-height:0;
+	    position: relative;
+	    top: 0.05em;
+	    font-size: 18px;
     }
 
     </style>

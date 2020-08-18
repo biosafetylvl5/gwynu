@@ -86,6 +86,7 @@
 	font-family: Georgia, serif;
         height:100%;
         width:100%;
+	margin: 0;
     }
     img{
         max-width: 80%;
@@ -102,10 +103,9 @@
 	    .content{
 		    width:95%;
 		    font-size: 18px;
-		    overflow-x: hidden;
 	    }
 	    img{
-		    max-width:100%;
+		    max-width:95%;
 	    }
 	    figure{
 		    margin-inline-end: 0px;
@@ -120,6 +120,16 @@
 		    border-color: #BDC3C7;
 		    padding: 5px;
 	    }
+	    ul{
+		    padding-inline-start: 0;
+		    list-style-position: inside;
+	    }
+    .footnote-ref{
+	    line-height:0;
+	    position: relative;
+	    top: 0.15em;
+	    font-size: 18px;
+    }
     }
     .keyword {
         font-variant: small-caps;
@@ -139,6 +149,16 @@
 	    width: 300px;
 	    max-width: 80%;
 	    display: inline;
+    }
+    blockquote{
+	    overflow-wrap: break-word;
+
+    }
+    .footnote-ref{
+	    line-height:0;
+	    position: relative;
+	    top: 0.05em;
+	    font-size: 18px;
     }</style></head><body><div class=content><h1 id=archiving>Archiving</h1><p>In Winter of 2019, I was reading <em>Everywhere Archives, Transgendering, Trans Asians, and the Internet</em> which used a youtube video by “Zach” as one of it’s focal points. Ironically enough, the piece with “Archives” in it’s name referenced a youtube video that was no longer up. I was curious, so I went to see if I could find it. Alas, I could find it nowhere. Not <a href=http://archive.org>archive.org</a>, not r/datahoarder, not even sketchy youtube dumps<sup class=footnote-ref><a href=#fn1 id=fnref1>[1]</a></sup>. Online content is rapidly undergoing <a href=https://www.gwern.net/Archiving-URLs#link-rot>link rot</a> and queer media is especially at risk.</p><figure><img src=./the-missing-youtube-video-citation.png alt=""><figcaption>The original citation in <em>EVERYWHERE ARCHIVES: Transgendering, Trans Asians, and the Internet</em></figcaption></figure><nav class=table-of-contents><ol><li><a href=#archives>Archives</a><ol><li><a href=#queer-content>Queer Content</a><ol><li><a href=#websites>Websites</a><ol><li><a href=#reddit>Reddit</a></li></ol></li></ol></li></ol></li><li><a href=#software-backend>Software Backend</a><ol><li><a href=#general-setup>General Setup</a></li><li><a href=#scheduling>Scheduling</a></li><li><a href=#request-generation>Request Generation</a><ol><li><a href=#mitmproxy>mitmproxy</a></li><li><a href=#redditpostarchiver>redditPostArchiver</a></li><li><a href=#wget>wget</a></li><li><a href=#youtube-dl-%26-youtube-comment-scraper>youtube-dl &amp; youtube-comment-scraper</a></li></ol></li><li><a href=#source-diversification>Source Diversification</a></li></ol></li><li><a href=#legacy-content>Legacy Content</a><ol><li><a href=#wpull>wpull</a><ol><li><a href=#recursive-website-archiving>Recursive Website Archiving</a></li><li><a href=#installation>Installation</a></li></ol></li></ol></li></ol></nav><h2 id=archives>Archives</h2><h3 id=queer-content>Queer Content</h3><p>Queer content is highly susceptible to link rot - factors that generally conspire to hinder queer lives (employment discrimination, homelessness, education discrimination and increased medical costs) collude when it comes to paying bills. And when someone needs to make hard decisions, one might reasonably expect server costs are one of the first things to go.</p><p>Archiving - preserving content so that we may revisit it later - is <em>extremely</em> important. Archives are collections of primary sources that, in this case, give us a a portal to explore queer history. That tumblr discourse might not seem important, but who knows now if you’re seeing the first notion of a larger change that will unfold in the future. The best archives are built proactively, when the content is still hot - this is where <strong>YOU</strong> come in!</p><p>Submit content <a href=https://forms.gle/9AzbMLHCmhVrVuxb7>here</a> to be archived!! Submit a home page to archive the entire website, but submit a <em>specific</em> page to archive <em>just that page</em>. If you’d like a link to the archived content you can share your contact details.</p><h4 id=websites>Websites</h4><h5 id=reddit>Reddit</h5><p>I’m archiving the following subreddits monthly with <a href=#redditpostarchiver>my fork of redditPostArchiver</a>:</p><pre><code class=language-text>aaaaaaaarrrrro
 aaaaaaacccccccce
 actuallesbians
