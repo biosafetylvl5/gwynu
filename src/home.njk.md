@@ -12,7 +12,7 @@ Please engage with the following content:
  - [Film](./consuming/film.html)
 
 ## Creating
- - [Archives](./creating/archives.html)
+ - [Archives](./creating/archives/)
  - [Food](./creating/food/recipes.html)
  - Performance
      - [Brushing My Teeth](./creating/brushing-my-teeth.html)

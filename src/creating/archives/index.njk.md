@@ -8,7 +8,7 @@ layout: body.njk
 
 In Winter of 2019, I was reading *Everywhere Archives, Transgendering, Trans Asians, and the Internet* which used a youtube video by "Zach" as one of it's focal points. Ironically enough, the piece with "Archives" in it's name referenced a youtube video that was no longer up. I was curious, so I went to see if I could find it. Alas, I could find it nowhere. Not archive.org, not r/datahoarder, not even sketchy youtube dumps^[Please let me know if you find it!!]. Online content is rapidly undergoing [link rot](https://www.gwern.net/Archiving-URLs#link-rot) and queer media is especially at risk.
 
-![The original citation in *EVERYWHERE ARCHIVES: Transgendering, Trans Asians, and the Internet*](./archives/the-missing-youtube-video-citation.png)
+![The original citation in *EVERYWHERE ARCHIVES: Transgendering, Trans Asians, and the Internet*](./the-missing-youtube-video-citation.png)
 
 [toc]
 
