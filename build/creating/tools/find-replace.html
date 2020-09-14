@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><title>FIND - REPLACE</title><script>function findReplace(){
+				let find = document.getElementById("find").value
+				let repl = document.getElementById("repl").value
+				let text = document.getElementById("text").value
+				let caseSens = document.getElementById("caseSens").checked
+
+				quote = (str) => str.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1")
+ 				let re = new RegExp(quote(find), caseSens ? "g" : "gi")
+				document.getElementById("text").value = text.replace(re, repl)
+			}</script><style>body{
+				padding: 2% 2% 10% 10%;
+			}
+
+			textarea {
+				width: 90%;
+				min-height: 150px;
+			}</style></head><body><h1>Find & Replace</h1><p>Find this:</p><textarea id=find></textarea><p>Replace with:</p><textarea id=repl></textarea><p>Enter your text to be found and replaced here.</p><textarea id=text></textarea><br><p><input type=button value="FIND AND REPLACE" name=go onclick=findReplace()>	<input type=checkbox id=caseSens>Case Sensative Matching</p></body></html>

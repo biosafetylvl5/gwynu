@@ -8,7 +8,7 @@ publish: draft
 
 THIS IS A DRAFT!!! pls come back later <3
 
-# Activists Cry with One Eye
+# Your Gun in The White Meadows
 
 In this essay, I compare Tear Gun by YiFei and The White Meadows^[@rasoulof2009] by Rasolouf Mohammad and their use of tears to investigate individual responsibility in the face of oppression. I also tie in writings of P.M.S. (Power Makes us Sick, a feminist group focusing on autonomous healthcare practices and networks)
 
@@ -80,18 +80,37 @@ They aren't enough for the artist he tries to save - he rotted away in prison. T
 
 In the end, that's the point The White Meadows is trying to get across: if people like the main character don't take a stand, Iran will remain as it is. Patriarchal, authoritarian, oppressive. Weakness, in all of its forms is a fuel, and it's up to us all to figure out how to burn it effectively. If we intervene too late, our stowaway will still die. Purposeful action early and often will lead to change if you let it.
 
+![Recreated from a photo of a poster presented by Amy Traylow and Rowan Willow at the 2019 BioSummit Conference](bioshield-perfume.png)
+
+This is where The White Meadow stalls - how do we turn our collective pain into collective action (or occasionally, individual pain into individual action)? Do we go on the offensive turning our tears into weapons (a la Tear Gun)? Or should we use our tears defensively a la [Bioshield](https://www.bioshield.me/) - harnesing chemosignals to preemptively diffuse testosterone fueled^[footnote: about how testosterone *isnt* the problem] violence?
+
 >One of the most integral aspects of state domination is to instill in us anxieties and panic about how to be political in the right way. (PMS Vol1)
 
-This is where Tear Gun stalls - how do we turn our collective pain into collective action (or occasionally, individual pain into individual action)? Do we go on the offensive turning our tears into weapons (a la Tear Gun)? Or should we use our tears defensively a la [Bioshield](https://www.bioshield.me/) - harnesing chemosignals to preemptively diffuse testosterone fueled^[footnote: about how testosterone *isnt* the problem] violence?
 
-{![Bioshield - tear perfume](bioshield-perfume.png)
-Recreated from a photo of a poster presented by Amy Traylow and Rowan Willow at the 2019 BioSummit Conference | picture}
 
-However, "slacktivism" is not the answer. Changing your profile pic on Facebook/Twitter/Tumblr etc. to support a cause is... fine^[footnote about ... slacktivism and the effectiveness of this] but the buck *cannot* stop online. Donating 1$ a month to [The Bail Project](bailproject.org) enacts *actual* change. Buying an extra sandwich and sharing it with someone who's homeless enacts *actual* change. 
+> Activism brings with it the usual stressors of a full-time job—long hours, precarious work-life balancing acts, vexing “office politics”—as well as other more intense pressures. For activists like Khan, organizing isn’t just a job, but a moral obligation to do one’s part to create a more just world. In his line of work, the stakes are high: Defeat means conceding more power to the powerful, knowing they’ll use it to perpetrate harm against his own community.
+
+>Bloody hell, bloody hell the world is awful
+>Well there's killing and starvation and injustice and religion everywhere
+>Everything, everything is looking dreary
+>There’s too many people in the world and far too much pollution in the air!
+>Everything I used to love has turned to shit
+>All the world's gone bankrupt now and it
+>Doesn't look like things can soon improve
+>I’m noticeably older than I was
+>Definitely fatter just because
+>I no longer feel the need to move
+>Well, what do you do when the world around you makes you so depressed?
+>[Pretend You’re Happy by Jay Foreman](https://www.youtube.com/watch?v=PeCrnbJHJeY)
+
+However, "slacktivism" is not the answer. Changing your profile pic on Facebook/Twitter/Tumblr etc. to support a cause is... fine^[footnote about ... slacktivism and the effectiveness of this] but the buck *cannot* stop online. Donating 1$ a month to [The Bail Project](bailproject.org) enacts *actual* change. Buying an extra sandwich and sharing it with someone who's homeless and hungry enacts *actual* change. I
+
+https://web.archive.org/web/20070623040809/http://www.parkc.org:80/activist.htm
+
+https://www.vice.com/en_us/article/3k95kk/when-dismantling-power-dismantles-you-instead-v25n4
 
 > Action dries our tears, self-care can't cure social diseases (PMS Vol1)
 
-Sometimes, loving yourself is a radical act of resistance. Other times, self care isn't simply 
-care, it's indulgence.
+Sometimes, loving yourself is a radical act of resistance. Other times, self care isn't simply care, it's indulgence.
 
 > Challenging rigid constructions of gender and fossilized forms of sexuality can be accomplished only through viral proliferation, at the same time as through bacterial survival. On all fronts, in all spaces. My body: the body of multitude [Testo Junkie, pg. 247]
