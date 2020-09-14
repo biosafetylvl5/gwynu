@@ -1,1 +1,1 @@
-/run/media/gwynu/gwynuArchive-Est/public/media/websites/reddit/subreddits/subreddits.txt
+/run/media/gwynu/gwynuArchive-Est/public/media/webpages/websites/reddit/subreddits/subreddits.txt
