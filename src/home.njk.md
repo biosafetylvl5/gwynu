@@ -14,10 +14,7 @@ Please engage with the following content:
 ## Creating
  - [Archives](./creating/archives/)
  - [Art](./creating/art/)
- - [Food](./creating/food/recipes.html)
  - [Tools](./creating/tools/)
- - Performance
-     - [Brushing My Teeth](./creating/brushing-my-teeth.html)
      
 ## Understanding
  - [Estradiol](./understanding/estradiol.html)
