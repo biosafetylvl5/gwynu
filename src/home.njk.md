@@ -2,10 +2,8 @@
 title: HOME
 layout: crossroad.njk
 ---
-# Hello.
-This is a Website.
 
-Please engage with the following content:
+<div style="position:absolute;bottom:-50px;left:0;font-size:1px;color:white;">Gwyn Uttmark.</div>
 
 ## Consuming
  - [Blood](./consuming/blood.html)
