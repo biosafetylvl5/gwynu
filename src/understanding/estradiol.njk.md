@@ -5,34 +5,22 @@ title: ESTRADIOL
 publish: public
 ---
 
-# Estradiol: Understanding Transition
+# DIY HRT
 
 [toc]
-
-## Feminizing Hormone Therapy Methods and Breast Development
-
-> "There is no current evidence that response to hormone therapy—with the possible exception of voice deepening in FtM persons—can be reliably predicted based on age, body habitus, ethnicity, or family appearance. All other factors being equal, there is no evidence to suggest that any medically approved type or method of administering hormones is more effective than any other in producing the desired physical changes." Standards of Care for the Health of Transsexual, Transgender, and Gender Nonconforming People, WPATH 2012[^WPATHv7]
-
-Many trans people seek hormone replacement therapy as part of their transitioning process. Transfemme people commonly use exogenous estrogen to feminize their bodies in concert with anti-androgens that suppress masculinizing features. HRT (Hormone Replacement Therapy) has been repeatedly shown to have positive physical and psychological effects and is an established conventional medical practice[^Unger2016]. That said, we still do not understand enough about HRT to know if differing treatment plans result in differing physical changes[^WPATHv7].
-
-We aim to investigate the relationship between differing hormone regimens used by trans feminine individuals and breast development using communal living trans archives. Using the photos posted on [r/TransBreastTimelines](https://www.reddit.com/r/TransBreastTimelines/) we will connect drug choices and resultant tanner stage. These data, when controlled for treatment time and age, will likely provide interesting results that hopefully can instruct trans people and medical practitioners in future medical decision making.
-
-## Grey Market Estradiol
 
 
 > "A grey or gray market (sometimes confused with the similar term "parallel market") refers to the trade of a commodity through distribution channels that are not authorized by the original manufacturer or trade mark proprietor. Grey market products (grey goods) are products traded outside the authorized manufacturer's channel." [Wikipedia](https://en.wikipedia.org/wiki/Grey_market)
 
 
-### SARS-CoV-2 Era Work (Spring 2020 - Present)
+## SARS-CoV-2 Era Work (March 2020 - December 2020)
 
-Having relocated, lost BIOME funding and access to a GCMS or a wet-lab my options for continuing work dramatically changed.
-
-I made the decision to focus on creating *cheap* and *user-friendly* drug tests for estradiol (and possibly testosterone). [:musical_note:](https://open.spotify.com/track/1BIbxPcsSNOzXXDKawSwCi?si=XyvKcsCwT_KVExyeMBdFQw)
+Having relocated, lost BIOME funding and access to a GCMS or a wet-lab my options for continuing work dramatically changed. I made the decision to focus on creating *cheap* and *user-friendly* drug tests for the hormones commonly used in DIY HRT.
 
 My plan is to synthesize gold nanoparticles, and then use dna aptamers to modulate their aggregation to produce a color change upon introduction of Estradiol/Testosterone.
 
-#### What makes a good drug test?
 
+### Initial Validation (March-July 2020)
 #### Aptamer Based Colorimetric Sensing
 
 On 05/16/2020, I ordered 100nmols of the 35nt aptamer from [this paper on estradiol aptamers][Alsager 2015] which I call Alsa1535. It arrived 05/22/2020.
@@ -51,9 +39,10 @@ The results *cannot* be in any major part attributed to the absorption of estrad
 
 ![[How I made this graph](./estradiol/COVID-Era-Work.html)](./estradiol/estradiol-valerate-abs.png)
 
-### Gold Nanoparticle (AuNP) Synthesis [:musical_note:](https://open.spotify.com/track/1TWNKyNQOBfNUkWWs7FooF?si=Rv9AavwQQbiKFNgX93jZcQ)
+#### Gold Nanoparticle (AuNP) Synthesis [:musical_note:](https://open.spotify.com/track/1TWNKyNQOBfNUkWWs7FooF?si=Rv9AavwQQbiKFNgX93jZcQ)
 
-My protocol is based on [this paper from Nature][Liu 2006] [and this paper from ACS][Alsager 2015] and necessarily excludes some steps (eg. pre-treatment of glassware with aqua regia) due to the limitations of working out of my baby brothers room. It, and my revisions can be found [in this github repository]().
+
+My protocol is based on [this paper from Nature][Liu 2006] [and this paper from ACS][Alsager 2015] and necessarily excludes some steps (eg. pre-treatment of glassware with aqua regia) due to the limitations of working out of my baby brothers room. It, and my revisions can be found [in this github repository].
 
 ![Initial Gold Nanoparticle Synthesis 05/19/2020: Left is HAuCl4 refluxing, middle is directly after addition of Sodium Citrate and the right follows after 15m of refluxing ](./estradiol/AuNP-Synthesis-05192020.png)
 
@@ -61,9 +50,70 @@ The resulting concentration comes out to be 9.8nM (calculation via the Beer-Lamb
 
 ![[How I made this graph](./estradiol/COVID-Era-Work.html)](./estradiol/rawAuNPwithandwithoutAptamer.png)
 
+![](./estradiol/larger-synthesis.JPG)
+
+Attempts to scale up the synthesis were sucessful at 50mL and 100mL. However, the absorbance of said batches in the 600-750nm range is correlated with the reaction size. It's unclear if this is a bad thing, but it's likely due to differing particle sizes brought on by a slower dispersal of the Sodium Citrate upon addition.
+
+![Synthesis Batches [How I made this figure](./estradiol/interns/Progesterone-Aptamer-Titrations.html)](./estradiol/interns/figs/aunps.png)
+
+### Interns! (July-October 2020)
+
+Through a BIOME mailing lists, I had two folks join the team. They were wonderful and taught me a lot.
+
+#### Arthur Liang
+
+![Arthur Liang is a junior in high school. He absolutely loves biology and spends many of his waking (and sometimes sleeping) hours writing lessons for StuyBO and studying for Science Olympiad. In his free time he enjoys reading sci-fi, going on midnight runs, and indulging in Meiji chocolates (his favorite is the black chocolate blend). Late at night when he isn’t drowning in APUSH homework, you can catch him reading Campbell’s Biology for the third time.](./estradiol/interns/arthur.jpg)
 
 
-### BIOME Exploration (Summer 2019-Winter 2020)
+Arthur worked on designing new testosterone aptamers for an AuNP assay. He also identified the most promising already extant testosterone aptamers. Unfortunately, we canot evaluate these aptamers until we have access to testosterone again - a feat complicated by it's scheduled status.
+
+![Arthur's Novel Aptamers. Red nucleotides represent modified positions.](./estradiol/interns/figs/arthur-oligos.png)
+
+See Sonja and Arthur's preliminary write up for all the details: [sonya-ahuja-paper.gwynu.dev](http://sonya-ahuja-paper.gwynu.dev/)
+
+#### Sonya Ahuja 
+
+![Sonya is (at the time of writing) a senior at Evergreen Valley High School in San Jose, CA.  She serves as the Regional Director of Youth Movement Against Alzheimer’s (YMAA) and raises awareness for Alzheimer’s and Dementia nationally. She plans to major in Neuroscience or Global Health while advancing Alzheimer’s research to help discover treatments and cures for the disease during her college years. While medicine is her primary interest, she also loves interacting with and learning about diverse cultures-- especially through food.  As an aspiring neurologist, establishing equity in treatments and healthcare is a goal of hers. Gender equality is another cause she is devoted to as president of Girl Up at her high school, and she hopes to continue empowering her community to help underprivileged women.](./estradiol/interns/sonya.jpg)
+
+Sonya worked on identifying progesterone aptamers in existing literature. She identified PG13T1 and PG13T2 from [Alhadrami 2017](http://doi.org/10.1016/j.ab.2017.02.014) as promising candidates. Unfortunately the experimental results *suggested* that they had good binding and selectivity but were ultimately inconclusive.
+
+![Sonya's Main Figure! [How I made this figure](./estradiol/interns/Progesterone-Aptamer-Titrations.html)](./estradiol/interns/figs/final-fig.png)
+
+See her and Arthur's preliminary write up for all the details: [sonya-ahuja-paper.gwynu.dev](http://sonya-ahuja-paper.gwynu.dev/)
+
+#### Aptamer Tables
+
+| Aptamer                    | Length | Sequence|
+|---------|----|----------------------------------------|
+| Alhadrami2017&#8209;PG13       | 61nt   | GCA TCA CAC ACC GAT ACT CAC CCG CCT GAT TAA CAT TAG CCC ACC GCC CAC CCC CGC TGC |
+| Alhadrami2017&#8209;PG13C4     | 11nt   | TGG GCG GTG GG                                                                                           |
+| Alhadrami2017&#8209;PG13T1      | 31nt   | GCA TCA CAC ACC GAT ACT CAC CCG CCT GAT                                                                        |
+| Alhadrami2017&#8209;PG13T2      | 26nt   | GAT TAA CAT TAG CCC ACC GCC CAC C                                                                             |
+| JausetRubio2019&#8209;P5         | 101nt  | TAG GGA AGA GAA GGA CAT ATG ATA CCT CCG AAG TAT CAT GCG GAG CAT GTC CCG AAT TTC ATT CGT TCT CGT GAC TTG ACT AGT ACA TGA CCA CTT GAG G |
+| JausetRubio2019&#8209;P6         | 89nt   | TAG GGA AGA GAA GGA CAT ATG ATA CCT CCG AAG TAT CAT GCG GAG CAT GTC CCG AAT TTC ATT CGT TCT CGT GAC TTG ACT AGT ACA TGA CCA CTT GAG G            |
+| JausetRubio2019&#8209;T6&#8209;46      | 46nt   | GAA GAG AAG GAC ATA TGA TGT GCC GTG AAT ACA GGC CCT TCT CCG C |
+| JausetRubio2019&#8209;T6&#8209;54m     | 54nt   | TAG GGA AGA GAA GGA CAT ATG ATG TGC CGT GAA TAC AGG CCC TTC TCT GCT CGT                                                |
+| JausetRubio2019&#8209;T6&#8209;57      | 57nt   | AGA GAA GGA CAT ATG ATG TGC CGT GAA TAC AGG CCC TTC TCC GCT CCG CGT TCC GCT                                             |
+| JausetRubio2019&#8209;T6&#8209;60      | 60nt   | TAG GGA AGA GAA GGA CAT ATG ATG TGC CGT GAA TAC AGG CCC TTC TCC GCT CCG CGT TCC |
+| MiriamJauseTRubio2019&#8209;T6  | 86nt   |  TAG GGA AGA GAA GGA CAT ATG ATG TGC CGT GAA TAC AGG CCC TTC TCC GCT CCG CGT TCC GCT TTG ACT AGT ACA TGA CCA CTT GA     |
+| Skouridou2017&#8209;T5     |    86nt    |   TAG GGA AGA GAA GGA CAT ATG ATT GC GTG GGT AGG AAG GGG CGG TGT GAT CTG AA TCG TTC GAT TGA CTA GTA CAT GAC CA CTT GA|
+
+
+|Target     |Aptamer |Target Kd (nM)| T |P4| E2|
+|--------------|--------------------------|----------------|-----|------|--------|
+|Testosterone|JausetRubio2019-T6 |0.80 ± 0.18 |103 |1090| 4725|
+||Skouridou2017-T5 |4.0 ± 5.8 |NR| NR |NR|
+||Skouridou2017-T4 |1.2 ± 0.2 |NR |NR |NR|
+||Skouridou2017-T3| 1.8 ± 0.6 |NR |NR |NR|
+||Skouridou2017-T2 |33.2 ± 76.2 |NR |NR |NR|
+|Progesterone|Alhadrami 2017-PG13T1| 2.1 |NR |NR |NR|
+||Alhadrami 2017-PG13T2 |2.2 |NR |NR |NR|
+||Alhadrami 2017- PG13| 35 |NR |NR |NR|
+||Alhadrami 2017- PG13C4 |NR |NR |NR |NR|
+||JausetRubio2019-P5 |2.03 ± 3.24 |1060 |112| 1373|
+||JausetRubio2019-P6 |0.57 ± 0.84 |1096 |183| 432|
+
+## BIOME Exploration (Summer 2019-Winter 2020)
 
 > "BIOME is a student organization dedicated to providing open space for anyone interested in pursuing bioengineering and biology inspired projects." [BIOME](https://biome.bio).
 
@@ -76,7 +126,7 @@ The funded goals were:
 - Validation and generation of a sub 15 minute GCMS procedure for general purpose quantitation of estradiol in samples
 
 
-#### Validation of UV-Vis
+### Validation of UV-Vis
 
 ![](./estradiol/biome-uv-vis-attempt3a.png)
 
@@ -94,7 +144,7 @@ As time passed, I began to forget the pain of sample prep and again became curio
 
 ![](./estradiol/non-linear-or-maybe-not.png)
 
-#### Tablet Prep. Protocol
+### Tablet Prep. Protocol
 
 Tablet preparation is important. I quickly realized that, if I'm going to run 100s of samples, I can't use my original procedure of:
 
@@ -113,7 +163,7 @@ it simply was too time consuming and rife with potential human error. None of th
 
 
 
-#### GCMS Procedure Development
+### GCMS Procedure Development
 
 My lab notes:
 
@@ -126,7 +176,7 @@ And [Various](./estradiol/10212020-Lab-Notes.pdf) [other](./estradiol/oct21-data
 
 ![](./estradiol/estrogen-test-kit-initial-idea.png)
 
-### Initial Quantification Project (Spring 2019)
+## Initial Quantification Project (Spring 2019)
 
 In Spring of 2019 I was enrolled in an [Analytical Chemistry Laboratory](https://explorecourses.stanford.edu/search?view=catalog&q=CHEM+134+Analytical+Chemistry+Laboratory&academicYear=20142015) which had a project component (which was the best part of the class imo). I, along [Julia Tanzo](https://www.researchgate.net/profile/Julia_Tanzo) worked on developing a quick and versatile method of quantitation of Estradiol in grey market tablets.
 
@@ -136,7 +186,7 @@ Below is the content we presented at the end of the class. The original poster i
 
 After completing this project, I found [this paper](https://doi.org/10.1590/S0100-40422010000400040) which also deals with UV quantification of estradiol.
 
-#### Determination of Estradiol Valerate Content in Grey Market HRT Tablets by Uttmark, Tanzo (Chem 134)
+**Determination of Estradiol Valerate Content in Grey Market HRT Tablets by Uttmark, Tanzo (Chem 134):**
 
 #### Introduction
 

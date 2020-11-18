@@ -1,0 +1,94 @@
+%% Creator: Inkscape 1.0 (4035a4fb49, 2020-05-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'arthur-oligos.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{892.1955788bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.00687655)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.3779265,0.01438474){\color[rgb]{0,0,0.31372549}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Output of sir_graph (©)\\mfold_util 4.7\end{tabular}}}}%
+    \put(0.00392405,0.00276254){\color[rgb]{0,0,0.1254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textsl{d}\textsl{G}\textsl{ }\textsl{=}\textsl{ }\textsl{-}\textsl{6}\textsl{.}\textsl{8}\textsl{3}\textsl{ }\textsl{M}\textsl{i}\textsl{r}\textsl{i}\textsl{a}\textsl{m}\textsl{J}\textsl{a}\textsl{u}\textsl{s}\textsl{e}\textsl{t}\textsl{-}\textsl{R}\textsl{u}\textsl{b}\textsl{i}\textsl{o}\textsl{2}\textsl{0}\textsl{1}\textsl{9}\textsl{-}\textsl{T}\textsl{6}\textsl{ }\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{arthur-oligos.pdf}}%
+    \put(0.32680921,0.24411455){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5’\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{arthur-oligos.pdf}}%
+    \put(0.36472691,0.1606351){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3’\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{arthur-oligos.pdf}}%
+    \put(0.35793468,0.53000478){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{arthur-oligos.pdf}}%
+    \put(-0.00067492,0.72524224){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{arthur-oligos.pdf}}%
+    \put(0.13817345,0.91602999){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{arthur-oligos.pdf}}%
+    \put(0.34960691,0.76712767){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}40\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{arthur-oligos.pdf}}%
+    \put(0.5917784,0.65940472){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{arthur-oligos.pdf}}%
+    \put(0.97889895,0.58446849){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{arthur-oligos.pdf}}%
+    \put(0.96214075,0.20109708){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}70\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{arthur-oligos.pdf}}%
+    \put(0.58220164,0.00775383){\color[rgb]{0.14117647,0.14117647,0.14117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}80\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{arthur-oligos.pdf}}%
+    \put(0.49470978,0.53963817){\color[rgb]{1,0,0}\rotatebox{-44.57309959}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}<>\end{tabular}}}}}%
+    \put(0.77518612,0.60163823){\color[rgb]{1,0,0}\rotatebox{-123.14626078}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}<>\end{tabular}}}}}%
+    \put(0.83809437,0.53577172){\color[rgb]{1,0,0}\rotatebox{50.32145373}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}<>\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{arthur-oligos.pdf}}%
+    \put(0.48734634,0.02752092){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}86bp\end{tabular}}}}%
+    \put(0.34374801,0.05451829){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60bp\end{tabular}}}}%
+    \put(0.327034,0.08151563){\color[rgb]{1,0.4,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}57bp\end{tabular}}}}%
+    \put(0.3104787,0.10851298){\color[rgb]{1,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}54bp\end{tabular}}}}%
+    \put(0.26716446,0.13551036){\color[rgb]{0,0,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}46bp\end{tabular}}}}%
+    \put(0.01090805,0.13725937){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JausetRubio2019-T6-Blue\end{tabular}}}}%
+    \put(0.01090805,0.08326464){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JausetRubio2019-T6-Orange\end{tabular}}}}%
+    \put(0.01090805,0.02926993){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JausetRubio2019-T6 (Original)\end{tabular}}}}%
+    \put(0.01090805,0.05626729){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JausetRubio2019-T6-Green\end{tabular}}}}%
+    \put(0.01090805,0.11026199){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JausetRubio2019-T6-Mod\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
