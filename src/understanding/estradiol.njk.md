@@ -69,7 +69,7 @@ Arthur worked on designing new testosterone aptamers for an AuNP assay. He also 
 
 ![Arthur's Novel Aptamers. Red nucleotides represent modified positions.](./estradiol/interns/figs/arthur-oligos.png)
 
-See Sonja and Arthur's preliminary write up for all the details: [sonya-ahuja-paper.gwynu.dev](http://sonya-ahuja-paper.gwynu.dev/)
+See Sonya and Arthur's preliminary write up for all the details: [sonya-ahuja-paper.gwynu.dev](http://sonya-ahuja-paper.gwynu.dev/)
 
 #### Sonya Ahuja 
 
