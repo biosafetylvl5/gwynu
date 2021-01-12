@@ -105,8 +105,8 @@
 			      				array("","","","",""),
 			      			)
 			      		);
-			      $mode = mt_rand(0, count($layouts));
-			      $mode = $mode-1;
+			      $mode = mt_rand(1, count($layouts));
+			      $mode = $mode-2;
 			      ?>
 		<div class="big-central-text">
                         <div id="gwynu">
