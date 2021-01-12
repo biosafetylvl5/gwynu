@@ -29,7 +29,7 @@ On 05/16/2020, I ordered 100nmols of the 35nt aptamer from [this paper on estrad
 Alsa1535: 5'- AAG GGA TGC CGT TTG GGC CCA AGT TCG GCA TAG TG -3'
 ```
 
-On 05/27/2020, I was able to confirm that Alsa1535 binds to estradiol valerate and not just estradiol with impressive linearity (R^2^=0.9975):
+On 05/27/2020, I was able to confirm that Alsa1535 binds to estradiol valerate and estradiol with impressive linearity (R^2^=0.9975):
 
 ![[How I made this graph](./estradiol/COVID-Era-Work.html)](./estradiol/05272020-e2-additions-curve.png)
 
@@ -42,7 +42,7 @@ The results *cannot* be in any major part attributed to the absorption of estrad
 #### Gold Nanoparticle (AuNP) Synthesis [:musical_note:](https://open.spotify.com/track/1TWNKyNQOBfNUkWWs7FooF?si=Rv9AavwQQbiKFNgX93jZcQ)
 
 
-My protocol is based on [this paper from Nature][Liu 2006] [and this paper from ACS][Alsager 2015] and necessarily excludes some steps (eg. pre-treatment of glassware with aqua regia) due to the limitations of working out of my baby brothers room. It, and my revisions can be found [in this github repository].
+My protocol (based on [this paper from Nature][Liu 2006] [and this paper from ACS][Alsager 2015]) necessarily excludes some steps (eg. pre-treatment of glassware with aqua regia) due to the limitations of working out of my baby brothers room. It, and my revisions are [in this github repository].
 
 ![Initial Gold Nanoparticle Synthesis 05/19/2020: Left is HAuCl4 refluxing, middle is directly after addition of Sodium Citrate and the right follows after 15m of refluxing ](./estradiol/AuNP-Synthesis-05192020.png)
 
@@ -52,7 +52,7 @@ The resulting concentration comes out to be 9.8nM (calculation via the Beer-Lamb
 
 ![](./estradiol/larger-synthesis.JPG)
 
-Attempts to scale up the synthesis were sucessful at 50mL and 100mL. However, the absorbance of said batches in the 600-750nm range is correlated with the reaction size. It's unclear if this is a bad thing, but it's likely due to differing particle sizes brought on by a slower dispersal of the Sodium Citrate upon addition.
+Attempts to scale up the synthesis were sucessful at 50mL and 100mL. The correlation between the absorbance of said batches in the 600-750nm range with the reaction size is interesting. The dispersal of the Sodium Citrate upon addition to a variable reaction could be affecting particle sizes.
 
 ![Synthesis Batches [How I made this figure](./estradiol/interns/Progesterone-Aptamer-Titrations.html)](./estradiol/interns/figs/aunps.png)
 
@@ -65,7 +65,7 @@ Through a BIOME mailing lists, I had two folks join the team. They were wonderfu
 ![Arthur Liang is a junior in high school. He absolutely loves biology and spends many of his waking (and sometimes sleeping) hours writing lessons for StuyBO and studying for Science Olympiad. In his free time he enjoys reading sci-fi, going on midnight runs, and indulging in Meiji chocolates (his favorite is the black chocolate blend). Late at night when he isn’t drowning in APUSH homework, you can catch him reading Campbell’s Biology for the third time.](./estradiol/interns/arthur.jpg)
 
 
-Arthur worked on designing new testosterone aptamers for an AuNP assay. He also identified the most promising already extant testosterone aptamers. Unfortunately, we canot evaluate these aptamers until we have access to testosterone again - a feat complicated by it's scheduled status.
+Arthur worked on designing new testosterone aptamers for an AuNP assay. He also identified the most promising already extant testosterone aptamers. We cannot evaluate these aptamers until we have access to testosterone again - a feat complicated by it's scheduled status.
 
 ![Arthur's Novel Aptamers. Red nucleotides represent modified positions.](./estradiol/interns/figs/arthur-oligos.png)
 
@@ -75,7 +75,7 @@ See Sonya and Arthur's preliminary write up for all the details: [sonya-ahuja-pa
 
 ![Sonya is (at the time of writing) a senior at Evergreen Valley High School in San Jose, CA.  She serves as the Regional Director of Youth Movement Against Alzheimer’s (YMAA) and raises awareness for Alzheimer’s and Dementia nationally. She plans to major in Neuroscience or Global Health while advancing Alzheimer’s research to help discover treatments and cures for the disease during her college years. While medicine is her primary interest, she also loves interacting with and learning about diverse cultures-- especially through food.  As an aspiring neurologist, establishing equity in treatments and healthcare is a goal of hers. Gender equality is another cause she is devoted to as president of Girl Up at her high school, and she hopes to continue empowering her community to help underprivileged women.](./estradiol/interns/sonya.jpg)
 
-Sonya worked on identifying progesterone aptamers in existing literature. She identified PG13T1 and PG13T2 from [Alhadrami 2017](http://doi.org/10.1016/j.ab.2017.02.014) as promising candidates. Unfortunately the experimental results *suggested* that they had good binding and selectivity but were ultimately inconclusive.
+Sonya worked on identifying progesterone aptamers in existing literature. She identified PG13T1 and PG13T2 from [Alhadrami 2017](http://doi.org/10.1016/j.ab.2017.02.014) as promising candidates. The experimental results *suggested* that they had good binding and selectivity but were ultimately inconclusive.
 
 ![Sonya's Main Figure! [How I made this figure](./estradiol/interns/Progesterone-Aptamer-Titrations.html)](./estradiol/interns/figs/final-fig.png)
 
@@ -117,7 +117,7 @@ See her and Arthur's preliminary write up for all the details: [sonya-ahuja-pape
 
 > "BIOME is a student organization dedicated to providing open space for anyone interested in pursuing bioengineering and biology inspired projects." [BIOME](https://biome.bio).
 
-After the initial quantification project, I applied for and received a project grant from [BIOME](https://biome.bio) for continued exploration. The original application timeline and budget are available [here](BIOME-GANTT-CHART-PROJECT-MILESTONES-06212019.xlsx). Like many projects the initial timeline was *far* too ambitious.
+After the initial quantification project, I applied for and received a project grant from [BIOME](https://biome.bio) for continued exploration. The original application timeline and budget are available [here](BIOME-GANTT-CHART-PROJECT-MILESTONES-06212019.xlsx).
 
 The funded goals were:
 
@@ -130,11 +130,11 @@ The funded goals were:
 
 ![](./estradiol/biome-uv-vis-attempt3a.png)
 
-UV-Vis was more difficult to get consistent accurate results than previous experiments would suggest. On top of that, prepping UV-Vis samples was a hassle - there were so many steps, and each sample had to be run manually without batching.
+UV-Vis was more difficult to get consistent accurate results than previous experiments would suggest. On top of that, prepping UV-Vis samples was a hassle - there were too many steps, and each sample required manual runs without batching.
 
 ![](./estradiol/biome-uv-vis-attempt1.png)
 
-Eventually, I got consistently high R^2^ values (~0.93-0.97 range) but I kept getting strange nonlinear like responses that set me on edge. At this point, I set UV-Vis aside because there was a) a distinct lack of faith in my data, b) no way the procedures I was using would scale to 100s of samples and c) little hope for a frameshift change in the way samples would need to be prepped.
+After much work, I got consistently high R^2^ values (~0.93-0.97 range) but I kept getting strange nonlinear like responses that set me on edge. At this point, I set UV-Vis aside because there was a) a distinct lack of faith in my data, b) no way the procedures I was using would scale to 100s of samples and c) little hope for a frameshift change in preperation methods.
 
 ![](./estradiol/biome-uv-vis-attempt2.png)
 
@@ -146,14 +146,14 @@ As time passed, I began to forget the pain of sample prep and again became curio
 
 ### Tablet Prep. Protocol
 
-Tablet preparation is important. I quickly realized that, if I'm going to run 100s of samples, I can't use my original procedure of:
+Tablet preparation is important. If I'm going to run 100s of samples, I can't use my original procedure of:
 
 - Weight tablet
 - Powder pill in mortar and pestle
 - Weigh by transfer produced powder (~80% transfer is average)
 - Wash and dry mortar and pestle
 
-it simply was too time consuming and rife with potential human error. None of the preparation methods worked at fully dissolving all tablets - with sugar (sucrose) coated tablets being the hardiest of them all.
+it was too time consuming and rife with potential human error. None of the preparation methods worked at fully dissolving all tablets - with sugar (sucrose) coated tablets being the hardiest of them all.
 
 ![Halving and shaking at room temp for 36 hours](./estradiol/pill-biome-dissolve-a.jpg)
 
@@ -178,11 +178,11 @@ And [Various](./estradiol/10212020-Lab-Notes.pdf) [other](./estradiol/oct21-data
 
 ## Initial Quantification Project (Spring 2019)
 
-In Spring of 2019 I was enrolled in an [Analytical Chemistry Laboratory](https://explorecourses.stanford.edu/search?view=catalog&q=CHEM+134+Analytical+Chemistry+Laboratory&academicYear=20142015) which had a project component (which was the best part of the class imo). I, along [Julia Tanzo](https://www.researchgate.net/profile/Julia_Tanzo) worked on developing a quick and versatile method of quantitation of Estradiol in grey market tablets.
+In Spring of 2019 I enrolled in an [Analytical Chemistry Laboratory](https://explorecourses.stanford.edu/search?view=catalog&q=CHEM+134+Analytical+Chemistry+Laboratory&academicYear=20142015) which had a project component (which was the best part of the class imo). I, along [Julia Tanzo](https://www.researchgate.net/profile/Julia_Tanzo) worked on developing a quick and versatile method of quantitation of Estradiol in grey market tablets.
 
 Below is the content we presented at the end of the class. The original poster is also available as a pdf [poster](./estradiol/Chem-134-Final-Project_(uttmark-tanzo,2019).pdf).
 
-***Warning:* I am unable to replicate the analysis presented in this poster. See [this page](./estradiol/CHEM-134-Validation.html) for details. In short, there is an off-by-ten discrepancy that I do not have an explanation for. My partner had the flu and we only had a week to create the method and collect data - please think carefully about making conclusions from these data.**
+***Warning:* I am unable to replicate the analysis presented in this poster. See [this page](./estradiol/CHEM-134-Validation.html) for details. In short, there is an off-by-ten discrepancy that I do not have an explanation for. My partner had the flu and we had but a week to create the method and collect data - please be cautious about making conclusions from these data.**
 
 After completing this project, I found [this paper](https://doi.org/10.1590/S0100-40422010000400040) which also deals with UV quantification of estradiol.
 
@@ -191,12 +191,12 @@ After completing this project, I found [this paper](https://doi.org/10.1590/S010
 #### Introduction
 
 - Estradiol is a feminizing drug used in Hormone Replacement Therapy (HRT) (with a variety of prodrugs[^Duumlsterberg], one of which is Estradiol Valerate which we consider here)
-- Hormone Replacement Therapy (HRT) is a regimen involving the administration of “sex hormones” for, among other things, aligning secondary sexual characteristics, mental health benefits and increased life expectancy.
-- Even for individuals that have access to conventional healthcare and are able to obtain prescriptions for feminizing HRT related drugs, injectable pro-estrogens have experienced multiple shortages in American and European pharmacies[^FDA]. These factors, among many others, have driven many transgender individuals by choice or not to use grey market alternatives[^them.].
+- Hormone Replacement Therapy (HRT) is a regimen involving the administration of “sex hormones” for, among other aims, aligning secondary sexual characteristics, mental health benefits and increased life expectancy.
+- Even for individuals that have access to conventional healthcare and can obtain prescriptions for feminizing HRT related drugs, injectable pro-estrogens have experienced shortages in American and European pharmacies[^FDA]. These factors, among others, have driven transgender individuals, by choice or not, to use grey market alternatives[^them.].
 - No investigation or organized effort has ever considered the purity or variability in grey market HRT drugs[^IJoT].
 
 We aimed to fill this research and humanitarian need by looking at tablet Estradiol
-Valerate purchased from an easily accessible venue (eBay) and by developing a
+Valerate purchased from an accessible venue (eBay) and by developing a
 general purpose procedure. Here, we determined how much Estradiol Valerate was
 contained in our samples, the deviation from the reported amount and the variance in
 these measures across tablets.
@@ -249,7 +249,7 @@ We quantified ten estradiol valerate tablets. While their reported estradiol val
 
 ![Estradiol valerate chromatogram peak (RT = 22.708 min, M+ m/z = 356.3)](./estradiol/estradiol-peak-134.png)
 
-We also briefly explored UV/Vis and IR spectrometry as an alternative analysis method as it is both cheaper and faster than GCMS. While IR showed no peaks for quantification of an estradiol standard,  UV/Vis spectroscopy did, with a peak at 289 nm having a linear dependence on solution concentration (n=4, R2=0.9958). However, the same absorbance peak was not identified in estradiol valerate nor did we have enough estradiol samples to analyze a real world example for a proof-of-concept.
+We also briefly explored UV/Vis and IR spectrometry as an alternative analysis method as it is both cheaper and faster than GCMS. While IR showed no peaks for quantification of an estradiol standard,  UV/Vis spectroscopy did, with a peak at 289 nm having a linear dependence on solution concentration (n=4, R2=0.9958). The same absorbance peak was not identified in estradiol valerate nor did we have enough estradiol samples to analyze a real world example for a proof-of-concept.
 
 ![UV/Vis peaks at varying concentrations of estradiol standard](./estradiol/uv-vis-quant-134.png)
 

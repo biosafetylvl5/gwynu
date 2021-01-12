@@ -21,6 +21,9 @@ mainLog("Mode set to "+chalk.bgGreen(mode))
 cleanFlag = args.includes("--clean")
 mainLog("Clean set to "+chalk.bold(cleanFlag))
 
+checkSpell = args.includes("--spellcheck") | mode==prod
+mainLog("Spellcheck set to "+chalk.bold(checkSpell))
+
 //import packages
 var   Metalsmith = require('metalsmith'),
       mif        = require('metalsmith-if'),
@@ -39,6 +42,7 @@ var   watch      = mode==dev ? require('metalsmith-watch') : () => undefined,
       livereload = mode==dev ? require('metalsmith-livereload') : () => undefined,
       msDebug    = mode==dev ? require('metalsmith-debug') : () => undefined,
       minifyHtml = mode==prod ? require('metalsmith-html-minifier') : () => undefined
+      spellcheck = ()=>undefined//require("metalsmith-spellcheck")//mode==prod|checkSpell ? require('metalsmith-spellcheck') : () => undefined
 
 //    inspect    = require('metalsmith-inspect');
 //    replace    = require('metalsmith-regex-replace')
@@ -73,6 +77,7 @@ Metalsmith(__dirname)
 	    unlisted: mode==dev,
 	    public: true
     }))
+//    .use(spellcheck())
     .use(copy({
         pattern: '*/*.njk.md',
         transform: function (filename) {

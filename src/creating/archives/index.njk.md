@@ -125,7 +125,7 @@ def response(flow: http.HTTPFlow) -> None:
 which would be run with:
 
 ```bash
-mitmdump -s extractLinks.py
+mitmdump -s extractLinks.py --listen-port=9090
 ```
 
 #### redditPostArchiver
@@ -137,24 +137,22 @@ mitmdump -s extractLinks.py
 I use the following command to download a website for archival:
 
 ```bash
-wget	--page-requisites \
-	--adjust-extension \
-	--convert-links \
-	--level inf \
-	--recursive \
-	--no-remove-listing \
-	--restrict-file-names=windows \
-	--no-parent \
-	-w 0.2 \
-	--warc-file=$website \
-	--warc-cdx=$website \
-	--warc-max-size=1G \
-	-o ./logs/$website.wget.log \
-	-e use_proxy=yes \
-	-e http_proxy=127.0.0.1:9090 \
-	-e https_proxy=127.0.0.1:9090 \
-	--no-check-certificate \
-	$website
+wget --page-requisites --adjust-extension \         
+        --convert-links \
+        --level inf \
+        --recursive \
+        --no-remove-listing \
+        --restrict-file-names=windows \
+        --no-parent \
+        -w 1 \
+        --warc-file=warc \
+        --warc-max-size=1G \
+        -o wget.log \
+        -e use_proxy=yes \
+        -e http_proxy=127.0.0.1:9090 \
+        -e https_proxy=127.0.0.1:9090 \
+        --no-check-certificate \
+        $website
 ```
 
 Breaking that down into readable chunks we have:
@@ -169,9 +167,8 @@ Breaking that down into readable chunks we have:
 - `--no-parent`: don't move up the website heigharchy, only download subdirectories
 - `-w 0.2`: wait 0.2 seconds between requests to be polite
 - `--warc-file=$website`: save output to [a WARC (WebARChive) file](https://en.wikipedia.org/wiki/Web_ARChive)
-- `--warc-cdx=$website`: save a summary of each downloaded file to a cdx file
 - `--warc-max-size=1G`: break up warc file into 1Gb chunks
-- `-o ./logs/$website.wget.log`: save logs to a file
+- ` -o wget.log`: save logs to a file
 - `-e use_proxy=yes -e http_proxy=127.0.0.1:9090 -e https_proxy=127.0.0.1:9090`: set wget to channel requests through port 9090 where [mitmproxy](#mitmproxy) is running 
 - `--no-check-certificate`: don't check ssl certificates, mitmproxy will raise a wget error without this
 - `$website`: the website to download!
@@ -224,7 +221,7 @@ youtubedlformat = "(bestvideo[vcodec^=av01][height>=1080][fps>30]/bestvideo[vcod
 
 ### Source Diversification
 
-I use [proxychains](https://github.com/haad/proxychains) to route requests through multiple vpns to lower the chance I get banned by a server that I'm scraping. I use the `random` mode with a chain length of `1`.
+I use [proxychains](https://github.com/haad/proxychains) to route requests through multiple vpns to lower the chance I get banned by a server that I'm scraping. I use the `random` mode with a chain length of `1`. That said, it's important to wait a respectful amount of time between each request to be polite.
 
 ## Legacy Content
 
