@@ -16,7 +16,6 @@ layout: crossroad.njk
      
 ## Understanding
  - [Estradiol](./understanding/estradiol.html)
- - [Exonuclease T](./understanding/exot-literature.html)
 
 ## Meta
  - [Meta](./meta/meta.html)
