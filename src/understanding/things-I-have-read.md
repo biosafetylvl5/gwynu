@@ -5,6 +5,12 @@ publish: private
 ---
 # Reading
 
+## 2021
+
+## Winter
+
+[Out in the Country: Youth, Media, and Queer Visibility in Rural America](https://nyupress.org/9780814731932/out-in-the-country/)
+
 ## 2020
 ### Winter
 
