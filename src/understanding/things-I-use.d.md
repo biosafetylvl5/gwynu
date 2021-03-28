@@ -8,6 +8,8 @@ publish: private
 ## Software
 
 ### Data processing
+
+[Hopper](https://www.hopper.com)
  
 [tablua](https://github.com/tabulapdf/tabula) - cleanly extracts data from PDF tables
 
