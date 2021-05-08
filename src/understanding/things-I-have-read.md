@@ -10,6 +10,7 @@ publish: private
 ## Winter
 
 [Out in the Country: Youth, Media, and Queer Visibility in Rural America](https://nyupress.org/9780814731932/out-in-the-country/)
+
 [Testo Junkie: Sex, Drugs and Politics in the Pharmacopornographic era](https://en.m.wikipedia.org/wiki/Testo_Junkie)
 
 ## 2020
