@@ -14,3 +14,5 @@ publish: private
 [tablua](https://github.com/tabulapdf/tabula) - cleanly extracts data from PDF tables
 
 [WebPlotDigitizer](https://apps.automeris.io/wpd/) - for converting images of graphs to raw data
+
+[workrave](https://github.com/rcaelers/workrave)
