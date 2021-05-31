@@ -7,14 +7,17 @@ publish: private
 
 ## 2021
 
-## Winter
+#### Things I read that were good
 
 [Out in the Country: Youth, Media, and Queer Visibility in Rural America](https://nyupress.org/9780814731932/out-in-the-country/)
 
 [Testo Junkie: Sex, Drugs and Politics in the Pharmacopornographic era](https://en.m.wikipedia.org/wiki/Testo_Junkie)
 
+#### Things I was recommended to read
+
+[Theatre of the Oppressed](https://www.amazon.com/Theatre-Oppressed-Augusto-Boal/dp/0930452496)
+
 ## 2020
-### Winter
 
 #### Things I read that were good
 
