@@ -13,6 +13,8 @@ publish: private
 
 [Testo Junkie: Sex, Drugs and Politics in the Pharmacopornographic era](https://en.m.wikipedia.org/wiki/Testo_Junkie)
 
+[Performance](https://www.dukeupress.edu/performance)
+
 #### Things I was recommended to read
 
 [Theatre of the Oppressed](https://www.amazon.com/Theatre-Oppressed-Augusto-Boal/dp/0930452496)
