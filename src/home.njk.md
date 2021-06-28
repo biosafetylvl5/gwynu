@@ -16,6 +16,7 @@ layout: crossroad.njk
      
 ## Understanding
  - [Estradiol](./understanding/estradiol.html)
+ - [Performance](./understanding/performance/)
 
 ## Meta
  - [Meta](./meta/meta.html)
