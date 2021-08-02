@@ -33,9 +33,10 @@ var   Metalsmith = require('metalsmith'),
       copy       = require('metalsmith-copy'),
       transform  = require('metalsmith-transform'),
       emoji      = require('metalsmith-emoji'),
-      ignore      = require('metalsmith-ignore'),
+      ignore     = require('metalsmith-ignore'),
       publish    = require('metalsmith-publish'),
       mdfootnote = require('markdown-it-footnote')
+      bibtex     = require('metalsmith-bibtex');
 
 var   watch      = mode==dev ? require('metalsmith-watch') : () => undefined,
       serve      = mode==dev ? require('metalsmith-serve') : () => undefined,
@@ -78,6 +79,17 @@ Metalsmith(__dirname)
 	    public: true
     }))
 //    .use(spellcheck())
+/*    .use(bibtex({
+        collections: {
+            publications: 'bib/publications.bib',
+            other: 'bib/publications.bib',
+        },
+        default: 'publications',
+        style: 'default', // available styles: ['default', 'ieeetr']
+        keystyle: 'numbered',
+        sortBy: 'year',
+        reverseOrder: true
+    }))*/
     .use(copy({
         pattern: '*/*.njk.md',
         transform: function (filename) {

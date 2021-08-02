@@ -18,6 +18,7 @@
     "markdown-it-sup": "^1.0.0",
     "markdown-it-toc-done-right": "^4.1.0",
     "metalsmith": "^2.3.0",
+    "metalsmith-bibtex": "^1.1.5",
     "metalsmith-copy": "^0.4.1",
     "metalsmith-debug": "^1.2.0",
     "metalsmith-emoji": "^0.2.0",
